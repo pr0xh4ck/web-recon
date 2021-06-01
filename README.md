@@ -5,13 +5,13 @@ My All Web Recon
 
 
 ## DNS-ENUMERATION
-# CLI
+CLI
 1.dnsrecon 
 2.host
 3.nslookup
 4.aquatone
 
-# WEB 
+WEB 
 1.shodan
 2.censys
 3.dnsdumpster
