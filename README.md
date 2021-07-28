@@ -1,42 +1,42 @@
-## WEB-RECON
-My All Web Recon
+## Contents
+- [Recon](#Recon)
+    - [IP](#ip-related)
+    - [DNS](#domain-naming-system)
+    - [CMS Enumeration](#content-management-system)
+    - [Sudomain Enumeration](#subdomain-enumeration)
+    - [Ports Scannig](#ports-scanning)
+    - [Cloud Enumeration](#cloud-enumeration)
+    - [Github Dork](#github-dork)
+    - [Data Breach](#data-breach)
+    - [Web Wayback](#web-wayback)
+    - [Diretory Search](#directory-search)
+    - [Hidden File or Directory](#hidden-file-or-directory)
+    - [Hidden Parameter Find](#hidden-parameter-find)
+    - [Bypass Forbidden Direcory](#bypass-forbidder-directory)
+    - 
 
 
 
 
-## DNS-ENUMERATION
-CLI TOOLS
-1.dnsrecon 
-2.host
-3.nslookup
-4.aquatone
+## recon
 
-WEB TOOLS
-1.shodan
-2.censys
-3.dnsdumpster
+### ip-related
+
+ -[]()
 
 
 
-## SUBDOMAIN-ENUMERATION
-CLI
-1.amass
-2.findomain
-3.subfinder 
-4.assetfinder 
-
-WEB
-1.crh.sh
 
 
 
-## PORT-SCAN
-1.nmap
 
+### domain-naming-system
+- [dnsrecon](https://github.com/darkoperator/dnsrecon)
+- [host linux tool](https://tools.kali.org/)
+- [nslookup](https://www.nslookup.io/)
+- [shuffledns](https://github.com/projectdiscovery/shuffledns)
+- [dnsx](https://github.com/projectdiscovery/dnsx)
 
-
-## FIREWALL-DITECTION
-1.wafw00f
-
-
-
+### subdoamin-enumeration
+ - [crt.sh](https://crt.sh/)
+ - 
