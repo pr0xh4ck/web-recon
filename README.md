@@ -1,8 +1,9 @@
 ## Contents
 - [Recon](#recon)
     - [IP](#ip-test)
-    - [DNS](#domain-naming-system)
+    - [DNS](#dns)
     - [Sudomain Enumeration](#subdomain-enumeration)
+    - [DNS Bruteforce](#dns-bruteforce)
     - [HTTP Toolkits](#http-toolkits)
     - [CMS Enumeration](#content-management-system)
     - [Ports Scannig](#ports-scanning)
@@ -11,7 +12,7 @@
     - [Email Hunting](#email-hunting)
     - [Data Breach](#data-breach)
     - [Web Wayback](#web-wayback)
-    - [Diretory Search](#directory-search)
+    - [Directory Search](#directory-search)
     - [Hidden File or Directory](#hidden-file-or-directory)
     - [Hidden Parameter Find](#hidden-parameter-find)
     - [Bypass Forbidden Direcory](#bypass-forbidder-directory)
@@ -29,15 +30,10 @@
  - [spyse](https://spyse.com/)
  - [shodan cli](https://cli.shodan.io/)
  
-### domain-naming-system
+### dns
 - [dnsrecon](https://github.com/darkoperator/dnsrecon)
 - [host linux tool](https://tools.kali.org/)
 - [nslookup](https://www.nslookup.io/)
-- [shuffledns](https://github.com/projectdiscovery/shuffledns)
-- [dnsx](https://github.com/projectdiscovery/dnsx)
-- [zdns](https://github.com/zmap/zdns)
-- [dnsgen](https://github.com/ProjectAnte/dnsgen)
-- [altdns](https://github.com/infosec-au/altdns)
 
 ### subdomain-enumeration
  - [crt.sh](https://crt.sh/)
@@ -54,6 +50,13 @@
  - [puredns](https://github.com/d3mondev/puredns)
  - [findfrontabledoamin](https://github.com/rvrsh3ll/FindFrontableDomains)
  - [domainhunter](https://github.com/threatexpress/domainhunter)
+
+### dns-bruteforce
+- [shuffledns](https://github.com/projectdiscovery/shuffledns)
+- [dnsx](https://github.com/projectdiscovery/dnsx)
+- [zdns](https://github.com/zmap/zdns)
+- [dnsgen](https://github.com/ProjectAnte/dnsgen)
+- [altdns](https://github.com/infosec-au/altdns)
 
 ### http-toolkits
  - [httprobe](https://github.com/tomnomnom/httprobe)
