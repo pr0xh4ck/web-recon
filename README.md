@@ -52,11 +52,11 @@
  - [domainhunter](https://github.com/threatexpress/domainhunter)
 
 ### dns-bruteforce
+- [dnsgen](https://github.com/ProjectAnte/dnsgen)
+- [altdns](https://github.com/infosec-au/altdns)
 - [shuffledns](https://github.com/projectdiscovery/shuffledns)
 - [dnsx](https://github.com/projectdiscovery/dnsx)
 - [zdns](https://github.com/zmap/zdns)
-- [dnsgen](https://github.com/ProjectAnte/dnsgen)
-- [altdns](https://github.com/infosec-au/altdns)
 
 ### http-toolkits
  - [httprobe](https://github.com/tomnomnom/httprobe)
