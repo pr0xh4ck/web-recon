@@ -1,5 +1,5 @@
 ## Contents
-- [Recon](#Recon)
+- [Recon](#recon)
     - [IP](#ip-related)
     - [DNS](#domain-naming-system)
     - [Sudomain Enumeration](#subdomain-enumeration)
@@ -8,30 +8,26 @@
     - [Ports Scannig](#ports-scanning)
     - [Cloud Enumeration](#cloud-enumeration)
     - [Github Dork](#github-dork)
+    - [Email Hunting](#email-hunting)
     - [Data Breach](#data-breach)
     - [Web Wayback](#web-wayback)
     - [Diretory Search](#directory-search)
     - [Hidden File or Directory](#hidden-file-or-directory)
     - [Hidden Parameter Find](#hidden-parameter-find)
     - [Bypass Forbidden Direcory](#bypass-forbidder-directory)
-    - [Burp Suite Extension](#burp-suite-extesion)
     - [Automation](#automation)
-
+    - [Miscellaneous](#miscellaneous)
+    - [Burp Suite Extension](#burp-suite-extesion)
 
 
 
 ## recon
-
 ### ip-related
-
- -[]()
-
-
-
-
-
-
-
+ - [centralops](https://centralops.net/co/)
+ - [spyonweb](https://spyonweb.com/)
+ - [viewdns](https://viewdns.info/)
+ - [spyse](https://spyse.com/)
+ 
 ### domain-naming-system
 - [dnsrecon](https://github.com/darkoperator/dnsrecon)
 - [host linux tool](https://tools.kali.org/)
@@ -66,6 +62,7 @@
  - [whatweb](https://github.com/urbanadventurer/WhatWeb)
  - [wappalyzer](https://www.wappalyzer.com/)
  - [build with](https://builtwith.com/)
+ - [backlinkwatch](http://backlinkwatch.com/index.php)
 
 ### ports-scanning
  - [nmap](https://nmap.org/)
@@ -82,9 +79,24 @@
  - [gitjacker](https://github.com/liamg/gitjacker)
  - [git-hound](https://github.com/tillson/git-hound)
 
+### email-hunting 
+  - [hunter](https://hunter.io/)
+  - [phonebook](https://phonebook.cz/)
+  - [voilanorbert](https://www.voilanorbert.com/)
+  - [verifyemailaddress](https://tools.verifyemailaddress.io/)
+  - [email-checker](https://email-checker.net/)
+  - [Clearbit-Connect](https://chrome.google.com/webstore/detail/clearbit-connect-supercha/pmnhcgfcafcnkbengdcanjablaabjplo?hl=en)
+
 ### data-breach
  - [pwndb](https://github.com/davidtavarez/pwndb/)
  - [breach-parse](https://github.com/hmaverickadams/breach-parse)
+ - [dehashed](https://dehashed.com/)
+ - [weleakinfo](https://weleakinfo.to/)
+ - [leakcheck](https://leakcheck.io/)
+ - [sunbase](https://snusbase.com/)
+ - [intelx](https://intelx.io/)
+ - [haveibeenpwned](https://haveibeenpwned.com/)
+ - [scatteredsecrets](https://scatteredsecrets.com/)
 
 ### web-wayback
  - [waybackurls](https://github.com/tomnomnom/waybackurls)
@@ -117,7 +129,11 @@
   - [vajra](https://github.com/r3curs1v3-pr0xy/vajra)
   - [scant3r](https://github.com/knassar702/scant3r)
 
+### miscellaneous
+  - [maltego](https://www.maltego.com/)
 
+### burp-suite-extesion
+   - []
 
 
 
