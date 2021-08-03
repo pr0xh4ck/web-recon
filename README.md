@@ -1,6 +1,6 @@
 ## Contents
 - [Recon](#recon)
-    - [IP](#ip-related)
+    - [IP](#ip-test)
     - [DNS](#domain-naming-system)
     - [Sudomain Enumeration](#subdomain-enumeration)
     - [HTTP Toolkits](#http-toolkits)
@@ -22,7 +22,7 @@
 
 
 ## recon
-### ip-related
+### ip-test
  - [centralops](https://centralops.net/co/)
  - [spyonweb](https://spyonweb.com/)
  - [viewdns](https://viewdns.info/)
