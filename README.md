@@ -57,6 +57,7 @@
 - [shuffledns](https://github.com/projectdiscovery/shuffledns)
 - [dnsx](https://github.com/projectdiscovery/dnsx)
 - [zdns](https://github.com/zmap/zdns)
+- [subover](https://github.com/Ice3man543/SubOver)
 
 ### http-toolkits
  - [httprobe](https://github.com/tomnomnom/httprobe)
