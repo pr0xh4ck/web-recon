@@ -27,6 +27,7 @@
  - [spyonweb](https://spyonweb.com/)
  - [viewdns](https://viewdns.info/)
  - [spyse](https://spyse.com/)
+ - [shodan cli](https://cli.shodan.io/)
  
 ### domain-naming-system
 - [dnsrecon](https://github.com/darkoperator/dnsrecon)
