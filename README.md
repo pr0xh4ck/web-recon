@@ -6,13 +6,13 @@
     - [DNS Bruteforce](#dns-bruteforce)
     - [HTTP Toolkits](#http-toolkits)
     - [CMS Enumeration](#cms-enumeration)
-    - [WAF](#waf)
     - [Cloud Enumeration](#cloud-enumeration)
     - [Github Dork](#github-dork)
     - [Email Hunting](#email-hunting)
     - [Data Breach](#data-breach)
     - [Web Wayback](#web-wayback)
     - [Ports Scannig](#ports-scanning)
+    - [WAF](#waf)
     - [Directory Search](#directory-search)
     - [Hidden File or Directory](#hidden-file-or-directory)
     - [Hidden Parameter Find](#parameter-finder)
@@ -70,9 +70,6 @@
  - [httprobe](https://github.com/tomnomnom/httprobe)
  - [httpx](https://github.com/projectdiscovery/httpx)
 
-### waf
-  - [wafw00f](https://github.com/enablesecurity/wafw00f)
-
 ### cms-enumeration
  - [webanlyze](https://github.com/rverton/webanalyze)
  - [whatweb](https://github.com/urbanadventurer/WhatWeb)
@@ -122,7 +119,10 @@
  
 ### ports-scanning
  - [nmap](https://nmap.org/)
- - 
+
+### waf
+  - [wafw00f](https://github.com/enablesecurity/wafw00f)
+ 
 ### directory-search
  - [dirsearch](https://github.com/maurosoria/dirsearch)
  - [ffuf](https://github.com/ffuf/ffuf)
