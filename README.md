@@ -10,6 +10,7 @@
     - [Github Dork](#github-dork)
     - [Email Hunting](#email-hunting)
     - [Data Breach](#data-breach)
+    - [Automation](#automation)
     - [Web Wayback](#web-wayback)
     - [Ports Scannig](#ports-scanning)
     - [WAF](#waf)
@@ -17,7 +18,6 @@
     - [Hidden File or Directory](#hidden-file-or-directory)
     - [Hidden Parameter Find](#parameter-finder)
     - [Bypass Forbidden Direcory](#bypass-forbidder-directory)
-    - [Automation](#automation)
     - [Wordlists](#wordlists)
     - [Miscellaneous](#miscellaneous)
     - [Burp Suite Extension](#burp-suite-extesion)
@@ -112,6 +112,17 @@
  - [haveibeenpwned](https://haveibeenpwned.com/)
  - [scatteredsecrets](https://scatteredsecrets.com/)
 
+### automation
+  - [nuclei](https://github.com/projectdiscovery/nuclei)
+  - [jaeles](https://github.com/jaeles-project/jaeles)
+  - [sn1per](https://github.com/1N3/Sn1per)
+  - [vajra](https://github.com/r3curs1v3-pr0xy/vajra)
+  - [scant3r](https://github.com/knassar702/scant3r)
+##### wordpress
+   - [wpscan](https://github.com/wpscanteam/wpscan)
+##### joomla
+   - [joomscan](https://github.com/OWASP/joomscan)
+
 ### web-wayback
  - [waybackurls](https://github.com/tomnomnom/waybackurls)
  - [paramspider](https://github.com/devanshbatham/ParamSpider)
@@ -142,17 +153,7 @@
 
 ### bypass-forbidder-directory
  - [dirdar](https://github.com/M4DM0e/DirDar)
- 
-### automation
-  - [nuclei](https://github.com/projectdiscovery/nuclei)
-  - [jaeles](https://github.com/jaeles-project/jaeles)
-  - [sn1per](https://github.com/1N3/Sn1per)
-  - [vajra](https://github.com/r3curs1v3-pr0xy/vajra)
-  - [scant3r](https://github.com/knassar702/scant3r)
-##### wordpress
-   - [wpscan](https://github.com/wpscanteam/wpscan)
-##### joomla
-   - [joomscan](https://github.com/OWASP/joomscan)
+
 ### wordlists
   - [seclists](https://github.com/danielmiessler/SecLists)
   - [payloadsallthethings](https://github.com/swisskyrepo/PayloadsAllTheThings)
