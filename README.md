@@ -6,6 +6,7 @@
     - [DNS Bruteforce](#dns-bruteforce)
     - [HTTP Toolkits](#http-toolkits)
     - [CMS Enumeration](#cms-enumeration)
+    - [WAF](#waf)
     - [Ports Scannig](#ports-scanning)
     - [Cloud Enumeration](#cloud-enumeration)
     - [Github Dork](#github-dork)
@@ -69,6 +70,9 @@
  - [httprobe](https://github.com/tomnomnom/httprobe)
  - [httpx](https://github.com/projectdiscovery/httpx)
 
+### waf
+  - [wafw00f](https://github.com/enablesecurity/wafw00f)
+
 ### cms-enumeration
  - [webanlyze](https://github.com/rverton/webanalyze)
  - [whatweb](https://github.com/urbanadventurer/WhatWeb)
@@ -88,6 +92,7 @@
  - [cloud_enum](https://github.com/initstring/cloud_enum)
  - [clovery](https://github.com/mlcsec/clovery)
  - [gcpbucketbrute](https://github.com/RhinoSecurityLabs/GCPBucketBrute)
+ - [teh S3 bucketeers](https://github.com/tomdev/teh_s3_bucketeers)
 
 ### github-dork
  - [trufflehog](https://github.com/trufflesecurity/truffleHog)
@@ -145,11 +150,17 @@
   - [sn1per](https://github.com/1N3/Sn1per)
   - [vajra](https://github.com/r3curs1v3-pr0xy/vajra)
   - [scant3r](https://github.com/knassar702/scant3r)
-
+##### wordpress
+   - [wpscan](https://github.com/wpscanteam/wpscan)
+##### joomla
+   - [joomscan](https://github.com/OWASP/joomscan)
 ### wordlists
+  - [seclists](https://github.com/danielmiessler/SecLists)
+  - [payloadsallthethings](https://github.com/swisskyrepo/PayloadsAllTheThings)
 
 ### miscellaneous
   - [maltego](https://www.maltego.com/)
+  - [big bounty](https://github.com/Viralmaniar/BigBountyRecon)
   - [awesome bug bounty tools](https://github.com/vavkamil/awesome-bugbounty-tools)
   - [awesome web hacking](https://github.com/infoslack/awesome-web-hacking)
   - [awesome open source](https://awesomeopensource.com/)
