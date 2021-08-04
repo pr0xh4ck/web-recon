@@ -157,6 +157,7 @@
 ### wordlists
   - [seclists](https://github.com/danielmiessler/SecLists)
   - [payloadsallthethings](https://github.com/swisskyrepo/PayloadsAllTheThings)
+  - [assetnote](https://wordlists.assetnote.io/)
 
 ### miscellaneous
   - [maltego](https://www.maltego.com/)
