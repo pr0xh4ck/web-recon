@@ -7,12 +7,12 @@
     - [HTTP Toolkits](#http-toolkits)
     - [CMS Enumeration](#cms-enumeration)
     - [WAF](#waf)
-    - [Ports Scannig](#ports-scanning)
     - [Cloud Enumeration](#cloud-enumeration)
     - [Github Dork](#github-dork)
     - [Email Hunting](#email-hunting)
     - [Data Breach](#data-breach)
     - [Web Wayback](#web-wayback)
+    - [Ports Scannig](#ports-scanning)
     - [Directory Search](#directory-search)
     - [Hidden File or Directory](#hidden-file-or-directory)
     - [Hidden Parameter Find](#parameter-finder)
@@ -83,9 +83,6 @@
  - [backlinkwatch](http://backlinkwatch.com/index.php)
  - [retirejs](https://github.com/RetireJS/retire.js)
 
-### ports-scanning
- - [nmap](https://nmap.org/)
-
 ### cloud-enumeration
  - [slurp](https://github.com/0xbharath/slurp)
  - [lazys3](https://github.com/nahamsec/lazys3)
@@ -123,7 +120,9 @@
  - [paramspider](https://github.com/devanshbatham/ParamSpider)
  - [gau](https://github.com/lc/gau)
  
-
+### ports-scanning
+ - [nmap](https://nmap.org/)
+ - 
 ### directory-search
  - [dirsearch](https://github.com/maurosoria/dirsearch)
  - [ffuf](https://github.com/ffuf/ffuf)
