@@ -5,7 +5,7 @@
     - [Sudomain Enumeration](#subdomain-enumeration)
     - [DNS Bruteforce](#dns-bruteforce)
     - [HTTP Toolkits](#http-toolkits)
-    - [CMS Enumeration](#content-management-system)
+    - [CMS Enumeration](#cms-enumeration)
     - [Ports Scannig](#ports-scanning)
     - [Cloud Enumeration](#cloud-enumeration)
     - [Github Dork](#github-dork)
@@ -14,12 +14,18 @@
     - [Web Wayback](#web-wayback)
     - [Directory Search](#directory-search)
     - [Hidden File or Directory](#hidden-file-or-directory)
-    - [Hidden Parameter Find](#hidden-parameter-find)
+    - [Hidden Parameter Find](#parameter-finder)
     - [Bypass Forbidden Direcory](#bypass-forbidder-directory)
     - [Automation](#automation)
+    - [Wordlists](#wordlists)
     - [Miscellaneous](#miscellaneous)
     - [Burp Suite Extension](#burp-suite-extesion)
 
+
+
+
+
+---
 
 
 ## recon
@@ -63,11 +69,15 @@
  - [httprobe](https://github.com/tomnomnom/httprobe)
  - [httpx](https://github.com/projectdiscovery/httpx)
 
-### content-management-system
+### cms-enumeration
+ - [webanlyze](https://github.com/rverton/webanalyze)
  - [whatweb](https://github.com/urbanadventurer/WhatWeb)
  - [wappalyzer](https://www.wappalyzer.com/)
+ - [wappalyzer cli](https://github.com/AliasIO)
  - [build with](https://builtwith.com/)
+ - [build with cli](https://github.com/claymation/python-builtwith)
  - [backlinkwatch](http://backlinkwatch.com/index.php)
+ - [retirejs](https://github.com/RetireJS/retire.js)
 
 ### ports-scanning
  - [nmap](https://nmap.org/)
@@ -107,7 +117,7 @@
  - [waybackurls](https://github.com/tomnomnom/waybackurls)
  - [paramspider](https://github.com/devanshbatham/ParamSpider)
  - [gau](https://github.com/lc/gau)
- - [parampampam](https://github.com/Bo0oM/ParamPamPam)
+ 
 
 ### directory-search
  - [dirsearch](https://github.com/maurosoria/dirsearch)
@@ -121,8 +131,10 @@
  - [secretfinder](https://github.com/m4ll0k/SecretFinder)
  - [brokenlinkhijacker](https://github.com/MayankPandey01/BrokenLinkHijacker)
  
-### hidden-parameter-find
+### parameter-finder
   - [arjun](https://github.com/s0md3v/Arjun)
+  - [parampampam](https://github.com/Bo0oM/ParamPamPam)
+  - [parameth](https://github.com/maK-/parameth)
 
 ### bypass-forbidder-directory
  - [dirdar](https://github.com/M4DM0e/DirDar)
@@ -134,8 +146,13 @@
   - [vajra](https://github.com/r3curs1v3-pr0xy/vajra)
   - [scant3r](https://github.com/knassar702/scant3r)
 
+### wordlists
+
 ### miscellaneous
   - [maltego](https://www.maltego.com/)
+  - [awesome bug bounty tools](https://github.com/vavkamil/awesome-bugbounty-tools)
+  - [awesome web hacking](https://github.com/infoslack/awesome-web-hacking)
+  - [awesome open source](https://awesomeopensource.com/)
 
 ### burp-suite-extesion
    - []
