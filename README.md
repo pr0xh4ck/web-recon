@@ -6,11 +6,11 @@
     - [DNS Bruteforce](#dns-bruteforce)
     - [HTTP Toolkits](#http-toolkits)
     - [CMS Enumeration](#cms-enumeration)
+    - [Automation](#automation)
     - [Cloud Enumeration](#cloud-enumeration)
     - [Github Dork](#github-dork)
     - [Email Hunting](#email-hunting)
     - [Data Breach](#data-breach)
-    - [Automation](#automation)
     - [Web Wayback](#web-wayback)
     - [Ports Scannig](#ports-scanning)
     - [WAF](#waf)
@@ -80,6 +80,17 @@
  - [backlinkwatch](http://backlinkwatch.com/index.php)
  - [retirejs](https://github.com/RetireJS/retire.js)
 
+### automation
+  - [nuclei](https://github.com/projectdiscovery/nuclei)
+  - [jaeles](https://github.com/jaeles-project/jaeles)
+  - [sn1per](https://github.com/1N3/Sn1per)
+  - [vajra](https://github.com/r3curs1v3-pr0xy/vajra)
+  - [scant3r](https://github.com/knassar702/scant3r)
+##### wordpress
+   - [wpscan](https://github.com/wpscanteam/wpscan)
+##### joomla
+   - [joomscan](https://github.com/OWASP/joomscan)
+
 ### cloud-enumeration
  - [slurp](https://github.com/0xbharath/slurp)
  - [lazys3](https://github.com/nahamsec/lazys3)
@@ -111,17 +122,6 @@
  - [intelx](https://intelx.io/)
  - [haveibeenpwned](https://haveibeenpwned.com/)
  - [scatteredsecrets](https://scatteredsecrets.com/)
-
-### automation
-  - [nuclei](https://github.com/projectdiscovery/nuclei)
-  - [jaeles](https://github.com/jaeles-project/jaeles)
-  - [sn1per](https://github.com/1N3/Sn1per)
-  - [vajra](https://github.com/r3curs1v3-pr0xy/vajra)
-  - [scant3r](https://github.com/knassar702/scant3r)
-##### wordpress
-   - [wpscan](https://github.com/wpscanteam/wpscan)
-##### joomla
-   - [joomscan](https://github.com/OWASP/joomscan)
 
 ### web-wayback
  - [waybackurls](https://github.com/tomnomnom/waybackurls)
