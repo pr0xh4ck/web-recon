@@ -103,6 +103,7 @@
  - [trufflehog](https://github.com/trufflesecurity/truffleHog)
  - [gitjacker](https://github.com/liamg/gitjacker)
  - [git-hound](https://github.com/tillson/git-hound)
+ - [gitdorker](https://github.com/obheda12/GitDorker)
 
 ### email-hunting 
   - [hunter](https://hunter.io/)
