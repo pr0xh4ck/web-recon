@@ -2,9 +2,10 @@
 - [Recon](#recon)
     - [IP](#ip-test)
     - [DNS](#dns)
+    - [Internet Search Engine Discovery](#internet-search-engine-discovery)
     - [Sudomain Enumeration](#subdomain-enumeration)
     - [DNS Bruteforce](#dns-bruteforce)
-    - [HTTP Toolkits](#http-toolkits)
+    - [HTTP Probing](#http-probing)
     - [CMS Enumeration](#cms-enumeration)
     - [Automation](#automation)
     - [Cloud Enumeration](#cloud-enumeration)
@@ -34,13 +35,19 @@
  - [centralops](https://centralops.net/co/)
  - [spyonweb](https://spyonweb.com/)
  - [viewdns](https://viewdns.info/)
- - [spyse](https://spyse.com/)
  - [shodan cli](https://cli.shodan.io/)
  
 ### dns
-- [dnsrecon](https://github.com/darkoperator/dnsrecon)
-- [host linux tool](https://tools.kali.org/)
-- [nslookup](https://www.nslookup.io/)
+ - [dnsrecon](https://github.com/darkoperator/dnsrecon)
+ - [host linux tool](https://tools.kali.org/)
+ - [nslookup](https://www.nslookup.io/)
+
+#### internet-search-engine-discovery
+  - [shodan.io](https://www.shodan.io/)
+  - [spyse](https://spyse.com/)
+  - [censys](https://censys.io/ipv4)
+  - [fofa](https://fofa.so/)
+  - [binary edge](https://www.binaryedge.io/)
 
 ### subdomain-enumeration
  - [crt.sh](https://crt.sh/)
@@ -48,7 +55,6 @@
  - [subfinder](https://github.com/projectdiscovery/subfinder)
  - [dnsdumpster](https://dnsdumpster.com/)
  - [assetfinder](https://github.com/tomnomnom/assetfinder)
- - [shodan.io](https://www.shodan.io/)
  - [aquatone](https://www.rubydoc.info/gems/aquatone/0.4.1)
  - [censys](https://censys.io/ipv4)
  - [findomain](https://github.com/Findomain/Findomain)
@@ -57,6 +63,7 @@
  - [puredns](https://github.com/d3mondev/puredns)
  - [findfrontabledoamin](https://github.com/rvrsh3ll/FindFrontableDomains)
  - [domainhunter](https://github.com/threatexpress/domainhunter)
+ - [sudomy](https://github.com/Screetsec/Sudomy)
 
 ### dns-bruteforce
 - [dnsgen](https://github.com/ProjectAnte/dnsgen)
@@ -65,8 +72,9 @@
 - [dnsx](https://github.com/projectdiscovery/dnsx)
 - [zdns](https://github.com/zmap/zdns)
 - [subover](https://github.com/Ice3man543/SubOver)
+- [dnsvalidator](https://github.com/vortexau/dnsvalidator)
 
-### http-toolkits
+### http-probing
  - [httprobe](https://github.com/tomnomnom/httprobe)
  - [httpx](https://github.com/projectdiscovery/httpx)
 
@@ -81,11 +89,14 @@
  - [retirejs](https://github.com/RetireJS/retire.js)
 
 ### automation
+#### template based
   - [nuclei](https://github.com/projectdiscovery/nuclei)
   - [jaeles](https://github.com/jaeles-project/jaeles)
+#### project based
   - [sn1per](https://github.com/1N3/Sn1per)
   - [vajra](https://github.com/r3curs1v3-pr0xy/vajra)
   - [scant3r](https://github.com/knassar702/scant3r)
+  - [osmedeus](https://github.com/j3ssie/Osmedeus)
 ##### wordpress
    - [wpscan](https://github.com/wpscanteam/wpscan)
 ##### joomla
@@ -104,7 +115,8 @@
  - [gitjacker](https://github.com/liamg/gitjacker)
  - [git-hound](https://github.com/tillson/git-hound)
  - [gitdorker](https://github.com/obheda12/GitDorker)
-
+ - [dork list](https://gist.githubusercontent.com/EdOverflow/8bd2faad513626c413b8fc6e9d955669/raw/06a0ef0fd83920d513c65767aae258ecf8382bdf/gistfile1.txt)
+ 
 ### email-hunting 
   - [hunter](https://hunter.io/)
   - [phonebook](https://phonebook.cz/)
