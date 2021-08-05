@@ -6,6 +6,7 @@
     - [Sudomain Enumeration](#subdomain-enumeration)
     - [DNS Bruteforce](#dns-bruteforce)
     - [HTTP Probing](#http-probing)
+    - [web screenshot](#web-screenshot)
     - [CMS Enumeration](#cms-enumeration)
     - [Automation](#automation)
     - [Cloud Enumeration](#cloud-enumeration)
@@ -77,6 +78,10 @@
 ### http-probing
  - [httprobe](https://github.com/tomnomnom/httprobe)
  - [httpx](https://github.com/projectdiscovery/httpx)
+
+### web-screenshot
+  - [eyewitness](https://github.com/FortyNorthSecurity/EyeWitness)
+  - [aquatone](https://github.com/michenriksen/aquatone)
 
 ### cms-enumeration
  - [webanlyze](https://github.com/rverton/webanalyze)
