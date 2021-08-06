@@ -118,6 +118,7 @@
 ### github-dork
  - [trufflehog](https://github.com/trufflesecurity/truffleHog)
  - [gitjacker](https://github.com/liamg/gitjacker)
+ - [githacker](https://github.com/WangYihang/GitHacker)
  - [git-hound](https://github.com/tillson/git-hound)
  - [gitdorker](https://github.com/obheda12/GitDorker)
  - [dork list](https://gist.githubusercontent.com/EdOverflow/8bd2faad513626c413b8fc6e9d955669/raw/06a0ef0fd83920d513c65767aae258ecf8382bdf/gistfile1.txt)
@@ -158,6 +159,10 @@
 
 ### hidden-file-or-directory
  - [gospider](https://github.com/jaeles-project/gospider)
+ - [janusec](https://github.com/Janusec/janusec)
+ - [source leak hacker](https://github.com/WangYihang/SourceLeakHacker)
+ - [favfreak](https://github.com/devanshbatham/FavFreak)
+ - [jwsxploiter](https://github.com/DontPanicO/jwtXploiter)
  - [bfac](https://github.com/mazen160/bfac)
  - [jsearch](https://github.com/d3ftx/jsearch)
  - [linkfinder](https://github.com/GerbenJavado/LinkFinder)
@@ -179,6 +184,9 @@
 
 ### miscellaneous
   - [maltego](https://www.maltego.com/)
+  - [owtf](https://github.com/owtf/owtf)
+  - [site broker](https://github.com/Anon-Exploiter/SiteBroker)
+  - [explo](https://github.com/telekom-security/explo)
   - [big bounty](https://github.com/Viralmaniar/BigBountyRecon)
   - [awesome bug bounty tools](https://github.com/vavkamil/awesome-bugbounty-tools)
   - [awesome web hacking](https://github.com/infoslack/awesome-web-hacking)
