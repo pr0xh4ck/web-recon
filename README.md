@@ -193,7 +193,18 @@
   - [awesome open source](https://awesomeopensource.com/)
 
 ### burp-suite-extesion
-   - []
+   - [Active scan ++]()
+   - [Param miner]()
+   - [Logger ++]()
+   - [Turbo intruder]()
+   - [Upload scanner]()
+   - [Reflected parameters]()
+   - [Collaborator everywhere]()
+   - [Backslash powered scanner]()
+   - [Software version Reporter]()
+   - [Software vulnerability scanner]()
+   - [Autorize]()
+
 
 
 
