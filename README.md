@@ -146,6 +146,7 @@
  - [waybackurls](https://github.com/tomnomnom/waybackurls)
  - [paramspider](https://github.com/devanshbatham/ParamSpider)
  - [gau](https://github.com/lc/gau)
+ - [waybackpy](https://github.com/akamhy/waybackpy)
  
 ### ports-scanning
  - [nmap](https://nmap.org/)
