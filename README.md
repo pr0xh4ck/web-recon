@@ -204,6 +204,7 @@
    - [Software version Reporter]()
    - [Software vulnerability scanner]()
    - [Autorize]()
+   - [HTTP request smuggler]()
 
 
 
