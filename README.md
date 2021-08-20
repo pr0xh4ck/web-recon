@@ -108,6 +108,7 @@
    - [joomscan](https://github.com/OWASP/joomscan)
 
 ### cloud-enumeration
+ - [ScoutSuite](https://github.com/nccgroup/ScoutSuite)
  - [slurp](https://github.com/0xbharath/slurp)
  - [lazys3](https://github.com/nahamsec/lazys3)
  - [cloud_enum](https://github.com/initstring/cloud_enum)
