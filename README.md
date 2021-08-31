@@ -183,6 +183,7 @@
   - [seclists](https://github.com/danielmiessler/SecLists)
   - [payloadsallthethings](https://github.com/swisskyrepo/PayloadsAllTheThings)
   - [assetnote](https://wordlists.assetnote.io/)
+  - [samlists](https://github.com/the-xentropy/samlists)
 
 ### miscellaneous
   - [maltego](https://www.maltego.com/)
