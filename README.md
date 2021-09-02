@@ -22,6 +22,7 @@
     - [Bypass Forbidden Direcory](#bypass-forbidder-directory)
     - [Wordlists](#wordlists)
     - [Miscellaneous](#miscellaneous)
+    - [Programs](#programs)
     - [Burp Suite Extension](#burp-suite-extesion)
 
 
@@ -194,6 +195,10 @@
   - [awesome bug bounty tools](https://github.com/vavkamil/awesome-bugbounty-tools)
   - [awesome web hacking](https://github.com/infoslack/awesome-web-hacking)
   - [awesome open source](https://awesomeopensource.com/)
+
+### programs
+   - [disclose](#https://github.com/disclose)
+   - [bug bounty dork](#https://github.com/sushiwushi/bug-bounty-dorks)
 
 ### burp-suite-extesion
    - [Active scan ++]()
