@@ -199,8 +199,8 @@
   - [awesome open source](https://awesomeopensource.com/)
 
 ### programs
-   - [disclose](#https://github.com/disclose)
-   - [bug bounty dork](#https://github.com/sushiwushi/bug-bounty-dorks)
+   - [disclose](https://github.com/disclose)
+   - [bug bounty dork](https://github.com/sushiwushi/bug-bounty-dorks)
 
 ### burp-suite-extesion
    - [Active scan ++]()
