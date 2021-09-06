@@ -189,6 +189,7 @@
   - [samlists](https://github.com/the-xentropy/samlists)
 
 ### miscellaneous
+  - [awesome oscp](https://github.com/0x4D31/awesome-oscp)
   - [maltego](https://www.maltego.com/)
   - [owtf](https://github.com/owtf/owtf)
   - [site broker](https://github.com/Anon-Exploiter/SiteBroker)
