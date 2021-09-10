@@ -1,4 +1,5 @@
 ```pr0xh4ck © 2021```
+
 ---
 ## Contents
 - [Recon](#recon)
@@ -198,6 +199,7 @@
   - [awesome bug bounty tools](https://github.com/vavkamil/awesome-bugbounty-tools)
   - [awesome web hacking](https://github.com/infoslack/awesome-web-hacking)
   - [awesome open source](https://awesomeopensource.com/)
+  - [cerbrutus](https://github.com/Cerbrutus-BruteForcer/cerbrutus)
 
 ### programs
    - [disclose](https://github.com/disclose)
