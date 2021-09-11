@@ -83,6 +83,8 @@
  - [dns](https://dns.bufferover.run/dns?q=)
  - [tls](https://tls.bufferover.run/dns?q=)
 
+> Find subdomain on GitHub
+ - [github-subdomain](https://github.com/gwen001/github-subdomains)
 
 ### dns-bruteforce
 - [dnsgen](https://github.com/ProjectAnte/dnsgen)
@@ -98,6 +100,7 @@
  - [fav-up](https://github.com/pielco11/fav-up)
  - [testssl](https://github.com/drwetter/testssl.sh)
  - [bbtz](https://github.com/m4ll0k/BBTz)
+ - [sonar search](https://github.com/Cgboal/SonarSearch)
 
 ### http-probing
  - [httprobe](https://github.com/tomnomnom/httprobe)
