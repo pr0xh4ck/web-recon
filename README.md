@@ -98,6 +98,7 @@
 - [subover](https://github.com/Ice3man543/SubOver)
 - [dnsvalidator](https://github.com/vortexau/dnsvalidator)
 - [gotator](https://github.com/Josue87/gotator)
+- [resolve domains](https://github.com/Josue87/resolveDomains)
 
 ### osint
  - [udork.sh](https://github.com/m3n0sd0n4ld/uDork)
@@ -106,6 +107,13 @@
  - [bbtz](https://github.com/m4ll0k/BBTz)
  - [sonar search](https://github.com/Cgboal/SonarSearch)
  - [notify](https://github.com/projectdiscovery/notify)
+ - [email finder](https://github.com/Josue87/EmailFinder)
+ - [analytics relationships](https://github.com/Josue87/AnalyticsRelationships)
+ - [mapcidr](https://github.com/projectdiscovery/mapcidr)
+ - [ppfuzz](https://github.com/dwisiswant0/ppfuzz)
+ - [cloud-detect](https://github.com/dgzlopes/cloud-detect)
+ - [interactsh](https://github.com/projectdiscovery/interactsh)
+ - [bbrf](https://github.com/honoki/bbrf-client)
 
 ### http-probing
  - [httprobe](https://github.com/tomnomnom/httprobe)
@@ -195,9 +203,15 @@
 
 > Automatic put parameter value
  - [qsreplace](https://github.com/tomnomnom/qsreplace)
+ - [url dedupe](https://github.com/ameenmaali/urldedupe)
+
+> Declutters url lists
+ - [uro](https://github.com/s0md3v/uro)
+
 
 ### ports-scanning
  - [nmap](https://nmap.org/)
+ - [unimap](https://github.com/Edu4rdSHL/unimap)
 
 > Brute-Forcing from Nmap output
  - [brutespray](https://github.com/x90skysn3k/brutespray)
