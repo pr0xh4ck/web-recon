@@ -189,6 +189,9 @@
  - [gxss](https://github.com/KathanP19/Gxss)
  - []()
  
+> Find js file from waybackurls.txt
+ - [subjs](https://github.com/lc/subjs)
+
 ### ports-scanning
  - [nmap](https://nmap.org/)
 
