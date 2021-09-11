@@ -70,6 +70,7 @@
  - [findfrontabledoamin](https://github.com/rvrsh3ll/FindFrontableDomains)
  - [domainhunter](https://github.com/threatexpress/domainhunter)
  - [sudomy](https://github.com/Screetsec/Sudomy)
+ - [domainbigdate](https://domainbigdata.com/)
 
 ### dns-bruteforce
 - [dnsgen](https://github.com/ProjectAnte/dnsgen)
