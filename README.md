@@ -199,6 +199,7 @@
  - [linkfinder](https://github.com/GerbenJavado/LinkFinder)
  - [secretfinder](https://github.com/m4ll0k/SecretFinder)
  - [brokenlinkhijacker](https://github.com/MayankPandey01/BrokenLinkHijacker)
+ - [jsa](https://github.com/w9w/JSA)
  
 ### parameter-finder
   - [arjun](https://github.com/s0md3v/Arjun)
