@@ -214,6 +214,7 @@
   - [awesome web hacking](https://github.com/infoslack/awesome-web-hacking)
   - [awesome open source](https://awesomeopensource.com/)
   - [cerbrutus](https://github.com/Cerbrutus-BruteForcer/cerbrutus)
+  - [reconftw.sh](https://github.com/six2dez/reconftw/blob/main/reconftw.sh)
 
 ### programs
    - [disclose](https://github.com/disclose)
