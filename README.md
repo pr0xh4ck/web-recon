@@ -10,7 +10,7 @@
     - [DNS Bruteforce](#dns-bruteforce)
     - [OSINT](#osint)
     - [HTTP Probing](#http-probing)
-    - [web screenshot](#web-screenshot)
+    - [Web screenshot](#web-screenshot)
     - [CMS Enumeration](#cms-enumeration)
     - [Automation](#automation)
     - [Cloud Enumeration](#cloud-enumeration)
@@ -77,6 +77,7 @@
  - [sudomy](https://github.com/Screetsec/Sudomy)
  - [domainbigdate](https://domainbigdata.com/)
  - [anubis](https://github.com/jonluca/anubis)
+ - [ctfr](https://github.com/UnaPibaGeek/ctfr)
 
 > Exception subdomain enumeration
  - [dns](https://dns.bufferover.run/dns?q=)
