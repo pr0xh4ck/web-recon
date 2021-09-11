@@ -214,6 +214,7 @@
   - [assetnote](https://wordlists.assetnote.io/)
   - [samlists](https://github.com/the-xentropy/samlists)
   - [all in one](https://raw.githubusercontent.com/six2dez/OneListForAll/main/onelistforallmicro.txt)
+  - [fuzz](https://github.com/Bo0oM/fuzz.txt)
 
 ### miscellaneous
   - [awesome oscp](https://github.com/0x4D31/awesome-oscp)
