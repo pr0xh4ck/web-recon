@@ -166,6 +166,7 @@
 
 ### hidden-file-or-directory
  - [gospider](https://github.com/jaeles-project/gospider)
+ - [gobuster](https://github.com/OJ/gobuster)
  - [janusec](https://github.com/Janusec/janusec)
  - [source leak hacker](https://github.com/WangYihang/SourceLeakHacker)
  - [favfreak](https://github.com/devanshbatham/FavFreak)
