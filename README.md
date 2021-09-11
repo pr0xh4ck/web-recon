@@ -48,6 +48,10 @@
  - [nslookup](https://www.nslookup.io/)
  - [anslookup](https://github.com/yassineaboukir/Asnlookup)
 
+> DNS name server 
+ - [nameserver](https://public-dns.info/nameservers.txt)
+
+
 ### internet-search-engine-discovery
   - [shodan.io](https://www.shodan.io/)
   - [spyse](https://spyse.com/)
