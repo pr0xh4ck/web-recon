@@ -201,6 +201,7 @@
   - [payloadsallthethings](https://github.com/swisskyrepo/PayloadsAllTheThings)
   - [assetnote](https://wordlists.assetnote.io/)
   - [samlists](https://github.com/the-xentropy/samlists)
+  - [all in one](https://raw.githubusercontent.com/six2dez/OneListForAll/main/onelistforallmicro.txt)
 
 ### miscellaneous
   - [awesome oscp](https://github.com/0x4D31/awesome-oscp)
