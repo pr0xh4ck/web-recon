@@ -105,6 +105,7 @@
  - [testssl](https://github.com/drwetter/testssl.sh)
  - [bbtz](https://github.com/m4ll0k/BBTz)
  - [sonar search](https://github.com/Cgboal/SonarSearch)
+ - [notify](https://github.com/projectdiscovery/notify)
 
 ### http-probing
  - [httprobe](https://github.com/tomnomnom/httprobe)
@@ -191,6 +192,9 @@
  
 > Find js file from waybackurls.txt
  - [subjs](https://github.com/lc/subjs)
+
+> Automatic put parameter value
+ - [qsreplace](https://github.com/tomnomnom/qsreplace)
 
 ### ports-scanning
  - [nmap](https://nmap.org/)
