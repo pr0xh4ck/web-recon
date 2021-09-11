@@ -1,0 +1,102 @@
+FOR EMAIL HUNTING 
+
+015 Hunter.io
+https://hunter.io/
+|
+015 Phonebook.cz
+https://phonebook.cz/
+|
+015 VoilaNorbert
+https://www.voilanorbert.com/
+|
+015 Email-Hippo
+https://tools.verifyemailaddress.io/
+|
+015 Email-Checker
+https://email-checker.net/validate
+|
+015 Clearbit-Connect
+https://chrome.google.com/webstore/detail/clearbit-connect-supercha/pmnhcgfcafcnkbengdcanjablaabjplo?hl=en
+
+
+
+FOR PASSWORD HUNTING 
+
+017 Dehashed
+https://dehashed.com/
+|
+018 WeLeakInfo
+https://weleakinfo.to/v2/
+|
+018 LeakCheck
+https://leakcheck.io/
+|
+018 SnusBase
+https://snusbase.com/
+|
+018 Scylla.sh
+https://scylla.sh/
+|
+https://intelx.io/
+|
+018 Have-I-Been-Pwned
+https://haveibeenpwned.com/
+|
+https://scatteredsecrets.com/
+
+
+
+
+FOR WEBSITE DETAILS HUNTING 
+
+034 BuiltWith
+https://builtwith.com/
+|
+034 Domain-Dossier
+https://centralops.net/co/
+|
+034 DNSlytics-Reverse-IP
+https://dnslytics.com/reverse-ip
+|
+034 SpyOnWeb
+https://spyonweb.com/
+|
+034 VirusTotal
+https://www.virustotal.com/
+|
+034 Visual-Ping
+https://visualping.io/
+|
+034 Back-Link-Watch
+http://backlinkwatch.com/index.php
+|
+034 viewdns.info
+https://viewdns.info/
+|
+035 Pentest-Tools-Subdomain-Finder
+https://pentest-tools.com/information-gathering/find-subdomains-of-domain#
+|
+035 Spyse
+https://spyse.com/
+|
+035 crt.sh
+https://crt.sh/
+|
+036 Shodan
+https://shodan.io
+|
+036 Wayback-Machine
+https://web.archive.org/
+
+
+
+BUSINESS INFORMATION 
+
+037 AI-HIT
+https://www.aihitdata.com/
+|
+037 Open-Corporates
+https://opencorporates.com/
+
+
+

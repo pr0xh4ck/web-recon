@@ -1,0 +1,88 @@
+FOR SUBDOMAINS
+
+amass - https://github.com/OWASP/Amass
+findomain https://github.com/Edu4rdSHL/findomain
+assetfinder - https://github.com/tomnomnom/assetfinder
+subbrute - https://github.com/TheRook/subbrute
+crtsh - CLI - https://github.com/appsecco/the-art-of-subdomainenumeration/blob/maste
+
+
+
+
+FOR CHECK ACTIVE DOMAINS 
+
+httprobe: https://github.com/tomnomnom/httprobe
+upcheck: https://github.com/CristiVlad25/py-scriptsother/blob/master/upcheck.py
+
+
+
+
+DIRECTORY BRUTEFORCING 
+
+dirb: https://tools.kali.org/web-applications/dirb
+dirbuster: https://tools.kali.org/web-applications/dirbuster
+gobuster: https://tools.kali.org/web-applications/gobuster
+dirsearch: https://github.com/maurosoria/dirsearch
+ffuf: https://github.com/ffuf/ffuf
+SecLists: https://github.com/danielmiessler/SecLists
+
+
+
+BUCKET,DORK,GITHUB AND SHODAN 
+
+slurp: https://github.com/0xbharath/slurp
+BucketFlaws: https://github.com/nikhil1232/Bucket-Flaws
+S3Scanner: https://github.com/sa7mon/S3Scanner
+AWSBucketDump: https://github.com/jordanpotti/AWSBucketDump
+shodan: https://www.shodan.io/
+Shodan book: https://leanpub.com/shodan
+Shodan useful links:
+https://danielmiessler.com/study/shodan/
+https://github.com/humblelad/Shodan-Dorks
+Favicon Python scripts:
+https://gist.github.com/yehgdotnet/b9dfc618108d2f05845c4d8e28c5fc6a
+Github dorks: https://github.com/H4CK3RT3CH/github-dorks
+trufflehog: https://github.com/dxa4481/truffleHog
+gitrob: https://github.com/michenriksen/gitrob
+gittyleaks: https://github.com/kootenpv/gittyleaks
+ReconT: https://github.com/dock3rX/ReconT
+WebInt.io: http://webint.io/
+CyberScan.io: https://www.cyberscan.io/en/
+Pastebin.com: https://pastebin.com/
+WolframAlpha: https://www.wolframalpha.com/
+GHDB: https://www.exploit-db.com/google-hacking-database
+
+
+
+NMAP,NIKTO,ZAP
+
+nmap: https://nmap.org/
+nmap guide: https://nmap.org/book/man.html
+nikto: https://cirt.net/Nikto2
+Burp Suite: https://portswigger.net/burp
+OWASP ZAP: https://www.zaproxy.org/
+
+
+FIND ASSET FROM JS FILE 
+
+linkfinder: https://github.com/GerbenJavado/LinkFinder
+JS Beautifier Chrome Extension: 
+https://chrome.google.com/webstore/detail/javascript-and-css-codeb/iiglodndmmefofehaibmaignglbpdald?hl=en
+Strings to look for:
+api
+http
+https
+api_key
+apikey
+token
+secret
+config
+conf
+cfg
+ENV
+env
+
+
+
+
+
