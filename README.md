@@ -46,6 +46,7 @@
  - [dnsrecon](https://github.com/darkoperator/dnsrecon)
  - [host linux tool](https://tools.kali.org/)
  - [nslookup](https://www.nslookup.io/)
+ - [anslookup](https://github.com/yassineaboukir/Asnlookup)
 
 ### internet-search-engine-discovery
   - [shodan.io](https://www.shodan.io/)
