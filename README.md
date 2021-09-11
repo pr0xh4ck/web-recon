@@ -97,7 +97,7 @@
  - [udork.sh](https://github.com/m3n0sd0n4ld/uDork)
  - [fav-up](https://github.com/pielco11/fav-up)
  - [testssl](https://github.com/drwetter/testssl.sh)
- - []()
+ - [bbtz](https://github.com/m4ll0k/BBTz)
 
 ### http-probing
  - [httprobe](https://github.com/tomnomnom/httprobe)
