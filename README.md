@@ -71,6 +71,7 @@
  - [domainhunter](https://github.com/threatexpress/domainhunter)
  - [sudomy](https://github.com/Screetsec/Sudomy)
  - [domainbigdate](https://domainbigdata.com/)
+ - [anubis](https://github.com/jonluca/anubis)
 
 ### dns-bruteforce
 - [dnsgen](https://github.com/ProjectAnte/dnsgen)
