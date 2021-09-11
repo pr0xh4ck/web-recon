@@ -95,6 +95,7 @@
 ### osint
  - [udork.sh](https://github.com/m3n0sd0n4ld/uDork)
  - [fav-up](https://github.com/pielco11/fav-up)
+ - [testssl](https://github.com/drwetter/testssl.sh)
  - []()
 
 ### http-probing
@@ -106,6 +107,7 @@
   - [aquatone](https://github.com/michenriksen/aquatone)
 
 ### cms-enumeration
+ - [cmseek](https://github.com/Tuhinshubhra/CMSeeK)
  - [webanlyze](https://github.com/rverton/webanalyze)
  - [whatweb](https://github.com/urbanadventurer/WhatWeb)
  - [wappalyzer](https://www.wappalyzer.com/)
