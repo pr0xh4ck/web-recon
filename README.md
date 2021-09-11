@@ -73,6 +73,11 @@
  - [domainbigdate](https://domainbigdata.com/)
  - [anubis](https://github.com/jonluca/anubis)
 
+> Exception subdomain enumeration
+ - [dns](https://dns.bufferover.run/dns?q=)
+ - [tls](https://tls.bufferover.run/dns?q=)
+
+
 ### dns-bruteforce
 - [dnsgen](https://github.com/ProjectAnte/dnsgen)
 - [altdns](https://github.com/infosec-au/altdns)
