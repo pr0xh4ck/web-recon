@@ -48,7 +48,7 @@
  - [nslookup](https://www.nslookup.io/)
  - [anslookup](https://github.com/yassineaboukir/Asnlookup)
 
-> DNS name server 
+> DNS public name server 
  - [nameserver](https://public-dns.info/nameservers.txt)
 
 
