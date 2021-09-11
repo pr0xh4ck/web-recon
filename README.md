@@ -8,6 +8,7 @@
     - [Internet Search Engine Discovery](#internet-search-engine-discovery)
     - [Sudomain Enumeration](#subdomain-enumeration)
     - [DNS Bruteforce](#dns-bruteforce)
+    - [OSINT](#osint)
     - [HTTP Probing](#http-probing)
     - [web screenshot](#web-screenshot)
     - [CMS Enumeration](#cms-enumeration)
@@ -91,6 +92,11 @@
 - [subover](https://github.com/Ice3man543/SubOver)
 - [dnsvalidator](https://github.com/vortexau/dnsvalidator)
 
+### osint
+ - [udork.sh](https://github.com/m3n0sd0n4ld/uDork)
+ - [fav-up](https://github.com/pielco11/fav-up)
+ - []()
+
 ### http-probing
  - [httprobe](https://github.com/tomnomnom/httprobe)
  - [httpx](https://github.com/projectdiscovery/httpx)
@@ -167,6 +173,9 @@
  
 ### ports-scanning
  - [nmap](https://nmap.org/)
+
+> Brute-Forcing from Nmap output
+ - [brutespray](https://github.com/x90skysn3k/brutespray)
 
 ### waf
   - [wafw00f](https://github.com/enablesecurity/wafw00f)
