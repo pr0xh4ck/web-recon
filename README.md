@@ -97,6 +97,7 @@
 - [zdns](https://github.com/zmap/zdns)
 - [subover](https://github.com/Ice3man543/SubOver)
 - [dnsvalidator](https://github.com/vortexau/dnsvalidator)
+- [gotator](https://github.com/Josue87/gotator)
 
 ### osint
  - [udork.sh](https://github.com/m3n0sd0n4ld/uDork)
@@ -181,7 +182,12 @@
  - [waybackurls](https://github.com/tomnomnom/waybackurls)
  - [paramspider](https://github.com/devanshbatham/ParamSpider)
  - [gau](https://github.com/lc/gau)
+ - [gauplus](https://github.com/bp0lr/gauplus)
  - [waybackpy](https://github.com/akamhy/waybackpy)
+ 
+> Find reflected params
+ - [gxss](https://github.com/KathanP19/Gxss)
+ - []()
  
 ### ports-scanning
  - [nmap](https://nmap.org/)
@@ -191,6 +197,7 @@
 
 ### waf
   - [wafw00f](https://github.com/enablesecurity/wafw00f)
+  - [cf-check](https://github.com/dwisiswant0/cf-check)
  
 ### directory-search
  - [dirsearch](https://github.com/maurosoria/dirsearch)
