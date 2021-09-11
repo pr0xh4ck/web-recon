@@ -147,6 +147,9 @@
  - [githacker](https://github.com/WangYihang/GitHacker)
  - [git-hound](https://github.com/tillson/git-hound)
  - [gitdorker](https://github.com/obheda12/GitDorker)
+ - [github-endpoints](https://github.com/gwen001/github-endpoints)
+  
+> GitHub dork wordlist
  - [dork list](https://gist.githubusercontent.com/EdOverflow/8bd2faad513626c413b8fc6e9d955669/raw/06a0ef0fd83920d513c65767aae258ecf8382bdf/gistfile1.txt)
  
 ### email-hunting 
