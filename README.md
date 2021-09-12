@@ -44,6 +44,7 @@
  - [viewdns](https://viewdns.info/)
  - [shodan cli](https://cli.shodan.io/)
  
+ 
 ### dns
  - [dnsrecon](https://github.com/darkoperator/dnsrecon)
  - [host linux tool](https://tools.kali.org/)
@@ -60,6 +61,7 @@
   - [censys](https://censys.io/ipv4)
   - [fofa](https://fofa.so/)
   - [binary edge](https://www.binaryedge.io/)
+
 
 ### subdomain-enumeration
  - [crt.sh](https://crt.sh/)
@@ -90,6 +92,7 @@
 > Find subdomain from Official DoD(Depart of Defence) website
  - [mildew](https://github.com/daehee/mildew)
 
+
 ### dns-bruteforce
 - [dnsgen](https://github.com/ProjectAnte/dnsgen)
 - [altdns](https://github.com/infosec-au/altdns)
@@ -100,6 +103,7 @@
 - [dnsvalidator](https://github.com/vortexau/dnsvalidator)
 - [gotator](https://github.com/Josue87/gotator)
 - [resolve domains](https://github.com/Josue87/resolveDomains)
+
 
 ### osint
  - [udork.sh](https://github.com/m3n0sd0n4ld/uDork)
@@ -116,9 +120,11 @@
  - [interactsh](https://github.com/projectdiscovery/interactsh)
  - [bbrf](https://github.com/honoki/bbrf-client)
 
+
 ### http-probing
  - [httprobe](https://github.com/tomnomnom/httprobe)
  - [httpx](https://github.com/projectdiscovery/httpx)
+
 
 #### subdomain-takeover
  - [subjack](https://github.com/haccer/subjack) - Subdomain Takeover tool written in Go
@@ -135,8 +141,16 @@
 
 
 ### web-screenshot
- - [eyewitness](https://github.com/FortyNorthSecurity/EyeWitness)
- - [aquatone](https://github.com/michenriksen/aquatone)
+- [EyeWitness](https://github.com/FortyNorthSecurity/EyeWitness) - EyeWitness is designed to take screenshots of websites, provide some server header info, and identify default credentials if possible.
+- [aquatone](https://github.com/michenriksen/aquatone) - Aquatone is a tool for visual inspection of websites across a large amount of hosts and is convenient for quickly gaining an overview of HTTP-based attack surface.
+- [screenshoteer](https://github.com/vladocar/screenshoteer) - Make website screenshots and mobile emulations from the command line.
+- [gowitness](https://github.com/sensepost/gowitness) - gowitness - a golang, web screenshot utility using Chrome Headless
+- [WitnessMe](https://github.com/byt3bl33d3r/WitnessMe) - Web Inventory tool, takes screenshots of webpages using Pyppeteer (headless Chrome/Chromium) and provides some extra bells & whistles to make life easier.
+- [eyeballer](https://github.com/BishopFox/eyeballer) - Convolutional neural network for analyzing pentest screenshots
+- [scrying](https://github.com/nccgroup/scrying) - A tool for collecting RDP, web and VNC screenshots all in one place
+- [Depix](https://github.com/beurtschipper/Depix) - Recovers passwords from pixelized screenshots
+- [httpscreenshot](https://github.com/breenmachine/httpscreenshot/) - HTTPScreenshot is a tool for grabbing screenshots and HTML of large numbers of websites.
+
 
 ### cms-enumeration
  - [cmseek](https://github.com/Tuhinshubhra/CMSeeK)
@@ -148,6 +162,7 @@
  - [build with cli](https://github.com/claymation/python-builtwith)
  - [backlinkwatch](http://backlinkwatch.com/index.php)
  - [retirejs](https://github.com/RetireJS/retire.js)
+
 
 ### automation
 - [nuclei](https://github.com/projectdiscovery/nuclei) - Nuclei is a fast tool for configurable targeted scanning based on templates offering massive extensibility and ease of use.
@@ -171,6 +186,7 @@
 > joomla
    - [joomscan](https://github.com/OWASP/joomscan)
 
+
 ### cloud-enumeration
  - [ScoutSuite](https://github.com/nccgroup/ScoutSuite)
  - [slurp](https://github.com/0xbharath/slurp)
@@ -179,6 +195,28 @@
  - [clovery](https://github.com/mlcsec/clovery)
  - [gcpbucketbrute](https://github.com/RhinoSecurityLabs/GCPBucketBrute)
  - [teh S3 bucketeers](https://github.com/tomdev/teh_s3_bucketeers)
+
+
+> Buckets
+- [S3Scanner](https://github.com/sa7mon/S3Scanner) - Scan for open AWS S3 buckets and dump the contents
+- [AWSBucketDump](https://github.com/jordanpotti/AWSBucketDump) - Security Tool to Look For Interesting Files in S3 Buckets
+- [CloudScraper](https://github.com/jordanpotti/CloudScraper) - CloudScraper: Tool to enumerate targets in search of cloud resources. S3 Buckets, Azure Blobs, Digital Ocean Storage Space.
+- [s3viewer](https://github.com/SharonBrizinov/s3viewer) - Publicly Open Amazon AWS S3 Bucket Viewer
+- [festin](https://github.com/cr0hn/festin) - FestIn - S3 Bucket Weakness Discovery
+- [s3reverse](https://github.com/hahwul/s3reverse) - The format of various s3 buckets is convert in one format. for bugbounty and security testing.
+- [mass-s3-bucket-tester](https://github.com/random-robbie/mass-s3-bucket-tester) - This tests a list of s3 buckets to see if they have dir listings enabled or if they are uploadable
+- [S3BucketList](https://github.com/AlecBlance/S3BucketList) - Firefox plugin that lists Amazon S3 Buckets found in requests
+- [dirlstr](https://github.com/cybercdh/dirlstr) - Finds Directory Listings or open S3 buckets from a list of URLs
+- [Burp-AnonymousCloud](https://github.com/codewatchorg/Burp-AnonymousCloud) - Burp extension that performs a passive scan to identify cloud buckets and then test them for publicly accessible vulnerabilities
+- [kicks3](https://github.com/abuvanth/kicks3) - S3 bucket finder from html,js and bucket misconfiguration testing tool
+- [2tearsinabucket](https://github.com/Revenant40/2tearsinabucket) - Enumerate s3 buckets for a specific target.
+- [s3_objects_check](https://github.com/nccgroup/s3_objects_check) - Whitebox evaluation of effective S3 object permissions, to identify publicly accessible files.
+- [s3tk](https://github.com/ankane/s3tk) - A security toolkit for Amazon S3
+- [CloudBrute](https://github.com/0xsha/CloudBrute) - Awesome cloud enumerator
+- [s3cario](https://github.com/0xspade/s3cario) - This tool will get the CNAME first if it's a valid Amazon s3 bucket and if it's not, it will try to check if the domain is a bucket name.
+- [S3Cruze](https://github.com/JR0ch17/S3Cruze) - All-in-one AWS S3 bucket tool for pentesters.
+
+
 
 ### github-dork
  - [trufflehog](https://github.com/trufflesecurity/truffleHog)
@@ -191,6 +229,7 @@
 > GitHub dork wordlist
  - [dork list](https://gist.githubusercontent.com/EdOverflow/8bd2faad513626c413b8fc6e9d955669/raw/06a0ef0fd83920d513c65767aae258ecf8382bdf/gistfile1.txt)
  
+ 
 ### email-hunting 
   - [hunter](https://hunter.io/)
   - [phonebook](https://phonebook.cz/)
@@ -198,6 +237,7 @@
   - [verifyemailaddress](https://tools.verifyemailaddress.io/)
   - [email-checker](https://email-checker.net/)
   - [Clearbit-Connect](https://chrome.google.com/webstore/detail/clearbit-connect-supercha/pmnhcgfcafcnkbengdcanjablaabjplo?hl=en)
+
 
 ### data-breach
  - [pwndb](https://github.com/davidtavarez/pwndb/)
@@ -209,6 +249,7 @@
  - [intelx](https://intelx.io/)
  - [haveibeenpwned](https://haveibeenpwned.com/)
  - [scatteredsecrets](https://scatteredsecrets.com/)
+
 
 ### web-wayback
  - [waybackurls](https://github.com/tomnomnom/waybackurls)
@@ -244,13 +285,16 @@
 > Brute-Forcing from Nmap output
  - [brutespray](https://github.com/x90skysn3k/brutespray)
 
+
 ### waf
   - [wafw00f](https://github.com/enablesecurity/wafw00f)
   - [cf-check](https://github.com/dwisiswant0/cf-check)
  
+ 
 ### directory-search
  - [dirsearch](https://github.com/maurosoria/dirsearch)
  - [ffuf](https://github.com/ffuf/ffuf)
+
 
 ### hidden-file-or-directory
  - [gospider](https://github.com/jaeles-project/gospider)
@@ -266,13 +310,16 @@
  - [brokenlinkhijacker](https://github.com/MayankPandey01/BrokenLinkHijacker)
  - [jsa](https://github.com/w9w/JSA)
  
+ 
 ### parameter-finder
   - [arjun](https://github.com/s0md3v/Arjun)
   - [parampampam](https://github.com/Bo0oM/ParamPamPam)
   - [parameth](https://github.com/maK-/parameth)
 
+
 ### bypass-forbidder-directory
  - [dirdar](https://github.com/M4DM0e/DirDar)
+
 
 ### wordlists
   - [seclists](https://github.com/danielmiessler/SecLists)
@@ -281,6 +328,7 @@
   - [samlists](https://github.com/the-xentropy/samlists)
   - [all in one](https://raw.githubusercontent.com/six2dez/OneListForAll/main/onelistforallmicro.txt)
   - [fuzz](https://github.com/Bo0oM/fuzz.txt)
+
 
 ### miscellaneous
   - [awesome oscp](https://github.com/0x4D31/awesome-oscp)
@@ -295,9 +343,11 @@
   - [cerbrutus](https://github.com/Cerbrutus-BruteForcer/cerbrutus)
   - [reconftw.sh](https://github.com/six2dez/reconftw/blob/main/reconftw.sh)
 
+
 ### programs
    - [disclose](https://github.com/disclose)
    - [bug bounty dork](https://github.com/sushiwushi/bug-bounty-dorks)
+
 
 ### burp-suite-extesion
    - [Active scan ++]()
