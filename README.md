@@ -10,6 +10,7 @@
     - [DNS Bruteforce](#dns-bruteforce)
     - [OSINT](#osint)
     - [HTTP Probing](#http-probing)
+    - [Subdomain Takeover](#subdomain-takeover)
     - [Web screenshot](#web-screenshot)
     - [CMS Enumeration](#cms-enumeration)
     - [Automation](#automation)
@@ -119,9 +120,23 @@
  - [httprobe](https://github.com/tomnomnom/httprobe)
  - [httpx](https://github.com/projectdiscovery/httpx)
 
+#### subdomain-takeover
+ - [subjack](https://github.com/haccer/subjack) - Subdomain Takeover tool written in Go
+ - [SubOver](https://github.com/Ice3man543/SubOver) - A Powerful Subdomain Takeover Tool
+ - [autoSubTakeover](https://github.com/JordyZomer/autoSubTakeover) - A tool used to check if a CNAME resolves to the scope address. If the CNAME resolves to a non-scope address it might be worth checking out if subdomain takeover is possible.
+ - [NSBrute](https://github.com/shivsahni/NSBrute) - Python utility to takeover domains vulnerable to AWS NS Takeover
+ - [can-i-take-over-xyz](https://github.com/EdOverflow/can-i-take-over-xyz) - "Can I take over XYZ?" — a list of services and how to claim (sub)domains with dangling DNS records.
+ - [cnames](https://github.com/cybercdh/cnames) - take a list of resolved subdomains and output any corresponding CNAMES en masse.
+ - [subHijack](https://github.com/vavkamil/old-repos-backup/tree/master/subHijack-master) - Hijacking forgotten & misconfigured subdomains
+ - [tko-subs](https://github.com/anshumanbh/tko-subs) - A tool that can help detect and takeover subdomains with dead DNS records
+ - [HostileSubBruteforcer](https://github.com/nahamsec/HostileSubBruteforcer) - This app will bruteforce for exisiting subdomains and provide information if the 3rd party host has been properly setup.
+ - [second-order](https://github.com/mhmdiaa/second-order) - Second-order subdomain takeover scanner
+ - [takeover](https://github.com/mzfr/takeover) - A tool for testing subdomain takeover possibilities at a mass scale.
+
+
 ### web-screenshot
-  - [eyewitness](https://github.com/FortyNorthSecurity/EyeWitness)
-  - [aquatone](https://github.com/michenriksen/aquatone)
+ - [eyewitness](https://github.com/FortyNorthSecurity/EyeWitness)
+ - [aquatone](https://github.com/michenriksen/aquatone)
 
 ### cms-enumeration
  - [cmseek](https://github.com/Tuhinshubhra/CMSeeK)
@@ -135,17 +150,25 @@
  - [retirejs](https://github.com/RetireJS/retire.js)
 
 ### automation
-##### template based
-  - [nuclei](https://github.com/projectdiscovery/nuclei)
-  - [jaeles](https://github.com/jaeles-project/jaeles)
-##### project based
-  - [sn1per](https://github.com/1N3/Sn1per)
-  - [vajra](https://github.com/r3curs1v3-pr0xy/vajra)
-  - [scant3r](https://github.com/knassar702/scant3r)
-  - [osmedeus](https://github.com/j3ssie/Osmedeus)
-##### wordpress
+- [nuclei](https://github.com/projectdiscovery/nuclei) - Nuclei is a fast tool for configurable targeted scanning based on templates offering massive extensibility and ease of use.
+- [Sn1per](https://github.com/1N3/Sn1per) - Automated pentest framework for offensive security experts
+- [metasploit-framework](https://github.com/rapid7/metasploit-framework) - Metasploit Framework
+- [nikto](https://github.com/sullo/nikto) - Nikto web server scanner 
+- [arachni](https://github.com/Arachni/arachni) - Web Application Security Scanner Framework
+- [jaeles](https://github.com/jaeles-project/jaeles) - The Swiss Army knife for automated Web Application Testing
+- [retire.js](https://github.com/RetireJS/retire.js) - scanner detecting the use of JavaScript libraries with known vulnerabilities
+- [Osmedeus](https://github.com/j3ssie/Osmedeus) - Fully automated offensive security framework for reconnaissance and vulnerability scanning
+- [getsploit](https://github.com/vulnersCom/getsploit) - Command line utility for searching and downloading exploits
+- [flan](https://github.com/cloudflare/flan) - A pretty sweet vulnerability scanner
+- [Findsploit](https://github.com/1N3/Findsploit) - Find exploits in local and online databases instantly
+- [BlackWidow](https://github.com/1N3/BlackWidow) - A Python based web application scanner to gather OSINT and fuzz for OWASP vulnerabilities on a target website. 
+- [backslash-powered-scanner](https://github.com/PortSwigger/backslash-powered-scanner) - Finds unknown classes of injection vulnerabilities
+- [Eagle](https://github.com/BitTheByte/Eagle) - Multithreaded Plugin based vulnerability scanner for mass detection of web-based applications vulnerabilities
+- [cariddi](https://github.com/edoardottt/cariddi) - Take a list of domains, crawl urls and scan for endpoints, secrets, api keys, file extensions, tokens and more... 
+
+> wordpress
    - [wpscan](https://github.com/wpscanteam/wpscan)
-##### joomla
+> joomla
    - [joomscan](https://github.com/OWASP/joomscan)
 
 ### cloud-enumeration
