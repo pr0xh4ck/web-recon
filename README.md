@@ -64,6 +64,7 @@
 
 
 ### subdomain-enumeration
+ - [certificate.transparency](https://certificate.transparency.dev/)
  - [crt.sh](https://crt.sh/)
  - [amass](https://github.com/OWASP/Amass)
  - [subfinder](https://github.com/projectdiscovery/subfinder)
