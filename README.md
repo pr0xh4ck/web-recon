@@ -166,6 +166,7 @@
 
 
 ### automation
+- [wapiti-scanner](https://github.com/wapiti-scanner) - Scan your website 
 - [nuclei](https://github.com/projectdiscovery/nuclei) - Nuclei is a fast tool for configurable targeted scanning based on templates offering massive extensibility and ease of use.
 - [Sn1per](https://github.com/1N3/Sn1per) - Automated pentest framework for offensive security experts
 - [metasploit-framework](https://github.com/rapid7/metasploit-framework) - Metasploit Framework
