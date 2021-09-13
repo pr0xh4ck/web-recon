@@ -27,7 +27,7 @@
     - [Bypass Forbidden Direcory](#bypass-forbidder-directory)
     - [Wordlists](#wordlists)
     - [Miscellaneous](#miscellaneous)
-    - [Programs](#programs)
+    - [Public programs](#programs)
     - [Burp Suite Extension](#burp-suite-extesion)
 
 
