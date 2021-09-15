@@ -27,6 +27,7 @@
     - [Bypass Forbidden Direcory](#bypass-forbidder-directory)
     - [Wordlists](#wordlists)
     - [Miscellaneous](#miscellaneous)
+    - [Log File Analyze](#log-file-analyze)
     - [Public programs](#programs)
     - [Burp Suite Extension](#burp-suite-extesion)
 
@@ -365,6 +366,7 @@
   - [awesome open source](https://awesomeopensource.com/)
   - [cerbrutus](https://github.com/Cerbrutus-BruteForcer/cerbrutus)
   - [reconftw.sh](https://github.com/six2dez/reconftw/blob/main/reconftw.sh)
+  
 
 
 > Uncategorized
@@ -378,9 +380,12 @@
 - [awesome-vulnerable-apps](https://github.com/vavkamil/awesome-vulnerable-apps) - Awesome Vulnerable Applications
 - [XFFenum](https://github.com/vavkamil/XFFenum) - X-Forwarded-For [403 forbidden] enumeration
 
+### log-file-analyze
+- [Dialog](https://github.com/SxNade/DiaLog)
+
 ### programs
-   - [disclose](https://github.com/disclose)
-   - [bug bounty dork](https://github.com/sushiwushi/bug-bounty-dorks)
+- [disclose](https://github.com/disclose)
+- [bug bounty dork](https://github.com/sushiwushi/bug-bounty-dorks)
 
 
 ### burp-suite-extesion
