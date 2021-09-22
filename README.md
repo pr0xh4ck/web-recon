@@ -51,6 +51,8 @@
  - [host linux tool](https://tools.kali.org/)
  - [nslookup](https://www.nslookup.io/)
  - [anslookup](https://github.com/yassineaboukir/Asnlookup)
+ - [dns](https://github.com/miekg/dns)
+ - [DNSStager](https://github.com/mhaskar/DNSStager)
 
 > DNS public name server 
  - [nameserver](https://public-dns.info/nameservers.txt)
