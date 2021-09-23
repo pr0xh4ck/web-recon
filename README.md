@@ -86,7 +86,7 @@
  - [anubis](https://github.com/jonluca/anubis)
  - [ctfr](https://github.com/UnaPibaGeek/ctfr)
 
-> Exception subdomain enumeration
+> Exception(web) subdomain enumeration
  - [dns](https://dns.bufferover.run/dns?q=)
  - [tls](https://tls.bufferover.run/dns?q=)
 
