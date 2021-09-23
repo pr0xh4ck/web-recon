@@ -124,6 +124,11 @@
  - [interactsh](https://github.com/projectdiscovery/interactsh)
  - [bbrf](https://github.com/honoki/bbrf-client)
  - [spiderfoot](https://github.com/smicallef/spiderfoot) - SpiderFoot automates OSINT for threat intelligence and mapping your attack surface. 
+ - [visualsitemapper](http://www.visualsitemapper.com/) - free service that can quickly show an interactive visual map of your site.
+ - [jwt](https://jwt.io/) - JWT.IO allows you to decode, verify and generate JWT. Gain control over your JWTs
+ - [bgp.he](https://bgp.he.net/) - Internet Backbone and Colocation Provider
+ - [spyse](https://spyse.com/search?query&target=ip) - Find any Internet asset by digital fingerprints
+ 
 
 
 ### http-probing
@@ -375,6 +380,7 @@
   - [reconftw.sh](https://github.com/six2dez/reconftw/blob/main/reconftw.sh)
   - [radamsa](https://gitlab.com/akihe/radamsa)
   - [reconmaster](https://github.com/YouGina/reconmaster/)
+  - [unicode-converter](https://www.branah.com/unicode-converter) - Unicode Converter  Decimal, text, URL, and unicode converter
   
 
 
@@ -395,6 +401,7 @@
 ### programs
 - [disclose](https://github.com/disclose)
 - [bug bounty dork](https://github.com/sushiwushi/bug-bounty-dorks)
+- [crunchbase](https://www.crunchbase.com/) - Discover innovative companies and the people behind them
 
 
 ### burp-suite-extesion
