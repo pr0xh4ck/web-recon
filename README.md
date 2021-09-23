@@ -357,6 +357,7 @@
 
 
 ### miscellaneous
+  - [hack-tools](https://github.com/edoardottt/lit-bb-hack-tools)
   - [awesome oscp](https://github.com/0x4D31/awesome-oscp)
   - [maltego](https://www.maltego.com/)
   - [owtf](https://github.com/owtf/owtf)
