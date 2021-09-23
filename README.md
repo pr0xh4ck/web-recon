@@ -123,6 +123,7 @@
  - [cloud-detect](https://github.com/dgzlopes/cloud-detect)
  - [interactsh](https://github.com/projectdiscovery/interactsh)
  - [bbrf](https://github.com/honoki/bbrf-client)
+ - [spiderfoot](https://github.com/smicallef/spiderfoot) - SpiderFoot automates OSINT for threat intelligence and mapping your attack surface. 
 
 
 ### http-probing
