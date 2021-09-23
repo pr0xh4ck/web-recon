@@ -185,6 +185,9 @@
 - [backslash-powered-scanner](https://github.com/PortSwigger/backslash-powered-scanner) - Finds unknown classes of injection vulnerabilities
 - [Eagle](https://github.com/BitTheByte/Eagle) - Multithreaded Plugin based vulnerability scanner for mass detection of web-based applications vulnerabilities
 - [cariddi](https://github.com/edoardottt/cariddi) - Take a list of domains, crawl urls and scan for endpoints, secrets, api keys, file extensions, tokens and more... 
+- [kenzer](https://github.com/ARPSyndicate/kenzer) - automated web assets enumeration & scanning
+- [ReScue](https://github.com/2bdenny/ReScue) - An automated tool for the detection of regexes' slow-matching vulnerabilities.
+- 
 
 > wordpress
    - [wpscan](https://github.com/wpscanteam/wpscan)
@@ -370,6 +373,7 @@
   - [cerbrutus](https://github.com/Cerbrutus-BruteForcer/cerbrutus)
   - [reconftw.sh](https://github.com/six2dez/reconftw/blob/main/reconftw.sh)
   - [radamsa](https://gitlab.com/akihe/radamsa)
+  - [reconmaster](https://github.com/YouGina/reconmaster/)
   
 
 
