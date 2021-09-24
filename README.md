@@ -40,10 +40,12 @@
 
 ## recon
 ### ip-test
- - [centralops](https://centralops.net/co/)
- - [spyonweb](https://spyonweb.com/)
- - [viewdns](https://viewdns.info/)
- - [shodan cli](https://cli.shodan.io/)
+- [centralops](https://centralops.net/co/)
+- [spyonweb](https://spyonweb.com/)
+- [viewdns](https://viewdns.info/)
+- [shodan cli](https://cli.shodan.io/)
+- [fav-up](https://github.com/pielco11/fav-up) - IP lookup by favicon using Shodan
+ 
  
  
 ### dns
@@ -171,7 +173,7 @@
 
 
 ### cms-enumeration
- - [cmseek](https://github.com/Tuhinshubhra/CMSeeK)
+ - [cmseek](https://github.com/Tuhinshubhra/CMSeeK) - CMS Detection and Exploitation suite - Scan WordPress, Joomla, Drupal and over 180 other CMSs
  - [webanlyze](https://github.com/rverton/webanalyze)
  - [whatweb](https://github.com/urbanadventurer/WhatWeb)
  - [wappalyzer](https://www.wappalyzer.com/)
