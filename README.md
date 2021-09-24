@@ -387,6 +387,7 @@
  - [linkfinder](https://github.com/GerbenJavado/LinkFinder) - A python script that finds endpoints in JavaScript files 
  - [secretfinder](https://github.com/m4ll0k/SecretFinder) - A python script for find sensitive data (apikeys, accesstoken,jwt,..) and search anything on javascript files 
  - [jsa](https://github.com/w9w/JSA)
+ - [JSParser](https://github.com/nahamsec/JSParser) - A python 2.7 script using Tornado and JSBeautifier to parse relative URLs from JavaScript files. Useful for easily discovering AJAX requests when performing security research or bug bounty hunting.
  
 > Broken link 
 - [broken-link-checker](https://github.com/stevenvachon/broken-link-checker) - Find broken links, missing images, etc within your HTML.
@@ -429,6 +430,7 @@
   - [reconmaster](https://github.com/YouGina/reconmaster/)
   - [unicode-converter](https://www.branah.com/unicode-converter) - Unicode Converter  Decimal, text, URL, and unicode converter
   - [breport](https://buer.haus/breport/) - Bounty report genarator
+  - [hackerone 100 tools](https://www.hackerone.com/ethical-hacker/100-hacking-tools-and-resources) - Hackerone 100 tools for hacker 
 
 
 > Uncategorized
