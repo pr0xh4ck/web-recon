@@ -76,6 +76,7 @@
 ### subdomain-enumeration
  - [certificate.transparency](https://certificate.transparency.dev/)
  - [crt.sh](https://crt.sh/)
+ - [crtfinder](https://github.com/eslam3kl/crtfinder) - Fast tool to extract all subdomains from crt.sh website. Output will be up to sub.sub.sub.subdomain.com with standard and advanced search techniques
  - [amass](https://github.com/OWASP/Amass)
  - [subfinder](https://github.com/projectdiscovery/subfinder)
  - [dnsdumpster](https://dnsdumpster.com/)
@@ -240,10 +241,9 @@
 
 
 ### github-secrets
-- [gitjacker](https://github.com/liamg/gitjacker)
 - [githacker](https://github.com/WangYihang/GitHacker)
 - [git-hound](https://github.com/tillson/git-hound)
-- [gitdorker](https://github.com/obheda12/GitDorker)
+- [gitdorker](https://github.com/obheda12/GitDorker) - A Python program to scrape secrets from GitHub through usage of a large repository of dorks.
 - [github-endpoints](https://github.com/gwen001/github-endpoints)
 - [git-secrets](https://github.com/awslabs/git-secrets) - Prevents you from committing secrets and credentials into git repositories
 - [gitleaks](https://github.com/zricethezav/gitleaks) - Scan git repos (or files) for secrets using regex and entropy
@@ -270,7 +270,14 @@
 > GitHub dork wordlist
  - [dork list](https://gist.githubusercontent.com/EdOverflow/8bd2faad513626c413b8fc6e9d955669/raw/06a0ef0fd83920d513c65767aae258ecf8382bdf/gistfile1.txt)
  
- 
+> Git
+- [GitTools](https://github.com/internetwache/GitTools) - A repository with 3 tools for pwn'ing websites with .git repositories available
+- [gitjacker](https://github.com/liamg/gitjacker) - Leak git repositories from misconfigured websites
+- [git-dumper](https://github.com/arthaud/git-dumper) - A tool to dump a git repository from a website
+- [GitHunter](https://github.com/digininja/GitHunter) - A tool for searching a Git repository for interesting content
+- [dvcs-ripper](https://github.com/kost/dvcs-ripper) - Rip web accessible (distributed) version control systems: SVN/GIT/HG...
+
+
 ### email-hunting 
   - [hunter](https://hunter.io/)
   - [phonebook](https://phonebook.cz/)
