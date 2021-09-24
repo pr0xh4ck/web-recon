@@ -402,6 +402,8 @@
 - [disclose](https://github.com/disclose)
 - [bug bounty dork](https://github.com/sushiwushi/bug-bounty-dorks)
 - [crunchbase](https://www.crunchbase.com/) - Discover innovative companies and the people behind them
+- [bounty-targets-data](https://github.com/arkadiyt/bounty-targets-data) - This repo contains hourly-updated data dumps of bug bounty platform scopes (like Hackerone/Bugcrowd/Intigriti/etc) that are eligible for reports
+- 
 
 
 ### burp-suite-extesion
