@@ -45,6 +45,7 @@
 - [viewdns](https://viewdns.info/)
 - [shodan cli](https://cli.shodan.io/)
 - [fav-up](https://github.com/pielco11/fav-up) - IP lookup by favicon using Shodan
+- [testssl.sh](https://github.com/drwetter/testssl.sh) - Testing TLS/SSL encryption anywhere on any port
  
  
  
