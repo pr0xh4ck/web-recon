@@ -393,8 +393,8 @@
 
 
 ### wordlists
-  - [seclists](https://github.com/danielmiessler/SecLists)
-  - [payloadsallthethings](https://github.com/swisskyrepo/PayloadsAllTheThings)
+  - [seclists](https://github.com/danielmiessler/SecLists) - SecLists is the security tester's companion. It's a collection of multiple types of lists used during security assessments, collected in one place. List types include usernames, passwords, URLs, sensitive data patterns, fuzzing payloads, web shells, and many more. 
+  - [payloadsallthethings](https://github.com/swisskyrepo/PayloadsAllTheThings) - A list of useful payloads and bypass for Web Application Security and Pentest/CT
   - [assetnote](https://wordlists.assetnote.io/)
   - [samlists](https://github.com/the-xentropy/samlists)
   - [fuzz](https://github.com/Bo0oM/fuzz.txt)
