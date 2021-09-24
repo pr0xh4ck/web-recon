@@ -397,9 +397,9 @@
   - [payloadsallthethings](https://github.com/swisskyrepo/PayloadsAllTheThings)
   - [assetnote](https://wordlists.assetnote.io/)
   - [samlists](https://github.com/the-xentropy/samlists)
-  - [all in one](https://raw.githubusercontent.com/six2dez/OneListForAll/main/onelistforallmicro.txt)
   - [fuzz](https://github.com/Bo0oM/fuzz.txt)
-
+  - [OneListForAll](https://github.com/six2dez/OneListForAll) - Rockyou for web fuzzing 
+     - [all in one](https://raw.githubusercontent.com/six2dez/OneListForAll/main/onelistforallmicro.txt)
 
 ### miscellaneous
   - [hack-tools](https://github.com/edoardottt/lit-bb-hack-tools)
