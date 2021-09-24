@@ -301,7 +301,6 @@
 
 ### web-wayback
  - [waybackurls](https://github.com/tomnomnom/waybackurls) - Fetch all the URLs that the Wayback Machine knows about for a domain
- - [paramspider](https://github.com/devanshbatham/ParamSpider) - Mining parameters from dark corners of Web Archives 
  - [gau](https://github.com/lc/gau) - Fetch known URLs from AlienVault's Open Threat Exchange, the Wayback Machine, and Common Crawl. 
  - [gauplus](https://github.com/bp0lr/gauplus) - A modified version of gau
  - [waybackpy](https://github.com/akamhy/waybackpy) - Wayback Machine API Python interfaces and CLI tool. 
@@ -381,13 +380,14 @@
  
  
 ### parameter-finder
-  - [arjun](https://github.com/s0md3v/Arjun)
-  - [parampampam](https://github.com/Bo0oM/ParamPamPam)
-  - [parameth](https://github.com/maK-/parameth)
-
+- [paramspider](https://github.com/devanshbatham/ParamSpider) - Mining parameters from dark corners of Web Archives 
+- [parameth](https://github.com/maK-/parameth) - This tool can be used to brute discover GET and POST parameters
+- [param-miner](https://github.com/PortSwigger/param-miner) - This extension identifies hidden, unlinked parameters. It's particularly useful for finding web cache poisoning vulnerabilities.
+- [ParamPamPam](https://github.com/Bo0oM/ParamPamPam) - This tool for brute discover GET and POST parameters.
+- [Arjun](https://github.com/s0md3v/Arjun) - HTTP parameter discovery suite.
 
 ### bypass-forbidder-directory
- - [dirdar](https://github.com/M4DM0e/DirDar)
+ - [dirdar](https://github.com/M4DM0e/DirDar) - DirDar is a tool that searches for (403-Forbidden) directories to break it and get dir listing on it 
 
 
 ### wordlists
