@@ -207,10 +207,17 @@
 - [ReScue](https://github.com/2bdenny/ReScue) - An automated tool for the detection of regexes' slow-matching vulnerabilities.
 - 
 
+> Vulnerable Pattern Search
+- [gf](https://github.com/tomnomnom/gf) - A wrapper around grep, to help you grep for things
+- [Gf-Patterns](https://github.com/1ndianl33t/Gf-Patterns) - GF Paterns For (ssrf,RCE,Lfi,sqli,ssti,idor,url redirection,debug_logic, interesting Subs) parameters grep
+
+
 > wordpress
    - [wpscan](https://github.com/wpscanteam/wpscan)
 > joomla
    - [joomscan](https://github.com/OWASP/joomscan)
+
+
 
 
 ### cloud-enumeration
