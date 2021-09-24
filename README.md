@@ -53,6 +53,13 @@
  - [anslookup](https://github.com/yassineaboukir/Asnlookup)
  - [dns](https://github.com/miekg/dns)
  - [DNSStager](https://github.com/mhaskar/DNSStager)
+ - [singularity](https://github.com/nccgroup/singularity) - A DNS rebinding attack framework.
+ - [whonow](https://github.com/brannondorsey/whonow) - A "malicious" DNS server for executing DNS Rebinding attacks on the fly (public instance running on rebind.network:53)
+ - [dns-rebind-toolkit](https://github.com/brannondorsey/dns-rebind-toolkit) - A front-end JavaScript toolkit for creating DNS rebinding attacks.
+ - [dref](https://github.com/FSecureLABS/dref) - DNS Rebinding Exploitation Framework
+ - [rbndr](https://github.com/taviso/rbndr) - Simple DNS Rebinding Service
+ - [httprebind](https://github.com/daeken/httprebind) - Automatic tool for DNS rebinding-based SSRF attacks
+ - [dnsFookup](https://github.com/makuga01/dnsFookup) - DNS rebinding toolkit
 
 > DNS public name server 
  - [nameserver](https://public-dns.info/nameservers.txt)
