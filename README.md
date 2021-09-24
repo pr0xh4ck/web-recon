@@ -15,7 +15,7 @@
     - [CMS Enumeration](#cms-enumeration)
     - [Automation](#automation)
     - [Cloud Enumeration](#cloud-enumeration)
-    - [Github Dork](#github-dork)
+    - [Github & Secrets](#github-secrets)
     - [Email Hunting](#email-hunting)
     - [Data Breach](#data-breach)
     - [Web Wayback](#web-wayback)
@@ -239,13 +239,33 @@
 
 
 
-### github-dork
- - [trufflehog](https://github.com/trufflesecurity/truffleHog)
- - [gitjacker](https://github.com/liamg/gitjacker)
- - [githacker](https://github.com/WangYihang/GitHacker)
- - [git-hound](https://github.com/tillson/git-hound)
- - [gitdorker](https://github.com/obheda12/GitDorker)
- - [github-endpoints](https://github.com/gwen001/github-endpoints)
+### github-secrets
+- [gitjacker](https://github.com/liamg/gitjacker)
+- [githacker](https://github.com/WangYihang/GitHacker)
+- [git-hound](https://github.com/tillson/git-hound)
+- [gitdorker](https://github.com/obheda12/GitDorker)
+- [github-endpoints](https://github.com/gwen001/github-endpoints)
+- [git-secrets](https://github.com/awslabs/git-secrets) - Prevents you from committing secrets and credentials into git repositories
+- [gitleaks](https://github.com/zricethezav/gitleaks) - Scan git repos (or files) for secrets using regex and entropy
+- [truffleHog](https://github.com/dxa4481/truffleHog) - Searches through git repositories for high entropy strings and secrets, digging deep into commit history
+- [gitGraber](https://github.com/hisxo/gitGraber) - gitGraber: monitor GitHub to search and find sensitive data in real time for different online services
+- [talisman](https://github.com/thoughtworks/talisman) - By hooking into the pre-push hook provided by Git, Talisman validates the outgoing changeset for things that look suspicious - such as authorization tokens and private keys.
+- [GitGot](https://github.com/BishopFox/GitGot) - Semi-automated, feedback-driven tool to rapidly search through troves of public data on GitHub for sensitive secrets.
+- [git-all-secrets](https://github.com/anshumanbh/git-all-secrets) - A tool to capture all the git secrets by leveraging multiple open source git searching tools
+- [github-search](https://github.com/gwen001/github-search) - Tools to perform basic search on GitHub.
+- [git-vuln-finder](https://github.com/cve-search/git-vuln-finder) - Finding potential software vulnerabilities from git commit messages
+- [commit-stream](https://github.com/x1sec/commit-stream) - #OSINT tool for finding Github repositories by extracting commit logs in real time from the Github event API
+- [gitrob](https://github.com/michenriksen/gitrob) - Reconnaissance tool for GitHub organizations
+- [repo-supervisor](https://github.com/auth0/repo-supervisor) - Scan your code for security misconfiguration, search for passwords and secrets.
+- [GitMiner](https://github.com/UnkL4b/GitMiner) - Tool for advanced mining for content on Github
+- [shhgit](https://github.com/eth0izzle/shhgit) - Ah shhgit! Find GitHub secrets in real time
+- [detect-secrets](https://github.com/Yelp/detect-secrets) - An enterprise friendly way of detecting and preventing secrets in code.
+- [rusty-hog](https://github.com/newrelic/rusty-hog) - A suite of secret scanners built in Rust for performance. Based on TruffleHog
+- [whispers](https://github.com/Skyscanner/whispers) - Identify hardcoded secrets and dangerous behaviours
+- [yar](https://github.com/nielsing/yar) - Yar is a tool for plunderin' organizations, users and/or repositories.
+- [dufflebag](https://github.com/BishopFox/dufflebag) - Search exposed EBS volumes for secrets
+- [secret-bridge](https://github.com/duo-labs/secret-bridge) - Monitors Github for leaked secrets
+- [earlybird](https://github.com/americanexpress/earlybird) - EarlyBird is a sensitive data detection tool capable of scanning source code repositories for clear text password violations, PII, outdated cryptography methods, key files and more.
   
 > GitHub dork wordlist
  - [dork list](https://gist.githubusercontent.com/EdOverflow/8bd2faad513626c413b8fc6e9d955669/raw/06a0ef0fd83920d513c65767aae258ecf8382bdf/gistfile1.txt)
