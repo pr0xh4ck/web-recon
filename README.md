@@ -66,6 +66,7 @@
 
 > DNS public name server 
  - [nameserver](https://public-dns.info/nameservers.txt)
+ - [fresh-dns-servers](https://github.com/BBerastegui/fresh-dns-servers) - Fresh DNS servers
 
 
 ### internet-search-engine-discovery
