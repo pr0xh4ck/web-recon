@@ -377,9 +377,11 @@
  - [jsearch](https://github.com/d3ftx/jsearch)
  - [linkfinder](https://github.com/GerbenJavado/LinkFinder) - A python script that finds endpoints in JavaScript files 
  - [secretfinder](https://github.com/m4ll0k/SecretFinder) - A python script for find sensitive data (apikeys, accesstoken,jwt,..) and search anything on javascript files 
- - [brokenlinkhijacker](https://github.com/MayankPandey01/BrokenLinkHijacker)
  - [jsa](https://github.com/w9w/JSA)
  
+> Broken link 
+- [broken-link-checker](https://github.com/stevenvachon/broken-link-checker) - Find broken links, missing images, etc within your HTML.
+- [brokenlinkhijacker](https://github.com/MayankPandey01/BrokenLinkHijacker) - A Fast Broken Link Hijacker Tool written in Python
  
 ### parameter-finder
 - [paramspider](https://github.com/devanshbatham/ParamSpider) - Mining parameters from dark corners of Web Archives 
