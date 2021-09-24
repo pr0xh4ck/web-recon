@@ -266,14 +266,14 @@
 
 
 ### web-wayback
- - [waybackurls](https://github.com/tomnomnom/waybackurls)
- - [paramspider](https://github.com/devanshbatham/ParamSpider)
- - [gau](https://github.com/lc/gau)
- - [gauplus](https://github.com/bp0lr/gauplus)
- - [waybackpy](https://github.com/akamhy/waybackpy)
+ - [waybackurls](https://github.com/tomnomnom/waybackurls) - Fetch all the URLs that the Wayback Machine knows about for a domain
+ - [paramspider](https://github.com/devanshbatham/ParamSpider) - Mining parameters from dark corners of Web Archives 
+ - [gau](https://github.com/lc/gau) - Fetch known URLs from AlienVault's Open Threat Exchange, the Wayback Machine, and Common Crawl. 
+ - [gauplus](https://github.com/bp0lr/gauplus) - A modified version of gau
+ - [waybackpy](https://github.com/akamhy/waybackpy) - Wayback Machine API Python interfaces and CLI tool. 
  
 > Find reflected params
- - [gxss](https://github.com/KathanP19/Gxss)
+ - [gxss](https://github.com/KathanP19/Gxss) - A tool to check a bunch of URLs that contain reflecting params. 
  - []()
  
 > Find js file from waybackurls.txt
@@ -332,16 +332,16 @@
 
 
 ### hidden-file-or-directory
- - [gospider](https://github.com/jaeles-project/gospider)
- - [gobuster](https://github.com/OJ/gobuster)
+ - [gospider](https://github.com/jaeles-project/gospider) -  Fast web spider written in Go 
+ - [gobuster](https://github.com/OJ/gobuster) - Directory/File, DNS and VHost busting tool written in Go 
  - [janusec](https://github.com/Janusec/janusec)
  - [source leak hacker](https://github.com/WangYihang/SourceLeakHacker)
  - [favfreak](https://github.com/devanshbatham/FavFreak)
- - [jwsxploiter](https://github.com/DontPanicO/jwtXploiter)
- - [bfac](https://github.com/mazen160/bfac)
+ - [jwsxploiter](https://github.com/DontPanicO/jwtXploiter) - A tool to test security of json web token 
+ - [bfac](https://github.com/mazen160/bfac) - BFAC (Backup File Artifacts Checker): An automated tool that checks for backup artifacts that may disclose the web-application's source code. 
  - [jsearch](https://github.com/d3ftx/jsearch)
- - [linkfinder](https://github.com/GerbenJavado/LinkFinder)
- - [secretfinder](https://github.com/m4ll0k/SecretFinder)
+ - [linkfinder](https://github.com/GerbenJavado/LinkFinder) - A python script that finds endpoints in JavaScript files 
+ - [secretfinder](https://github.com/m4ll0k/SecretFinder) - A python script for find sensitive data (apikeys, accesstoken,jwt,..) and search anything on javascript files 
  - [brokenlinkhijacker](https://github.com/MayankPandey01/BrokenLinkHijacker)
  - [jsa](https://github.com/w9w/JSA)
  
