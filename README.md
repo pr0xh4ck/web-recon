@@ -207,6 +207,13 @@
 - [ReScue](https://github.com/2bdenny/ReScue) - An automated tool for the detection of regexes' slow-matching vulnerabilities.
 - 
 
+> Network Scanner 
+- [openvas](https://www.openvas.org/) - Free software implementation of the popular Nessus vulnerability assessment system.
+- [vuls](https://github.com/future-architect/vuls) - Agentless vulnerability scanner for GNU/Linux and FreeBSD, written in Go.
+- [nexpose](https://www.rapid7.com/products/nexpose/download/) - Commercial vulnerability and risk management assessment engine that integrates with Metasploit, sold by Rapid7.
+- [nessus](https://www.tenable.com/products/nessus) - Commercial vulnerability management, configuration, and compliance assessment platform, sold by Tenable.
+
+
 > Vulnerable Pattern Search
 - [gf](https://github.com/tomnomnom/gf) - A wrapper around grep, to help you grep for things
 - [Gf-Patterns](https://github.com/1ndianl33t/Gf-Patterns) - GF Paterns For (ssrf,RCE,Lfi,sqli,ssti,idor,url redirection,debug_logic, interesting Subs) parameters grep
