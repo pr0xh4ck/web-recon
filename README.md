@@ -127,7 +127,7 @@
  - [testssl](https://github.com/drwetter/testssl.sh)
  - [bbtz](https://github.com/m4ll0k/BBTz)
  - [sonar search](https://github.com/Cgboal/SonarSearch)
- - [notify](https://github.com/projectdiscovery/notify)
+ - [notify](https://github.com/projectdiscovery/notify) - Notify is a Go-based assistance package that enables you to stream the output of several tools (or read from a file) and publish it to a variety of supported platforms.
  - [email finder](https://github.com/Josue87/EmailFinder)
  - [analytics relationships](https://github.com/Josue87/AnalyticsRelationships)
  - [mapcidr](https://github.com/projectdiscovery/mapcidr)
