@@ -381,7 +381,7 @@
   - [radamsa](https://gitlab.com/akihe/radamsa)
   - [reconmaster](https://github.com/YouGina/reconmaster/)
   - [unicode-converter](https://www.branah.com/unicode-converter) - Unicode Converter  Decimal, text, URL, and unicode converter
-  
+  - [breport](https://buer.haus/breport/) - Bounty report genarator
 
 
 > Uncategorized
