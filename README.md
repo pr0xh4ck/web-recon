@@ -440,6 +440,7 @@
   - [unicode-converter](https://www.branah.com/unicode-converter) - Unicode Converter  Decimal, text, URL, and unicode converter
   - [breport](https://buer.haus/breport/) - Bounty report genarator
   - [hackerone 100 tools](https://www.hackerone.com/ethical-hacker/100-hacking-tools-and-resources) - Hackerone 100 tools for hacker 
+  - [Nmap-For-Pentester](https://github.com/Ignitetechnologies/Nmap-For-Pentester) - hunt the vulnerabilties with "Nmap".
 
 
 > Uncategorized
