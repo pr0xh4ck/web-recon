@@ -459,8 +459,8 @@
 - [Dialog](https://github.com/SxNade/DiaLog)
 
 ### programs
-- [disclose](https://github.com/disclose)
-- [bug bounty dork](https://github.com/sushiwushi/bug-bounty-dorks)
+- [disclose](https://github.com/disclose) -Open-source vulnerability disclosure and bug bounty program database. 
+- [bug bounty dork](https://github.com/sushiwushi/bug-bounty-dorks) - List of Google Dorks for sites that have responsible disclosure program / bug bounty program 
 - [crunchbase](https://www.crunchbase.com/) - Discover innovative companies and the people behind them
 - [bounty-targets-data](https://github.com/arkadiyt/bounty-targets-data) - This repo contains hourly-updated data dumps of bug bounty platform scopes (like Hackerone/Bugcrowd/Intigriti/etc) that are eligible for reports
 - [Vdps_are_love](https://github.com/darshanjogi/Vdps_are_love) - This repo is made for those hunters who love to hunt on VDP programs. List of Vdp programs which are not affiliated with known bug bounty platforms such as HackerOne or Bugcrowd.
