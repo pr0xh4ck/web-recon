@@ -71,6 +71,7 @@
 
 ### internet-search-engine-discovery
   - [shodan.io](https://www.shodan.io/)
+    - [shodan query](https://help.shodan.io/the-basics/search-query-fundamentals) - shodan basic query 
   - [spyse](https://spyse.com/)
   - [censys](https://censys.io/ipv4)
   - [fofa](https://fofa.so/)
