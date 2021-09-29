@@ -459,6 +459,8 @@
 - [crunchbase](https://www.crunchbase.com/) - Discover innovative companies and the people behind them
 - [bounty-targets-data](https://github.com/arkadiyt/bounty-targets-data) - This repo contains hourly-updated data dumps of bug bounty platform scopes (like Hackerone/Bugcrowd/Intigriti/etc) that are eligible for reports
 - [Vdps_are_love](https://github.com/darshanjogi/Vdps_are_love) - This repo is made for those hunters who love to hunt on VDP programs. List of Vdp programs which are not affiliated with known bug bounty platforms such as HackerOne or Bugcrowd.
+- [chaos](https://chaos.projectdiscovery.io/#/) - We actively collect and maintain internet-wide assets' data, this project is meant to enhance research and analyse changes around DNS for better insights.
+
 
 
 
