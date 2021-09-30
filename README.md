@@ -410,7 +410,8 @@
 
 ### bypass-forbidder-directory
  - [dirdar](https://github.com/M4DM0e/DirDar) - DirDar is a tool that searches for (403-Forbidden) directories to break it and get dir listing on it 
- - [4-ZERO-3](https://github.com/Dheerajmadhukar/4-ZERO-3) - 403/401 Bypass Methods + Bash Automation + Your Support ;)
+ - [4-ZERO-3](https://github.com/Dheerajmadhukar/4-ZERO-3) - 403/401 Bypass Methods 
+ - [byp4xx](https://github.com/lobuhi/byp4xx) - Pyhton script for HTTP 40X responses bypassing. Features: Verb tampering, headers, #bugbountytips tricks and 2454 User-Agents. 
 
 
 ### wordlists
