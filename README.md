@@ -127,7 +127,7 @@
  - [siteindices](https://www.siteindices.com/) - siteindices
  - [udork.sh](https://github.com/m3n0sd0n4ld/uDork)
  - [fav-up](https://github.com/pielco11/fav-up)
- - [testssl](https://github.com/drwetter/testssl.sh)
+ - [testssl](https://github.com/drwetter/testssl.sh) - Testing TLS/SSL encryption anywhere on any port
  - [bbtz](https://github.com/m4ll0k/BBTz)
  - [sonar search](https://github.com/Cgboal/SonarSearch)
  - [notify](https://github.com/projectdiscovery/notify) - Notify is a Go-based assistance package that enables you to stream the output of several tools (or read from a file) and publish it to a variety of supported platforms.
