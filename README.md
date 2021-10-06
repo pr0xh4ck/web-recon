@@ -179,14 +179,14 @@
 
 ### cms-enumeration
  - [cmseek](https://github.com/Tuhinshubhra/CMSeeK) - CMS Detection and Exploitation suite - Scan WordPress, Joomla, Drupal and over 180 other CMSs
- - [webanlyze](https://github.com/rverton/webanalyze)
- - [whatweb](https://github.com/urbanadventurer/WhatWeb)
- - [wappalyzer](https://www.wappalyzer.com/)
- - [wappalyzer cli](https://github.com/AliasIO)
+ - [webanlyze](https://github.com/rverton/webanalyze) - Port of Wappalyzer (uncovers technologies used on websites) to automate mass scanning. 
+ - [whatweb](https://github.com/urbanadventurer/WhatWeb) - Next generation web scanner 
+ - [wappalyzer](https://www.wappalyzer.com/) - wappalyzer website
+ - [wappalyzer cli](https://github.com/AliasIO) - Identify technology on websites.
  - [build with](https://builtwith.com/)
- - [build with cli](https://github.com/claymation/python-builtwith)
- - [backlinkwatch](http://backlinkwatch.com/index.php)
- - [retirejs](https://github.com/RetireJS/retire.js)
+ - [build with cli](https://github.com/claymation/python-builtwith) - BuiltWith API client 
+ - [backlinkwatch](http://backlinkwatch.com/index.php) - Website for backlink finding
+ - [retirejs](https://github.com/RetireJS/retire.js) -scanner detecting the use of JavaScript libraries with known vulnerabilities 
 
 
 ### automation
@@ -224,10 +224,11 @@
 
 
 > wordpress
-   - [wpscan](https://github.com/wpscanteam/wpscan)
+- [wpscan](https://github.com/wpscanteam/wpscan)
 > joomla
-   - [joomscan](https://github.com/OWASP/joomscan)
-
+- [joomscan](https://github.com/OWASP/joomscan)
+> drupal
+- [droopescan](https://github.com/SamJoan/droopescan) - A plugin-based scanner that aids security researchers in identifying issues with several CMSs, mainly Drupal & Silverstripe. 
 
 
 
