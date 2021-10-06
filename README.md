@@ -143,6 +143,7 @@
  - [jwt](https://jwt.io/) - JWT.IO allows you to decode, verify and generate JWT. Gain control over your JWTs
  - [bgp.he](https://bgp.he.net/) - Internet Backbone and Colocation Provider
  - [spyse](https://spyse.com/search?query&target=ip) - Find any Internet asset by digital fingerprints
+ - [whoxy](https://www.whoxy.com/) - whois database
  
 
 
