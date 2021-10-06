@@ -209,7 +209,11 @@
 - [cariddi](https://github.com/edoardottt/cariddi) - Take a list of domains, crawl urls and scan for endpoints, secrets, api keys, file extensions, tokens and more... 
 - [kenzer](https://github.com/ARPSyndicate/kenzer) - automated web assets enumeration & scanning
 - [ReScue](https://github.com/2bdenny/ReScue) - An automated tool for the detection of regexes' slow-matching vulnerabilities.
-- 
+
+
+> file upload scanner
+- [fuxploider](https://github.com/almandin/fuxploider) - File upload vulnerability scanner and exploitation tool. 
+
 
 > Network Scanner 
 - [openvas](https://www.openvas.org/) - Free software implementation of the popular Nessus vulnerability assessment system.
