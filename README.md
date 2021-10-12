@@ -124,6 +124,7 @@
 
 
 ### osint
+ - [virustotal](https://www.virustotal.com/gui/home/search) - Analyze suspicious files and URLs to detect types of malware, automatically share them with the security community 
  - [RED_HAWK](https://github.com/Tuhinshubhra/RED_HAWK) - All in one tool for Information Gathering, Vulnerability Scanning and Crawling. A must have tool for all penetration testers 
  - [siteindices](https://www.siteindices.com/) - siteindices
  - [udork.sh](https://github.com/m3n0sd0n4ld/uDork)
@@ -149,8 +150,9 @@
 
 
 ### http-probing
- - [httprobe](https://github.com/tomnomnom/httprobe)
- - [httpx](https://github.com/projectdiscovery/httpx)
+ - [httprobe](https://github.com/tomnomnom/httprobe) - by tomnomnom
+ - [httpx](https://github.com/projectdiscovery/httpx) - by project discovery
+ - [httpstatus](https://httpstatus.io/) - web version 
 
 
 #### subdomain-takeover
