@@ -27,6 +27,7 @@
     - [Bypass Forbidden Direcory](#bypass-forbidder-directory)
     - [Wordlists](#wordlists)
     - [Miscellaneous](#miscellaneous)
+    - [Scripts](#scripts)
     - [Log File Analyze](#log-file-analyze)
     - [Public programs](#programs)
     - [Burp Suite Extension](#burp-suite-extesion)
@@ -468,6 +469,16 @@ host -t CNAME input.com
 - [bountyplz](https://github.com/fransr/bountyplz) - Automated security reporting from markdown templates (HackerOne and Bugcrowd are currently the platforms supported)
 - [awesome-vulnerable-apps](https://github.com/vavkamil/awesome-vulnerable-apps) - Awesome Vulnerable Applications
 - [XFFenum](https://github.com/vavkamil/XFFenum) - X-Forwarded-For [403 forbidden] enumeration
+
+
+
+### scripts
+- [awesome-bughunting-oneliners](https://github.com/devanshbatham/awesome-bughunting-oneliners) - A list of Awesome Bughunting oneliners , collected from the various sources
+- [awesome-oneliner-bugbounty](https://github.com/dwisiswant0/awesome-oneliner-bugbounty) - A collection of awesome one-liner scripts especially for bug bounty tips.
+
+
+
+
 
 ### log-file-analyze
 - [Dialog](https://github.com/SxNade/DiaLog)
