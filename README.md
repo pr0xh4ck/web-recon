@@ -475,6 +475,7 @@ host -t CNAME input.com
 ### scripts
 - [awesome-bughunting-oneliners](https://github.com/devanshbatham/awesome-bughunting-oneliners) - A list of Awesome Bughunting oneliners , collected from the various sources
 - [awesome-oneliner-bugbounty](https://github.com/dwisiswant0/awesome-oneliner-bugbounty) - A collection of awesome one-liner scripts especially for bug bounty tips.
+- [bbtips](https://github.com/punishell/bbtips) - BugBountyTips
 
 
 
