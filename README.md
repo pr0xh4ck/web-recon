@@ -316,6 +316,8 @@ host -t CNAME input.com
 
 
 ### email-hunting 
+  - [infoga](https://github.com/m4ll0k/infoga) - Infoga - Email OSINT 
+  - [theHarvester](https://github.com/laramies/theHarvester) - E-mails, subdomains and names Harvester - OSINT 
   - [hunter](https://hunter.io/)
   - [phonebook](https://phonebook.cz/)
   - [voilanorbert](https://www.voilanorbert.com/)
