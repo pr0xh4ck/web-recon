@@ -511,6 +511,11 @@ host -t CNAME input.com
    - [Software vulnerability scanner]()
    - [Autorize]()
    - [HTTP request smuggler]()
+   - [Flow]()
+   - [Hunt]()
+   - [Burp Bounty]()
+   - [Taborator]()
+   - [Add custom header]()
 
 
 
