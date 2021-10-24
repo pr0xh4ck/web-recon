@@ -445,6 +445,8 @@ host -t CNAME input.com
   - [OneListForAll](https://github.com/six2dez/OneListForAll) - Rockyou for web fuzzing 
      - [all in one](https://raw.githubusercontent.com/six2dez/OneListForAll/main/onelistforallmicro.txt)
 
+  - [bruteforce-lists](https://github.com/random-robbie/bruteforce-lists) - Some files for bruteforcing certain things.
+
 ### miscellaneous
   - [hack-tools](https://github.com/edoardottt/lit-bb-hack-tools)
   - [awesome oscp](https://github.com/0x4D31/awesome-oscp)
