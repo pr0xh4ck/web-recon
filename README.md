@@ -447,6 +447,9 @@ host -t CNAME input.com
 
   - [bruteforce-lists](https://github.com/random-robbie/bruteforce-lists) - Some files for bruteforcing certain things.
 
+> Exceptional
+- [keyhacks](https://github.com/streaak/keyhacks) - Keyhacks is a repository which shows quick ways in which API keys leaked by a bug bounty program can be checked to see if they're valid. 
+
 ### miscellaneous
   - [hack-tools](https://github.com/edoardottt/lit-bb-hack-tools)
   - [awesome oscp](https://github.com/0x4D31/awesome-oscp)
