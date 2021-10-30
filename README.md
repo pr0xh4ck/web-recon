@@ -318,6 +318,7 @@ host -t CNAME input.com
 
 ### email-hunting 
   - [infoga](https://github.com/m4ll0k/infoga) - Infoga - Email OSINT 
+  - [reconspider](https://github.com/bhavsec/reconspider) - 🔎 Most Advanced Open Source Intelligence (OSINT) Framework for scanning IP Address, Emails, Websites, Organizations. 
   - [theHarvester](https://github.com/laramies/theHarvester) - E-mails, subdomains and names Harvester - OSINT 
   - [hunter](https://hunter.io/)
   - [phonebook](https://phonebook.cz/)
