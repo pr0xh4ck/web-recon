@@ -27,6 +27,7 @@
     - [Bypass Forbidden Direcory](#bypass-forbidder-directory)
     - [Wordlists](#wordlists)
     - [Miscellaneous](#miscellaneous)
+    - [Social Engineering](#social-engineering)
     - [Scripts](#scripts)
     - [Log File Analyze](#log-file-analyze)
     - [Public programs](#programs)
@@ -470,6 +471,12 @@ host -t CNAME input.com
   - [breport](https://buer.haus/breport/) - Bounty report genarator
   - [hackerone 100 tools](https://www.hackerone.com/ethical-hacker/100-hacking-tools-and-resources) - Hackerone 100 tools for hacker 
   - [Nmap-For-Pentester](https://github.com/Ignitetechnologies/Nmap-For-Pentester) - hunt the vulnerabilties with "Nmap".
+
+
+
+### social-engineering
+- [social-engineer-toolkit](https://github.com/trustedsec/social-engineer-toolkit) - The Social-Engineer Toolkit (SET) repository from TrustedSec - All new versions of SET will be deployed here. 
+
 
 
 > Uncategorized
