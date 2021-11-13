@@ -236,7 +236,7 @@ host -t CNAME input.com
 
 > Vulnerable Pattern Search
 - [gf](https://github.com/tomnomnom/gf) - A wrapper around grep, to help you grep for things
-- [Gf-Patterns](https://github.com/1ndianl33t/Gf-Patterns) - GF Paterns For (ssrf,RCE,Lfi,sqli,ssti,idor,url redirection,debug_logic, interesting Subs) parameters grep
+- [Gf-Patterns-Collection](https://github.com/emadshanab/Gf-Patterns-Collection) - More and more
 
 
 > wordpress
