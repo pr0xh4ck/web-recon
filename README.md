@@ -282,6 +282,7 @@ host -t CNAME input.com
 ### github-secrets
 - [githacker](https://github.com/WangYihang/GitHacker)
 - [git-hound](https://github.com/tillson/git-hound)
+- [gh-dork](https://github.com/molly/gh-dork) - Github dorking tool 
 - [gitdorker](https://github.com/obheda12/GitDorker) - A Python program to scrape secrets from GitHub through usage of a large repository of dorks.
 - [github-endpoints](https://github.com/gwen001/github-endpoints)
 - [git-secrets](https://github.com/awslabs/git-secrets) - Prevents you from committing secrets and credentials into git repositories
