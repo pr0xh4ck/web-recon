@@ -442,6 +442,7 @@ host -t CNAME input.com
 ### wordlists-&-payloads
   - [seclists](https://github.com/danielmiessler/SecLists) - SecLists is the security tester's companion. It's a collection of multiple types of lists used during security assessments, collected in one place. List types include usernames, passwords, URLs, sensitive data patterns, fuzzing payloads, web shells, and many more. 
   - [Payload Box](https://github.com/payloadbox) - Attack payloads only 📦
+  - [Web-Attack-Cheat-Sheet](https://github.com/riramar/Web-Attack-Cheat-Sheet) - Web Attack Cheat Sheet
   - [payloadsallthethings](https://github.com/swisskyrepo/PayloadsAllTheThings) - A list of useful payloads and bypass for Web Application Security and Pentest/CT
   - [pentestmonkey](http://pentestmonkey.net/) - Taking the monkey work out of pentesting
   - [assetnote](https://wordlists.assetnote.io/)
