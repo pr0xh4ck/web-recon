@@ -25,7 +25,7 @@
     - [Hidden File or Directory](#hidden-file-or-directory)
     - [Hidden Parameter Find](#parameter-finder)
     - [Bypass Forbidden Direcory](#bypass-forbidder-directory)
-    - [Wordlists](#wordlists)
+    - [Wordlists & Payloads](#wordlists-&-payloads)
     - [Miscellaneous](#miscellaneous)
     - [Social Engineering](#social-engineering)
     - [Scripts](#scripts)
@@ -439,8 +439,9 @@ host -t CNAME input.com
  - [403bypasser](https://github.com/yunemse48/403bypasser) - 403bypasser automates techniques used to bypass access control restrictions on target pages. This tool will continue to be developed, contributions are welcome.
 
 
-### wordlists
+### wordlists-&-payloads
   - [seclists](https://github.com/danielmiessler/SecLists) - SecLists is the security tester's companion. It's a collection of multiple types of lists used during security assessments, collected in one place. List types include usernames, passwords, URLs, sensitive data patterns, fuzzing payloads, web shells, and many more. 
+  - [Payload Box](https://github.com/payloadbox) - Attack payloads only 📦
   - [payloadsallthethings](https://github.com/swisskyrepo/PayloadsAllTheThings) - A list of useful payloads and bypass for Web Application Security and Pentest/CT
   - [pentestmonkey](http://pentestmonkey.net/) - Taking the monkey work out of pentesting
   - [assetnote](https://wordlists.assetnote.io/)
