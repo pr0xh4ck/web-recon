@@ -408,6 +408,7 @@ host -t CNAME input.com
 
 
 ### hidden-file-or-directory
+ - [ChopChop](https://github.com/michelin/ChopChop) - ChopChop is a CLI to help developers scanning endpoints and identifying exposition of sensitive services/files/folders.
  - [gospider](https://github.com/jaeles-project/gospider) -  Fast web spider written in Go 
  - [gobuster](https://github.com/OJ/gobuster) - Directory/File, DNS and VHost busting tool written in Go 
  - [janusec](https://github.com/Janusec/janusec)
@@ -431,6 +432,9 @@ host -t CNAME input.com
 - [param-miner](https://github.com/PortSwigger/param-miner) - This extension identifies hidden, unlinked parameters. It's particularly useful for finding web cache poisoning vulnerabilities.
 - [ParamPamPam](https://github.com/Bo0oM/ParamPamPam) - This tool for brute discover GET and POST parameters.
 - [Arjun](https://github.com/s0md3v/Arjun) - HTTP parameter discovery suite.
+
+> Dlelte Duplicate from waybacks
+- [dpfilter](https://github.com/Abdulrahman-Kamel/dpfilter) - BugBounty , sort and delete duplicates param value without missing original value 
 
 ### bypass-forbidder-directory
  - [dirdar](https://github.com/M4DM0e/DirDar) - DirDar is a tool that searches for (403-Forbidden) directories to break it and get dir listing on it 
