@@ -250,6 +250,7 @@ host -t CNAME input.com
 
 
 ### cloud-enumeration
+ - [S3-Recon](https://github.com/subzero987/S3-Recon/blob/main/S3-Recon.txt) - S3 RECON TIPS
  - [ScoutSuite](https://github.com/nccgroup/ScoutSuite)
  - [slurp](https://github.com/0xbharath/slurp)
  - [lazys3](https://github.com/nahamsec/lazys3)
