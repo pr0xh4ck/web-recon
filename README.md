@@ -409,6 +409,8 @@ host -t CNAME input.com
 
 
 ### hidden-file-or-directory
+ - [earlybird](https://github.com/americanexpress/earlybird) - EarlyBird is a sensitive data detection tool capable of scanning source code repositories for clear text password violations, PII, outdated cryptography methods, key files and more. 
+ - [DumpsterDiver](https://github.com/securing/DumpsterDiver) - Tool to search secrets in various filetypes. 
  - [ChopChop](https://github.com/michelin/ChopChop) - ChopChop is a CLI to help developers scanning endpoints and identifying exposition of sensitive services/files/folders.
  - [gospider](https://github.com/jaeles-project/gospider) -  Fast web spider written in Go 
  - [gobuster](https://github.com/OJ/gobuster) - Directory/File, DNS and VHost busting tool written in Go 
@@ -503,6 +505,7 @@ host -t CNAME input.com
 - [awesome-bughunting-oneliners](https://github.com/devanshbatham/awesome-bughunting-oneliners) - A list of Awesome Bughunting oneliners , collected from the various sources
 - [awesome-oneliner-bugbounty](https://github.com/dwisiswant0/awesome-oneliner-bugbounty) - A collection of awesome one-liner scripts especially for bug bounty tips.
 - [bbtips](https://github.com/punishell/bbtips) - BugBountyTips
+- [oneliner-bugbounty](https://github.com/twseptian/oneliner-bugbounty) - oneliner commands for bug bounties
 
 
 
