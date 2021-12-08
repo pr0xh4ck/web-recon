@@ -33,6 +33,7 @@
     - [Public programs](#programs)
     - [Burp Suite Extension](#burp-suite-extesion)
     - [DOS](#dos)
+    - [Hands On](#hands-on)
 
 
 
@@ -558,10 +559,26 @@ host -t CNAME input.com
 
 
 
+---------------
+--------------------
 
+### hands-on
 
-
-
+- Javascript dork manually
+```
+api
+http
+https
+api_key
+apikey
+token
+secret
+config
+conf
+cfg
+ENV
+env
+```
 
 
 
