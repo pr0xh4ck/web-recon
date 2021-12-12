@@ -351,7 +351,11 @@ host -t CNAME input.com
  - [gau](https://github.com/lc/gau) - Fetch known URLs from AlienVault's Open Threat Exchange, the Wayback Machine, and Common Crawl. 
  - [gauplus](https://github.com/bp0lr/gauplus) - A modified version of gau
  - [waybackpy](https://github.com/akamhy/waybackpy) - Wayback Machine API Python interfaces and CLI tool. 
- 
+
+> Replace parameter value
+- [bhedak](https://github.com/R0X4R/bhedak) - A replacement of "qsreplace", accepts URLs as standard input, replaces all query string values with user-supplied values and stdout. 
+
+
 > Find reflected params
  - [gxss](https://github.com/KathanP19/Gxss) - A tool to check a bunch of URLs that contain reflecting params. 
  - []()
