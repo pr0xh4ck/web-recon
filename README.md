@@ -86,6 +86,9 @@
 ### subdomain-enumeration
  - [certificate.transparency](https://certificate.transparency.dev/)
  - [crt.sh](https://crt.sh/)
+```bash
+curl 'https://crt.sh/?q=%.example.com&output=json' | jq '.name_value' | sed 's/\"//g' | sed 's/\*\.//g' | sort -u
+```
  - [crtfinder](https://github.com/eslam3kl/crtfinder) - Fast tool to extract all subdomains from crt.sh website. Output will be up to sub.sub.sub.subdomain.com with standard and advanced search techniques
  - [amass](https://github.com/OWASP/Amass)
  - [subfinder](https://github.com/projectdiscovery/subfinder)
@@ -103,10 +106,15 @@
  - [domainbigdate](https://domainbigdata.com/)
  - [anubis](https://github.com/jonluca/anubis)
  - [ctfr](https://github.com/UnaPibaGeek/ctfr)
+ - [rapiddns](https://rapiddns.io/)
 
 > Exception(web) subdomain enumeration
  - [dns](https://dns.bufferover.run/dns?q=)
  - [tls](https://tls.bufferover.run/dns?q=)
+```bash
+curl -s https://dns.bufferover.run/dns?q=DOMAIN.com |jq -r .FDNS_A[]|cut -d',' -f2|sort -u
+```
+
 
 > Find subdomain on GitHub
  - [github-subdomain](https://github.com/gwen001/github-subdomains)
