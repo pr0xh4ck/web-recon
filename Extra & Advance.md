@@ -72,7 +72,18 @@ Here's my favourite way to reliably bruteforce subdomains:
 cat SecLists/Discovery/DNS/dns-Jhaddix.txt | subgen -d DOMAIN.TLD | zdns A --name-servers 1.1.1.1 --threads 500 | jq -r "select(.data.answers[0].name) | .name"
 ```
 
+### Tips 7
+```
+on github for http://target.com
+take a look and check 
 
+http://target.okta.com password
+http://target.onelogin.com password
+target.service-now password
+http://target.atlassian.net password
+http://target.jfrog.io password
+http://target.sharepoint.com password
+```
 
 
 
