@@ -561,6 +561,7 @@ host -t CNAME input.com
    - [Burp Bounty]()
    - [Taborator]()
    - [Add custom header]()
+   - [command injection attacker]()
 
 
 
