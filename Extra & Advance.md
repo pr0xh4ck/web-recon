@@ -85,23 +85,93 @@ http://target.jfrog.io password
 http://target.sharepoint.com password
 ```
 
+### Tips 8
+```
+Wordpress juicy endpoints (beginners)
+1) wp-includes [directory]
+2) index.php
+3) wp-login.php
+4) wp-links-opml.php
+5) wp-activate.php
+6) wp-blog-header.php
+7) wp-cron.php
+8) wp-links.php
+9) wp-mail.php
+10) xmlrpc.php
+11) wp-settings.php
+12) wp-trackback.php
+```
 
+### Tips 9
+```
+1- find subdomain with http://crt.sh
+2- see interesting url
+3- full port scan
+4- port 3001 | open
+5- grafana admin portal
+6- use default credentials admin:admin
+7- success login to admin portal
+```
 
+### Tips 10 recon 1
+```
+Bypass SSL Pinning Of Mobile - Desktop
+two Use Nmap - Nuclei - FFUF - Burp Suite
+Manage Axiom Tool e.g. 200 Instances On Your VPS ≈ 1000 - 2000 Banknote with dollar sign / Month
+Understand VHost , SSRF , Path Traversal , IDOR
+Hunt 8 - 12 Hours / Day
+Patient Man
+```
 
+### Tips 11 recon 2
+```
+Create a Team 3 - 4 Members
+2 - 3 Months Of Hunting On Large-Scale
+Scan Entire Internet --top-ports 3328 + Grap TLS-Certificates
+Deep Dive Into Specific Third-Party Target
+Maybe More If The Members Will Share Other Plans 
+```
 
+### Tips 12
+```
+Tips: I never miss dir fuzzing
+ffuf -recursion -mc all -ac -c -e .htm,.shtml,.php,.html,.js,.txt,.zip,.bak,.asp,.aspx,.xml,.sql,.old,.at,.inc -w path -u https://target.com/FUZZ -t 5000
+```
 
+### Tips 13
+```
+inurl:/axis2/axis2-web/HappyAxis.jsp 
+Thank me later :) 
+```
 
+### Tips 14
+```
+If you found a GitLab instance, try to login as root/admin with those credentials:-
 
+Username: root & pass: 5iveL!fe
+Username: admin & Pass: 5iveL!fe
 
+You can find it with #shodan :
 
+org:"Target" http.title:"GitLab"
+```
 
+### Tips 15
+```
+Another hit by Github recon.
+SwagRed heart+bounty $$$
 
+Github dorks:-
 
+"Target" "LdapUsername":
+"Target" "ConnectionStrings":
+"Target" string _password = 
+```
 
+### Tips 16
+```
 
-
-
-
+```
 
 
 
