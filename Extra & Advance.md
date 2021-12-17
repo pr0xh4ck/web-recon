@@ -170,10 +170,17 @@ Github dorks:-
 
 ### Tips 16
 ```
-
+1. navigate url: watch[.]site[.]com
+2. Go to View source page
+3. search 'username'
+4. we can see that,
+url: site[.]com,password and username.
 ```
 
+### Tips 17
+```
 
+```
 
 
 
