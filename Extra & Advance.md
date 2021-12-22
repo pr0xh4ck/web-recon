@@ -193,10 +193,34 @@ X-Host:
 
 ### Tips 18
 ```
-
+> Always try business logic bugs it doesn't require much coding .
+> Recon is win. Use all search engine always have something interesting 
+> Check js files
+> Understand the working Mechanism of website and then find logical bugs on that, 
+  also spend more time on single domain for better understanding its workflow!
+> Don't miss hidden api call in Burp History and make sure to test all function
+  of target at least one time. Sometime the function which you skip is vulnerable function
+> Don't just rely on automated tools. Take your time to register some accounts and 
+  learn as much as you can about the app you're testing. If you identify some of the
+  underlying components then go and read their respective documentation to learn how 
+  it works. Knowledge is key.
+> Best tip, Check your targets on shodan everyday, everyday
+> 
 ```
 
+### Tips 19
+```
+List down some good resources for identifying secrets, ips, 
+subdomains, assets or useful information for pentesting & bug bounty. 
 
+Down pointing backhand index
+
+1. Shodan 
+2. Censys 
+3. Github
+4. spyse 
+5. dnsdumpster
+```
 
 
 
