@@ -427,6 +427,9 @@ host -t CNAME input.com
 
 
 ### hidden-file-or-directory
+> JS
+- [diffJs](https://github.com/CaptainFreak/diffJs) - Tool for monitoring changes in javascript files on WebApps for reconnaissance.
+
  - [earlybird](https://github.com/americanexpress/earlybird) - EarlyBird is a sensitive data detection tool capable of scanning source code repositories for clear text password violations, PII, outdated cryptography methods, key files and more. 
  - [DumpsterDiver](https://github.com/securing/DumpsterDiver) - Tool to search secrets in various filetypes. 
  - [ChopChop](https://github.com/michelin/ChopChop) - ChopChop is a CLI to help developers scanning endpoints and identifying exposition of sensitive services/files/folders.
