@@ -222,7 +222,10 @@ Down pointing backhand index
 5. dnsdumpster
 ```
 
-
+### Tips 20
+```
+"© 2019 COMPANYNAME AB"
+```
 
 
 
