@@ -481,7 +481,13 @@ host -t CNAME input.com
   - [Web-Attack-Cheat-Sheet](https://github.com/riramar/Web-Attack-Cheat-Sheet) - Web Attack Cheat Sheet
   - [payloadsallthethings](https://github.com/swisskyrepo/PayloadsAllTheThings) - A list of useful payloads and bypass for Web Application Security and Pentest/CT
   - [pentestmonkey](http://pentestmonkey.net/) - Taking the monkey work out of pentesting
+
+- STOK suggest 
   - [assetnote](https://wordlists.assetnote.io/)
+  - [SecUtils](https://github.com/BonJarber/SecUtils) - Random utilities from my security projects that might be useful to others 
+  - [jhaddix](https://gist.github.com/jhaddix)
+
+
   - [samlists](https://github.com/the-xentropy/samlists)
   - [fuzz](https://github.com/Bo0oM/fuzz.txt)
   - [webshell](https://github.com/tennc/webshell) - This is a webshell open source project
