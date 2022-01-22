@@ -430,6 +430,7 @@ host -t CNAME input.com
 ### hidden-file-or-directory
 > JS
 - [diffJs](https://github.com/CaptainFreak/diffJs) - Tool for monitoring changes in javascript files on WebApps for reconnaissance.
+- [scripthunter](https://github.com/robre/scripthunter) - Tool to find JavaScript files on Websites
 
 > Metadata 
 - [exiftool](https://github.com/exiftool/exiftool) - ExifTool meta information reader/writer 
