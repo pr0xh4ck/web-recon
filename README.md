@@ -111,6 +111,8 @@ curl 'https://crt.sh/?q=%.example.com&output=json' | jq '.name_value' | sed 's/\
 > Exception(web) subdomain enumeration
  - [dns](https://dns.bufferover.run/dns?q=)
  - [tls](https://tls.bufferover.run/dns?q=)
+ - [threatcrowd](https://threatcrowd.org/searchApi/v2/domain/report/?domain=)
+
 ```bash
 curl -s https://dns.bufferover.run/dns?q=DOMAIN.com |jq -r .FDNS_A[]|cut -d',' -f2|sort -u
 ```
@@ -123,6 +125,7 @@ curl -s https://dns.bufferover.run/dns?q=DOMAIN.com |jq -r .FDNS_A[]|cut -d',' -
  - [mildew](https://github.com/daehee/mildew)
 
 
+
 ### dns-bruteforce
 - [dnsgen](https://github.com/ProjectAnte/dnsgen)
 - [altdns](https://github.com/infosec-au/altdns)
@@ -133,6 +136,8 @@ curl -s https://dns.bufferover.run/dns?q=DOMAIN.com |jq -r .FDNS_A[]|cut -d',' -
 - [dnsvalidator](https://github.com/vortexau/dnsvalidator)
 - [gotator](https://github.com/Josue87/gotator)
 - [resolve domains](https://github.com/Josue87/resolveDomains)
+
+
 
 
 ### osint
@@ -162,10 +167,13 @@ curl -s https://dns.bufferover.run/dns?q=DOMAIN.com |jq -r .FDNS_A[]|cut -d',' -
  
 
 
+
 ### http-probing
  - [httprobe](https://github.com/tomnomnom/httprobe) - by tomnomnom
  - [httpx](https://github.com/projectdiscovery/httpx) - by project discovery
  - [httpstatus](https://httpstatus.io/) - web version 
+
+
 
 
 #### subdomain-takeover
@@ -187,6 +195,8 @@ host -t CNAME input.com
  - [takeover](https://github.com/mzfr/takeover) - A tool for testing subdomain takeover possibilities at a mass scale.
 
 
+
+
 ### web-screenshot
 - [EyeWitness](https://github.com/FortyNorthSecurity/EyeWitness) - EyeWitness is designed to take screenshots of websites, provide some server header info, and identify default credentials if possible.
 - [aquatone](https://github.com/michenriksen/aquatone) - Aquatone is a tool for visual inspection of websites across a large amount of hosts and is convenient for quickly gaining an overview of HTTP-based attack surface.
@@ -199,6 +209,8 @@ host -t CNAME input.com
 - [httpscreenshot](https://github.com/breenmachine/httpscreenshot/) - HTTPScreenshot is a tool for grabbing screenshots and HTML of large numbers of websites.
 
 
+
+
 ### cms-enumeration
  - [cmseek](https://github.com/Tuhinshubhra/CMSeeK) - CMS Detection and Exploitation suite - Scan WordPress, Joomla, Drupal and over 180 other CMSs
  - [webanlyze](https://github.com/rverton/webanalyze) - Port of Wappalyzer (uncovers technologies used on websites) to automate mass scanning. 
@@ -209,6 +221,8 @@ host -t CNAME input.com
  - [build with cli](https://github.com/claymation/python-builtwith) - BuiltWith API client 
  - [backlinkwatch](http://backlinkwatch.com/index.php) - Website for backlink finding
  - [retirejs](https://github.com/RetireJS/retire.js) -scanner detecting the use of JavaScript libraries with known vulnerabilities 
+
+
 
 
 ### automation
