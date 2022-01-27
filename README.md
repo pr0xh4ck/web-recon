@@ -89,6 +89,9 @@
 ```bash
 curl 'https://crt.sh/?q=%.example.com&output=json' | jq '.name_value' | sed 's/\"//g' | sed 's/\*\.//g' | sort -u
 ```
+- [tlshelpers](https://github.com/hannob/tlshelpers) - A collection of shell scripts that help handling X.509 certificate and TLS issues
+
+
  - [crtfinder](https://github.com/eslam3kl/crtfinder) - Fast tool to extract all subdomains from crt.sh website. Output will be up to sub.sub.sub.subdomain.com with standard and advanced search techniques
  - [amass](https://github.com/OWASP/Amass)
  - [subfinder](https://github.com/projectdiscovery/subfinder)
