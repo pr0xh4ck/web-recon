@@ -598,7 +598,8 @@ host -t CNAME input.com
    - [Add custom header]()
    - [command injection attacker]()
 
-
+> Burp suite pro
+- [Burp-Suite](https://github.com/SNGWN/Burp-Suite) - || Activate Burp Suite Pro with Loader and Key-Generator || 
 
 ### dos
 - [slowhttptest](https://github.com/shekyan/slowhttptest) - Application Layer DoS attack simulator
