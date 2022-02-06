@@ -43,6 +43,10 @@
 
 
 ## recon
+
+- [Shodan Facet](https://www.shodan.io/search/facet?query=ssl%3A%22AT%26T+Services+Inc%22+200&facet=http.title) - recon website
+
+
 ### ip-test
 - [centralops](https://centralops.net/co/)
 - [spyonweb](https://spyonweb.com/)
