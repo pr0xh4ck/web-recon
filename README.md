@@ -493,6 +493,7 @@ host -t CNAME input.com
 
 
 ### wordlists-payloads
+  - [bruteforce-lists](https://github.com/random-robbie/bruteforce-lists) - Some files for bruteforcing certain things. 
   - [CheatSheetSeries](https://github.com/OWASP/CheatSheetSeries) - The OWASP Cheat Sheet Series was created to provide a concise collection of high value information on specific application security topics. 
   - [Bug-Bounty-Wordlists](https://github.com/Karanxa/Bug-Bounty-Wordlists) - A repository that includes all the important wordlists used while bug hunting. 
   - [seclists](https://github.com/danielmiessler/SecLists) - SecLists is the security tester's companion. It's a collection of multiple types of lists used during security assessments, collected in one place. List types include usernames, passwords, URLs, sensitive data patterns, fuzzing payloads, web shells, and many more. 
