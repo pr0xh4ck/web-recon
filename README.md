@@ -602,6 +602,23 @@ host -t CNAME input.com
    - [Add custom header]()
    - [command injection attacker]()
 
+
+```
+    Collaborator Everywhere
+    XSS Validator
+    Wsdler
+    .NET Beautifier
+    Bypass WAF
+    J2EEScan
+    Param Miner
+    Wayback Machine
+    JS Link Finder
+    Upload Scanner
+    Nucleus Burp Extension
+    Software Vulnerability Scanner
+    Active Scan++
+```
+
 > Burp suite pro
 - [Burp-Suite](https://github.com/SNGWN/Burp-Suite) - || Activate Burp Suite Pro with Loader and Key-Generator || 
 
