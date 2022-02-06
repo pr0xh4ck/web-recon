@@ -339,6 +339,8 @@ host -t CNAME input.com
   
 > GitHub dork wordlist
  - [dork list](https://gist.githubusercontent.com/EdOverflow/8bd2faad513626c413b8fc6e9d955669/raw/06a0ef0fd83920d513c65767aae258ecf8382bdf/gistfile1.txt)
+ - [github-dorks](https://github.com/techgaun/github-dorks/blob/master/github-dorks.txt)
+ 
  
 > Git
 - [GitTools](https://github.com/internetwache/GitTools) - A repository with 3 tools for pwn'ing websites with .git repositories available
@@ -346,6 +348,7 @@ host -t CNAME input.com
 - [git-dumper](https://github.com/arthaud/git-dumper) - A tool to dump a git repository from a website
 - [GitHunter](https://github.com/digininja/GitHunter) - A tool for searching a Git repository for interesting content
 - [dvcs-ripper](https://github.com/kost/dvcs-ripper) - Rip web accessible (distributed) version control systems: SVN/GIT/HG...
+
 
 
 ### email-hunting 
