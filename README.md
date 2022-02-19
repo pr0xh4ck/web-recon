@@ -45,7 +45,7 @@
 ## recon
 
 - [Shodan Facet](https://www.shodan.io/search/facet?query=ssl%3A%22AT%26T+Services+Inc%22+200&facet=http.title) - recon website
-- [http.favicon.hash:-](https://gist.github.com/yehgdotnet/b9dfc618108d2f05845c4d8e28c5fc6a) - http.favicon.hash:-
+- [http.favicon.hash](https://gist.github.com/yehgdotnet/b9dfc618108d2f05845c4d8e28c5fc6a) - http.favicon.hash:
 
 ### ip-test
 - [centralops](https://centralops.net/co/)
