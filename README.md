@@ -614,7 +614,7 @@ host -t CNAME input.com
    - [Taborator]()
    - [Add custom header]()
    - [command injection attacker]()
-
+   - [BurpSuite-Xkeys](https://github.com/vsec7/BurpSuite-Xkeys) - A Burp Suite Extension to extract interesting strings (key, secret, token, or etc.) from a webpage. 
 
 ```
     Collaborator Everywhere
