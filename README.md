@@ -44,12 +44,20 @@
 
 
 ## recon
+- [Dorks-collections-list](https://github.com/cipher387/Dorks-collections-list/) - List of Github repositories and articles with list of dorks for different search engines 
+
 ### shodan
+- [exposure](https://exposure.shodan.io/)
 - [Shodan Facet](https://www.shodan.io/search/facet?query=&facet=http.title) - recon website
 - [http.favicon.hash](https://gist.github.com/yehgdotnet/b9dfc618108d2f05845c4d8e28c5fc6a) - http.favicon.hash:
 ```
 ssl.cert.subject.CN:”*.target com”+200
 http.favicon.hash:
+
+
+org:"Target" http.title:"GitLab"
+Username: root & pass: 5iveL!fe
+Username: admin & Pass: 5iveL!fe
 ```
 
 
@@ -226,6 +234,8 @@ host -t CNAME input.com
 
 
 ### cms-enumeration
+> AEM
+ - [aem-hacker](https://github.com/0ang3el/aem-hacker)
  - [cmseek](https://github.com/Tuhinshubhra/CMSeeK) - CMS Detection and Exploitation suite - Scan WordPress, Joomla, Drupal and over 180 other CMSs
  - [webanlyze](https://github.com/rverton/webanalyze) - Port of Wappalyzer (uncovers technologies used on websites) to automate mass scanning. 
  - [whatweb](https://github.com/urbanadventurer/WhatWeb) - Next generation web scanner 
