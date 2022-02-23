@@ -45,7 +45,7 @@
 
 ## recon
 - [Dorks-collections-list](https://github.com/cipher387/Dorks-collections-list/) - List of Github repositories and articles with list of dorks for different search engines 
-
+- [dorksearch](https://dorksearch.com/) - Fast google dork
 ### shodan
 - [exposure](https://exposure.shodan.io/)
 - [Shodan Facet](https://www.shodan.io/search/facet?query=&facet=http.title) - recon website
