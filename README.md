@@ -680,7 +680,7 @@ env
 
 - 1st Command for Subdomain Enumeration using Assetfinder, Subfinder, Findomain
 ```bash
-assetfinder DOMAIN.COM | tee ./DOM-ass && subfinder -silent -all -recursive -d DOMAIN.COM | tee ./DOM-sub && findomain -q --external-subdomains -t DOMAIN.COM | tee ./DOM-sub
+assetfinder DOMAIN.COM | tee ./DOM-ass && subfinder -silent -all -recursive -d DOMAIN.COM | tee ./DOM-sub && findomain -q --external-subdomains -t DOMAIN.COM | tee ./DOM-find
 ```
 - 2nd Command for Sorting and http probing
 ```bash
