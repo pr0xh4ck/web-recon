@@ -696,7 +696,7 @@ sudo nmap -T4 -A -p- -sL unique | tee ./nmap && naabu -list unique | tee ./naabu
 ```
 - 5th Command for remove DOM-* and nuclei automation
 ```bash
-rm -rf DOM-* && cat httpx | nuclei -silent -t ~/nuclei/templates | tee ./nuclei 
+rm -rf DOM-* && cat httpx | nuclei -silent -t ~/nuclei-templates | tee ./nuclei 
 ```
 - 6th Command for wayback urls
 ```bash
