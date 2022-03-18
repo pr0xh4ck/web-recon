@@ -470,6 +470,11 @@ host -t CNAME input.com
 
 
 ### hidden-file-or-directory
+> 18-03-22
+- [relative-url-extractor](https://github.com/jobertabma/relative-url-extractor) - A small tool that extracts relative URLs from a file.
+- [virtual-host-discovery](https://github.com/jobertabma/virtual-host-discovery) - A script to enumerate virtual hosts on a server. 
+
+
 > JS
 - [diffJs](https://github.com/CaptainFreak/diffJs) - Tool for monitoring changes in javascript files on WebApps for reconnaissance.
 - [scripthunter](https://github.com/robre/scripthunter) - Tool to find JavaScript files on Websites
