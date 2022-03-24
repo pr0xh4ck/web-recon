@@ -705,14 +705,14 @@ rm -rf DOM-* && cat httpx | nuclei -silent -t ~/nuclei-templates | tee ./nuclei
 ```
 - 6th Command for wayback urls
 ```bash
-cat httpx | gau | tee ./gau-null && cat httpx | gauplus | tee ./gau-plus && cat gau-* | sort -u | tee ./uniquegau && rm gau-* && cat httpx | waybackurls | tee ./wayback && cat uniquegau wayback | sort -u | tee ./finalwayback
+cat httpx | gau | tee ./gau-null && cat httpx | gauplus | tee ./gau-plus && cat httpx | waybackurls | tee ./wayback && cat gau-* wayback | sort -u | tee ./finalwayback
 ```
 - 7th Command for find reflected param and js file
 ```bash
-rm uniquegau wayback && cat finalwayback | Gxss -c 100 -o gxss && cat gau | subjs | tee ./subjs && cat gau | uro | tee ./uro
+rm gau-* wayback && cat finalwayback | Gxss -c 100 -o gxss && cat gau | subjs | tee ./subjs && cat gau | uro | tee ./uro
 ```
 ```
-cat uniquegau |  grep "=" | qsreplace http://YOUR.burpcollaborator.net | Gxss -c 100 -o burpCollab
+cat finalwayback |  grep "=" | qsreplace http://YOUR.burpcollaborator.net | Gxss -c 100 -o burpCollab
 ```
 - 8th Command for collect all urls
 ```bash
