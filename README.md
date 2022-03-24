@@ -411,7 +411,7 @@ host -t CNAME input.com
 
 > Find reflected params
  - [gxss](https://github.com/KathanP19/Gxss) - A tool to check a bunch of URLs that contain reflecting params. 
- - []()
+ - [freq](https://github.com/takshal/freq) - This is go CLI tool for send fast Multiple get HTTP request. 
  
 > Find js file from waybackurls.txt
  - [subjs](https://github.com/lc/subjs)
