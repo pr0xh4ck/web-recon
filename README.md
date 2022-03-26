@@ -33,6 +33,7 @@
     - [Public programs](#programs)
     - [Burp Suite Extension](#burp-suite-extesion)
     - [DOS](#dos)
+    - [Websocket](#Websocket)
     - [Hands On](#hands-on)
     - [Hunting Script](#Hunting-Script) 
 
@@ -658,9 +659,12 @@ host -t CNAME input.com
 - [slowhttptest](https://github.com/shekyan/slowhttptest) - Application Layer DoS attack simulator
 
 
+------------------------
+--------------------------
 
+### Websocket
 
-
+- [STEWS](https://github.com/PalindromeLabs/STEWS) - A Security Tool for Enumerating WebSockets 
 
 
 ---------------
