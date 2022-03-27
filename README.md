@@ -75,7 +75,8 @@ Username: admin & Pass: 5iveL!fe
 - [testssl.sh](https://github.com/drwetter/testssl.sh) - Testing TLS/SSL encryption anywhere on any port
 - [ipaddressguide](https://www.ipaddressguide.com/) - IP address, traceroute an IP address, convert IP address into decimal value or CIDR format, and so on for both IPv4 and IPv6 format.
  
- 
+> Virtual Host Finding
+- [scantrics](https://scantrics.io/tools/)
  
 ### dns
  - [dnsrecon](https://github.com/darkoperator/dnsrecon)
