@@ -119,6 +119,7 @@ curl 'https://crt.sh/?q=%.example.com&output=json' | jq '.name_value' | sed 's/\
  - [amass](https://github.com/OWASP/Amass)
  - [subfinder](https://github.com/projectdiscovery/subfinder)
  - [dnsdumpster](https://dnsdumpster.com/)
+   - [API-dnsdumpster.com](https://github.com/PaulSec/API-dnsdumpster.com) - (Unofficial) Python API
  - [assetfinder](https://github.com/tomnomnom/assetfinder)
  - [aquatone](https://www.rubydoc.info/gems/aquatone/0.4.1)
  - [censys](https://censys.io/ipv4)
