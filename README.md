@@ -618,25 +618,29 @@ host -t CNAME input.com
 
 
 ### burp-suite-extesion
-   - [Active scan ++]()
-   - [Param miner]()
-   - [Logger ++]()
-   - [Turbo intruder]()
-   - [Upload scanner]()
-   - [Reflected parameters]()
-   - [Collaborator everywhere]()
-   - [Backslash powered scanner]()
-   - [Software version Reporter]()
-   - [Software vulnerability scanner]()
-   - [Autorize]()
-   - [HTTP request smuggler]()
-   - [Flow]()
-   - [Hunt]()
-   - [Burp Bounty]()
-   - [Taborator]()
-   - [Add custom header]()
-   - [command injection attacker]()
-   - [BurpSuite-Xkeys](https://github.com/vsec7/BurpSuite-Xkeys) - A Burp Suite Extension to extract interesting strings (key, secret, token, or etc.) from a webpage. 
+- [Active scan ++]()
+- [Param miner]()
+- [Logger ++]()
+- [Turbo intruder]()
+- [Upload scanner]()
+- [Reflected parameters]()
+- [Collaborator everywhere]()
+- [Backslash powered scanner]()
+- [Software version Reporter]()
+- [Software vulnerability scanner]()
+- [Autorize]()
+- [HTTP request smuggler]()
+- [Flow]()
+- [Hunt]()
+- [Burp Bounty]()
+- [Taborator]()
+- [Add custom header]()
+- [command injection attacker]()
+- [BurpSuite-Xkeys](https://github.com/vsec7/BurpSuite-Xkeys) - A Burp Suite Extension to extract interesting strings (key, secret, token, or etc.) from a webpage. 
+- [Admin-Panel_Finder](https://github.com/moeinfatehi/Admin-Panel_Finder) - A burp suite extension that enumerates infrastructure and application admin interfaces (OTG-CONFIG-005) 
+
+
+
 
 ```
     Collaborator Everywhere
