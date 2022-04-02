@@ -259,6 +259,7 @@ host -t CNAME input.com
 - [wapiti-scanner](https://github.com/wapiti-scanner) - Scan your website 
 - [nuclei](https://github.com/projectdiscovery/nuclei) - Nuclei is a fast tool for configurable targeted scanning based on templates offering massive extensibility and ease of use.
    - [Nuclei-Templates-Collection](https://github.com/emadshanab/Nuclei-Templates-Collection) - Nuclei templates collection
+   - [the-nuclei-templates](https://github.com/geeknik/the-nuclei-templates) - Nuclei templates written by us. 
 - [scant3r](https://github.com/knassar702/scant3r) - ScanT3r - Module based Bug Bounty Automation Tool
 - [Sn1per](https://github.com/1N3/Sn1per) - Automated pentest framework for offensive security experts
 - [metasploit-framework](https://github.com/rapid7/metasploit-framework) - Metasploit Framework
