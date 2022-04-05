@@ -703,7 +703,7 @@ assetfinder DOMAIN.COM | tee ./DOM-ass && subfinder -silent -all -recursive -d D
 ```
 - 2nd Command for Sorting and http probing
 ```bash
-cat DOM-* | sort -u | tee ./unique && cat unique | httpx -silent | tee ./httpx && cat unique | httpx -silent -sc -cl -location -td -server -title -favicon | tee ./httpx-code && cat httpx | wc -l
+cat DOM-* | sort -u | tee ./unique && cat unique | httpx -silent | tee ./httpx && cat unique | httpx -silent -sc -cl -location -td -server -title | tee ./httpx-code && cat httpx | wc -l
 ```
 - 3rd Command for dnsgen
 ```bash
