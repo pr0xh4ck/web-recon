@@ -730,32 +730,32 @@ python3 domainCollector.py <orgList>
 cat DOM-* | sort -u | grep "DOMAIN.COM" | tee ./unique && rm -rf DOM-* external_subdomains && cat unique | wc -l 
 ```
 
-3rd Commands
+- 3rd Commands
 ```bash
 cat unique | httpx -silent | tee ./httpx && cat unique | httpx -silent -sc -cl -location -td -server -title | tee ./httpx-code && cat httpx | wc -l
 ```
 
-- 3rd Command for dnsgen
+- 4th Command for dnsgen
 ```bash
 dnsgen unique -w ~/Desktop/dns.txt | httpx -silent | tee ./dnsgen
 ```
 
-- 4th Command for port scanning
+- 5th Command for port scanning
 ```bash
 sudo nmap -T4 -A -p- -sL unique | tee ./nmap && naabu -list unique | tee ./naabu
 ```
 
-- 5th Command for remove DOM-* and nuclei automation
+- 6th Command for remove DOM-* and nuclei automation
 ```bash
 cat httpx | nuclei -silent -t ~/nuclei-templates | tee ./nuclei 
 ```
 
-- 6th Command for wayback urls
+- 7th Command for wayback urls
 ```bash
 cat httpx | gau | tee ./gau-null && cat httpx | gauplus | tee ./gau-plus && cat httpx | waybackurls | tee ./wayback && cat gau-* wayback | sort -u | tee ./finalwayback
 ```
 
-- 7th Command for find reflected param and js file
+- 8th Command for find reflected param and js file
 ```bash
 rm gau-* wayback && cat finalwayback | Gxss -c 100 -o gxss && cat gau | subjs | tee ./subjs && cat gau | uro | tee ./uro
 ```
@@ -763,12 +763,12 @@ rm gau-* wayback && cat finalwayback | Gxss -c 100 -o gxss && cat gau | subjs | 
 cat finalwayback |  grep "=" | qsreplace http://YOUR.burpcollaborator.net | Gxss -c 100 -o burpCollab
 ```
 
-- 8th Command for collect all urls
+- 9th Command for collect all urls
 ```bash
 gospider -S httpx -o gospider -c 10 -d 1 && 
 ```
 
-- 9th command for broken link hijacking
+- 10th command for broken link hijacking
 ```bash
 blc http://yoursite.com -ro
 ```
