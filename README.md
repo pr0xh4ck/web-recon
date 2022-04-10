@@ -38,6 +38,24 @@
     - [Hunting Script](#Hunting-Script) 
 
 
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li><a href="#features">Features</a></li>
+    <li><a href="#rewards">Features</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
+
+
+
 
 
 
@@ -701,26 +719,37 @@ env
 ```bash
 assetfinder DOMAIN.COM | tee ./DOM-ass && subfinder -silent -all -recursive -d DOMAIN.COM | tee ./DOM-sub && findomain -q --external-subdomains -t DOMAIN.COM | tee ./DOM-find
 ```
+
 - 2nd Command for Sorting and http probing
 ```bash
-cat DOM-* | sort -u | tee ./unique && cat unique | httpx -silent | tee ./httpx && cat unique | httpx -silent -sc -cl -location -td -server -title | tee ./httpx-code && cat httpx | wc -l
+cat DOM-* | sort -u | grep "DOMAIN.COM" | tee ./unique && rm -rf DOM-* external_subdomains && cat unique | wc -l 
 ```
+
+3rd Commands
+```bash
+cat unique | httpx -silent | tee ./httpx && cat unique | httpx -silent -sc -cl -location -td -server -title | tee ./httpx-code && cat httpx | wc -l
+```
+
 - 3rd Command for dnsgen
 ```bash
 dnsgen unique -w ~/Desktop/dns.txt | httpx -silent | tee ./dnsgen
 ```
+
 - 4th Command for port scanning
 ```bash
 sudo nmap -T4 -A -p- -sL unique | tee ./nmap && naabu -list unique | tee ./naabu
 ```
+
 - 5th Command for remove DOM-* and nuclei automation
 ```bash
-rm -rf DOM-* && cat httpx | nuclei -silent -t ~/nuclei-templates | tee ./nuclei 
+cat httpx | nuclei -silent -t ~/nuclei-templates | tee ./nuclei 
 ```
+
 - 6th Command for wayback urls
 ```bash
 cat httpx | gau | tee ./gau-null && cat httpx | gauplus | tee ./gau-plus && cat httpx | waybackurls | tee ./wayback && cat gau-* wayback | sort -u | tee ./finalwayback
 ```
+
 - 7th Command for find reflected param and js file
 ```bash
 rm gau-* wayback && cat finalwayback | Gxss -c 100 -o gxss && cat gau | subjs | tee ./subjs && cat gau | uro | tee ./uro
@@ -728,10 +757,12 @@ rm gau-* wayback && cat finalwayback | Gxss -c 100 -o gxss && cat gau | subjs | 
 ```
 cat finalwayback |  grep "=" | qsreplace http://YOUR.burpcollaborator.net | Gxss -c 100 -o burpCollab
 ```
+
 - 8th Command for collect all urls
 ```bash
-gospider -S sites.txt -o gospider -c 10 -d 1 && 
+gospider -S httpx -o gospider -c 10 -d 1 && 
 ```
+
 - 9th command for broken link hijacking
 ```bash
 blc http://yoursite.com -ro
