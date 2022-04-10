@@ -717,7 +717,7 @@ env
 
 - 1st Command for Subdomain Enumeration using Assetfinder, Subfinder, Findomain
 ```bash
-assetfinder DOMAIN.COM | tee ./DOM-ass && subfinder -silent -all -recursive -d DOMAIN.COM | tee ./DOM-sub && findomain -q --external-subdomains -t DOMAIN.COM | tee ./DOM-find
+assetfinder DOMAIN.com | tee ./DOM-ass && subfinder -silent -all -recursive -d DOMAIN.com | tee ./DOM-sub && findomain -q --external-subdomains -t DOMAIN.com | tee ./DOM-find
 ```
 ```bash
 python3 domainCollector.py "Org+Inc"
@@ -727,7 +727,7 @@ python3 domainCollector.py <orgList>
 
 - 2nd Command for Sorting and http probing
 ```bash
-cat DOM-* | sort -u | grep "DOMAIN.COM" | tee ./unique && rm -rf DOM-* external_subdomains && cat unique | wc -l 
+cat DOM-* | sort -u | grep "DOMAIN.com" | tee ./unique && rm -rf DOM-* external_subdomains && cat unique | wc -l 
 ```
 
 - 3rd Commands
