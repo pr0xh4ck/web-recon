@@ -719,6 +719,11 @@ env
 ```bash
 assetfinder DOMAIN.COM | tee ./DOM-ass && subfinder -silent -all -recursive -d DOMAIN.COM | tee ./DOM-sub && findomain -q --external-subdomains -t DOMAIN.COM | tee ./DOM-find
 ```
+```bash
+python3 domainCollector.py "Org+Inc"
+python3 domainCollector.py <orgList>
+```
+
 
 - 2nd Command for Sorting and http probing
 ```bash
