@@ -745,9 +745,12 @@ dnsgen unique -w ~/Desktop/dns.txt | httpx -silent | tee ./dnsgen
 sudo nmap -T4 -A -p- -sL unique | tee ./nmap && naabu -list unique | tee ./naabu
 ```
 
-- 6th Command for remove DOM-* and nuclei automation
+- 6th Command for jaeles and nuclei automation
 ```bash
 cat httpx | nuclei -silent -t ~/nuclei-templates | tee ./nuclei 
+```
+```bash
+jaeles scan -c 50 -s <signature> -U <list_urls>
 ```
 
 - 7th Command for wayback urls
