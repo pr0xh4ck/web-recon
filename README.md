@@ -773,6 +773,11 @@ gospider -S httpx -o gospider -c 10 -d 1 &&
 blc http://yoursite.com -ro
 ```
 
+11 th commands for checking open redirection
+- [Oralyzer](https://github.com/r0075h3ll/Oralyzer) - Open Redirection Analyzer
+```bash
+oralyzer -l finalwayback 
+```
 
 
 
