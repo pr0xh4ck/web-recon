@@ -770,7 +770,7 @@ cat finalwaybackurls | grep "=" | Gxss -c 100 -o gxss
 ```
 > separete js file from waybackurls
 ```bash
-cat finalwaybackurls | subjs | tee ./subjs
+cat finalwaybackurls | subjs | sort -u | tee ./subjs
 ```
 
 - 9th Command for collect all urls
@@ -786,7 +786,7 @@ blc http://yoursite.com -ro
 11 th commands for checking open redirection and CRLF check
 - [Oralyzer](https://github.com/r0075h3ll/Oralyzer) - Open Redirection Analyzer
 ```bash
-oralyzer -l finalwayback 
+oralyzer -l finalwaybackurls 
 ```
 
 
