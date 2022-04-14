@@ -755,7 +755,7 @@ jaeles scan -c 50 -s <signature> -U <list_urls>
 
 - 7th Command for wayback urls and remove duplicate
 ```bash
-cat httpx | gau | tee ./gau-1 && cat httpx | gauplus | tee ./gau-2 && cat httpx | waybackurls | tee ./wayback && cat gau-* wayback | sort -u | tee ./finalwaybackurls && rm gau-* wayback && cat finalwayback | wc -l 
+cat httpx | gau | tee ./gau-1 && cat httpx | gauplus | tee ./gau-2 && cat httpx | waybackurls | tee ./wayback && cat gau-* wayback | sort -u | tee ./finalwaybackurls && rm gau-* wayback && cat finalwaybackurls | wc -l 
 ```
 ```bash
 cat finalwaybackurls | uro | tee ./uro && cat uro | wc -l
