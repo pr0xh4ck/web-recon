@@ -753,17 +753,21 @@ cat httpx | nuclei -silent -t ~/nuclei-templates | tee ./nuclei
 jaeles scan -c 50 -s <signature> -U <list_urls>
 ```
 
-- 7th Command for wayback urls
+- 7th Command for wayback urls and remove duplicate
 ```bash
-cat httpx | gau | tee ./gau-null && cat httpx | gauplus | tee ./gau-plus && cat httpx | waybackurls | tee ./wayback && cat gau-* wayback | sort -u | tee ./finalwayback
+cat httpx | gau | tee ./gau-null && cat httpx | gauplus | tee ./gau-plus && cat httpx | waybackurls | tee ./wayback && cat gau-* wayback | sort -u | uro | tee ./finalwayback && rm gau-* wayback && cat finalwayback | wc -l 
 ```
 
 - 8th Command for find reflected param and js file
 ```bash
-rm gau-* wayback && cat finalwayback | Gxss -c 100 -o gxss && cat gau | subjs | tee ./subjs && cat gau | uro | tee ./uro
+cat finalwayback | grep "=" | qsreplace https://YOUR.burpcollaborator.net | httpx -silent -sc -cl -location -rt
 ```
+```bash
+cat finalwayback | grep "=" | Gxss -c 100 -o gxss  
 ```
-cat finalwayback |  grep "=" | qsreplace http://YOUR.burpcollaborator.net | Gxss -c 100 -o burpCollab
+> separete js file from waybackurls
+```bash
+cat finalwayback | subjs | tee ./subjs
 ```
 
 - 9th Command for collect all urls
@@ -776,7 +780,7 @@ gospider -S httpx -o gospider -c 10 -d 1 &&
 blc http://yoursite.com -ro
 ```
 
-11 th commands for checking open redirection
+11 th commands for checking open redirection and CRLF check
 - [Oralyzer](https://github.com/r0075h3ll/Oralyzer) - Open Redirection Analyzer
 ```bash
 oralyzer -l finalwayback 
