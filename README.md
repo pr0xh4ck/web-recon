@@ -755,19 +755,22 @@ jaeles scan -c 50 -s <signature> -U <list_urls>
 
 - 7th Command for wayback urls and remove duplicate
 ```bash
-cat httpx | gau | tee ./gau-null && cat httpx | gauplus | tee ./gau-plus && cat httpx | waybackurls | tee ./wayback && cat gau-* wayback | sort -u | uro | tee ./finalwayback && rm gau-* wayback && cat finalwayback | wc -l 
+cat httpx | gau | tee ./gau-1 && cat httpx | gauplus | tee ./gau-2 && cat httpx | waybackurls | tee ./wayback && cat gau-* wayback | sort -u | tee ./finalwaybackurls && rm gau-* wayback && cat finalwayback | wc -l 
+```
+```bash
+cat finalwaybackurls | uro | tee ./uro && cat uro | wc -l
 ```
 
 - 8th Command for find reflected param and js file
 ```bash
-cat finalwayback | grep "=" | qsreplace https://YOUR.burpcollaborator.net | httpx -silent -sc -cl -location -rt
+cat finalwaybackurls | grep "=" | qsreplace https://YOUR.burpcollaborator.net | httpx -silent -sc -cl -location -rt
 ```
 ```bash
-cat finalwayback | grep "=" | Gxss -c 100 -o gxss  
+cat finalwaybackurls | grep "=" | Gxss -c 100 -o gxss  
 ```
 > separete js file from waybackurls
 ```bash
-cat finalwayback | subjs | tee ./subjs
+cat finalwaybackurls | subjs | tee ./subjs
 ```
 
 - 9th Command for collect all urls
