@@ -775,7 +775,7 @@ cat finalwaybackurls | subjs | sort -u | tee ./subjs
 
 - 9th Command for collect all urls
 ```bash
-gospider -S httpx -o gospider -c 10 -d 1 && 
+gospider -S httpx -o gospider -c 10 -d 1 
 ```
 
 - 10th command for broken link hijacking
