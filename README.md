@@ -757,7 +757,7 @@ dnsgen unique -w ~/Desktop/dns.txt | httpx -silent | tee ./dnsgen
 
 - 5th Command for port scanning
 ```bash
-sudo nmap -T4 -A -p- -sL unique | tee ./nmap && naabu -list unique | tee ./naabu
+sudo nmap -T4 -A -p- -sS -sL unique | tee ./nmap && naabu -list unique | tee ./naabu
 ```
 
 - 6th Command for jaeles and nuclei automation
