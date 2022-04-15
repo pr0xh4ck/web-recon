@@ -29,6 +29,7 @@
     - [Miscellaneous](#miscellaneous)
     - [Social Engineering](#social-engineering)
     - [Scripts](#scripts)
+    - [API kay](#API_key)
     - [Log File Analyze](#log-file-analyze)
     - [Public programs](#programs)
     - [Burp Suite Extension](#burp-suite-extesion)
@@ -572,7 +573,6 @@ host -t CNAME input.com
   - [english-words](https://github.com/dwyl/english-words) - 📝 A text file containing 479k English words for all your dictionary/word-based projects e.g: auto-completion / autosuggestion 
 
 > Exceptional
-- [keyhacks](https://github.com/streaak/keyhacks) - Keyhacks is a repository which shows quick ways in which API keys leaked by a bug bounty program can be checked to see if they're valid. 
 - [Web-Sec-CheatSheet](https://github.com/imran-parray/Web-Sec-CheatSheet)
 
 
@@ -616,6 +616,20 @@ host -t CNAME input.com
 - [awesome-oneliner-bugbounty](https://github.com/dwisiswant0/awesome-oneliner-bugbounty) - A collection of awesome one-liner scripts especially for bug bounty tips.
 - [bbtips](https://github.com/punishell/bbtips) - BugBountyTips
 - [oneliner-bugbounty](https://github.com/twseptian/oneliner-bugbounty) - oneliner commands for bug bounties
+
+------------------------
+--------------------
+### API_key
+
+- [keyhacks](https://github.com/streaak/keyhacks) - Keyhacks is a repository which shows quick ways in which API keys leaked by a bug bounty program can be checked to see if they're valid. 
+- [gmapsapiscanner](https://github.com/ozguralp/gmapsapiscanner) - Used for determining whether a leaked/found Google Maps API Key is vulnerable to unauthorized access by other applications or not.
+
+
+
+
+
+----------------------------
+------------------------------
 
 
 
