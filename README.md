@@ -574,7 +574,8 @@ host -t CNAME input.com
 
 > Exceptional
 - [Web-Sec-CheatSheet](https://github.com/imran-parray/Web-Sec-CheatSheet)
-
+- [wordlists](https://github.com/assetnote/wordlists) - Automated & Manual Wordlists provided by Assetnote 
+- [fuzzdb](https://github.com/fuzzdb-project/fuzzdb) - Dictionary of attack patterns and primitives for black-box application fault injection and resource discovery.
 
 ### miscellaneous
   - [hack-tools](https://github.com/edoardottt/lit-bb-hack-tools)
