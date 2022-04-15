@@ -808,13 +808,13 @@ gospider -S httpx -o gospider -c 10 -d 1
 blc http://yoursite.com -ro
 ```
 
-11 th commands for checking open redirection and CRLF check
+- 11 th commands for checking open redirection and CRLF check
 - [Oralyzer](https://github.com/r0075h3ll/Oralyzer) - Open Redirection Analyzer
 ```bash
 oralyzer -l finalwaybackurls 
 ```
 
-12 commands for directory bruteforce
+- 12 commands for directory bruteforce
 ```bash
 /usr/share/dirbuster/wordlists/directory-list-2.3-medium.txt
 /usr/share/seclists/Discovery/Web-Content/raft-large-words.txt
