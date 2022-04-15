@@ -816,10 +816,10 @@ oralyzer -l finalwaybackurls
 /usr/share/seclists/Discovery/Web-Content/raft-large-extension.txt 
 ```
 ```
-ffuf -recursion -mc all -ac -c -e .htm,.shtml,.php,.html,.js,.txt,.zip,.bak,.asp,.aspx,.xml,.sql,.old,.at,.inc -w path -u https://target.com/FUZZ -t 5000
+ffuf -recursion=true -mc all -ac -c -e .htm,.shtml,.php,.html,.js,.txt,.zip,.bak,.asp,.aspx,.xml,.sql,.old,.at,.inc -w path -u https://target.com/FUZZ -t 5000
 ```
 ```
-ffuf -recursion -e .htm,.shtml,.php,.html,.js,.txt,.zip,.bak,.asp,.aspx,.xml,.sql,.old,.at,.inc -w /usr/share/dirbuster/wordlists/directory-list-2.3-medium.txt -u https://target.com/FUZZ -t 1000
+ffuf -recursion=true -e .htm,.shtml,.php,.html,.js,.txt,.zip,.bak,.asp,.aspx,.xml,.sql,.old,.at,.inc -w /usr/share/dirbuster/wordlists/directory-list-2.3-medium.txt -u https://target.com/FUZZ -t 1000
 ```
 ```
 dirsearch -r --full-url -e .htm,.shtml,.php,.html,.js,.txt,.zip,.bak,.asp,.aspx,.xml,.sql,.old,.at,.inc  -w /usr/share/dirbuster/wordlists/directory-list-2.3-medium.txt -u https://target.com -t 70
