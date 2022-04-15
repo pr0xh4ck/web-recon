@@ -813,7 +813,7 @@ oralyzer -l finalwaybackurls
 ```
 /usr/share/seclists/Discovery/Web-Content/raft-large-extension.txt 
 ```
-````
+```
 ffuf -recursion -mc all -ac -c -e .htm,.shtml,.php,.html,.js,.txt,.zip,.bak,.asp,.aspx,.xml,.sql,.old,.at,.inc -w path -u https://target.com/FUZZ -t 5000
 ```
 ```
