@@ -791,7 +791,7 @@ cat finalwaybackurls | uro | tee ./uro && cat uro | wc -l
 cat finalwaybackurls | grep "=" | qsreplace https://YOUR.burpcollaborator.net | httpx -silent -sc -cl -location -rt
 ```
 ```bash
-cat finalwaybackurls | grep "=" | Gxss -c 100 -o gxss  
+cat finalwaybackurls | grep "=" | Gxss -c 100 -o gxss -v
 ```
 > separete js file from waybackurls
 ```bash
