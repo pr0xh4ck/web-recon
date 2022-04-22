@@ -38,6 +38,7 @@
     - [Websocket](#Websocket)
     - [Hands On](#hands-on)
     - [Hunting Script](#Hunting-Script) 
+    - [Smart Contract](#Smart-Contract)
 
 
 <details>
@@ -838,6 +839,45 @@ dirsearch -r --full-url -e .htm,.shtml,.php,.html,.js,.txt,.zip,.bak,.asp,.aspx,
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------------------
+--------------------------------------------------
+### Smart-Contract
+- [mythril](https://github.com/ConsenSys/mythril) - Security analysis tool for EVM bytecode. Supports smart contracts built for Ethereum, Hedera, Quorum, Vechain, Roostock, Tron and other EVM-compatible blockchains. 
 
 
 
