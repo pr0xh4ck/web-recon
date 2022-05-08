@@ -707,6 +707,10 @@ host -t CNAME input.com
 
 > Burp suite pro
 - [Burp-Suite](https://github.com/SNGWN/Burp-Suite) - || Activate Burp Suite Pro with Loader and Key-Generator || 
+> Scope
+```bash
+^.+\.company\.com$     ^443$   ^/.*
+```
 
 ### dos
 - [slowhttptest](https://github.com/shekyan/slowhttptest) - Application Layer DoS attack simulator
