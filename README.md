@@ -665,6 +665,7 @@ host -t CNAME input.com
 
 ### burp-suite-extesion
 - [Active scan ++]()
+- [Content Type Converter]()
 - [Param miner]()
 - [Logger ++]()
 - [Turbo intruder]()
