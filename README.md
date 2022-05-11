@@ -866,7 +866,10 @@ naabu -iL censys-ip
 ```
 
 
-
+- 14 Email hunt
+```bash
+python3 infoga.py -d TARGET.COM -s all -v 3 -i -b -r TARGET.txt
+```
 
 
 
