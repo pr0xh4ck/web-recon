@@ -278,6 +278,7 @@ host -t CNAME input.com
 
 
 ### automation
+- [bugradar](https://github.com/samet-g/bugradar) - Advanced external automation on bug bounty programs by running the best set of tools to perform scanning and finding out vulnerabilities.
 - [wapiti-scanner](https://github.com/wapiti-scanner) - Scan your website 
 - [nuclei](https://github.com/projectdiscovery/nuclei) - Nuclei is a fast tool for configurable targeted scanning based on templates offering massive extensibility and ease of use.
    - [Nuclei-Templates-Collection](https://github.com/emadshanab/Nuclei-Templates-Collection) - Nuclei templates collection
