@@ -131,6 +131,7 @@ Username: admin & Pass: 5iveL!fe
 
 ### subdomain-enumeration
  - [certificate.transparency](https://certificate.transparency.dev/)
+ - [facebook](https://developers.facebook.com/tools/)
  - [crt.sh](https://crt.sh/)
 ```bash
 curl 'https://crt.sh/?q=%.example.com&output=json' | jq '.name_value' | sed 's/\"//g' | sed 's/\*\.//g' | sort -u
