@@ -73,6 +73,7 @@
 - [dorksearch](https://dorksearch.com/) - Fast google dork
 ### shodan
 - [exposure](https://exposure.shodan.io/)
+- [faviconhasher](http://faviconhasher.herokuapp.com/)
 - [Shodan Facet](https://www.shodan.io/search/facet?query=&facet=http.title) - recon website
 - [http.favicon.hash](https://gist.github.com/yehgdotnet/b9dfc618108d2f05845c4d8e28c5fc6a) - http.favicon.hash:
 ```
