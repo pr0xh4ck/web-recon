@@ -584,6 +584,7 @@ host -t CNAME input.com
 - [wordlists](https://github.com/assetnote/wordlists) - Automated & Manual Wordlists provided by Assetnote 
 - [fuzzdb](https://github.com/fuzzdb-project/fuzzdb) - Dictionary of attack patterns and primitives for black-box application fault injection and resource discovery.
 - [WordList](https://github.com/orwagodfather/WordList)
+- [Commodity-Injection-Signatures](https://github.com/xsscx/Commodity-Injection-Signatures) - Commodity Injection Signatures, Malicious Inputs, XSS, HTTP Header Injection, XXE, RCE, Javascript, XSLT 
 
 ### miscellaneous
   - [hack-tools](https://github.com/edoardottt/lit-bb-hack-tools)
