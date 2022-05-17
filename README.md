@@ -28,7 +28,7 @@
     - [Wordlists & Payloads](#wordlists-payloads)
     - [Miscellaneous](#miscellaneous)
     - [Social Engineering](#social-engineering)
-    - [Scripts](#scripts)
+    - [One Line Scripts](#scripts)
     - [API kay](#API_key)
     - [Code review](#Code_review)
     - [Log File Analyze](#log-file-analyze)
@@ -627,6 +627,7 @@ host -t CNAME input.com
 - [awesome-oneliner-bugbounty](https://github.com/dwisiswant0/awesome-oneliner-bugbounty) - A collection of awesome one-liner scripts especially for bug bounty tips.
 - [bbtips](https://github.com/punishell/bbtips) - BugBountyTips
 - [oneliner-bugbounty](https://github.com/twseptian/oneliner-bugbounty) - oneliner commands for bug bounties
+- [One-Liner-Scripts](https://github.com/litt1eb0yy/One-Liner-Scripts) - A collection of awesome one-liner scripts for bug bounty hunting.
 
 ------------------------
 --------------------
