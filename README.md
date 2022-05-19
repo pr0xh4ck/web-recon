@@ -473,8 +473,12 @@ host -t CNAME input.com
 ### waf
   - [wafw00f](https://github.com/enablesecurity/wafw00f)
   - [cf-check](https://github.com/dwisiswant0/cf-check)
+  - [w3af](https://github.com/andresriancho/w3af) - w3af: web application attack and audit framework, the open source web vulnerability scanner.
 > Waf bypass
 - [bypass-firewalls-by-DNS-history](https://github.com/vincentcox/bypass-firewalls-by-DNS-history) - Firewall bypass script based on DNS history records. This script will search for DNS A history records and check if the server replies for that domain. Handy for bugbounty hunters. 
+- [CloudFail](https://github.com/m0rtem/CloudFail) - Utilize misconfigured DNS and old database records to find hidden IP's behind the CloudFlare network 
+ 
+ 
  
 ### directory-search
 - [gobuster](https://github.com/OJ/gobuster) - Directory/File, DNS and VHost busting tool written in Go
