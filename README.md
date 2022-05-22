@@ -696,7 +696,8 @@ host -t CNAME input.com
 - [command injection attacker]()
 - [BurpSuite-Xkeys](https://github.com/vsec7/BurpSuite-Xkeys) - A Burp Suite Extension to extract interesting strings (key, secret, token, or etc.) from a webpage. 
 - [Admin-Panel_Finder](https://github.com/moeinfatehi/Admin-Panel_Finder) - A burp suite extension that enumerates infrastructure and application admin interfaces (OTG-CONFIG-005) 
-- [x8-Burp](https://github.com/Impact-I/x8-Burp) - Hidden parameters discovery suite 
+- [x8-Burp](https://github.com/Impact-I/x8-Burp) - Hidden parameters discovery suite
+- [burp-extensions](https://github.com/xnl-h4ck3r/burp-extensions) - Burp Extensions 
 
 
 
