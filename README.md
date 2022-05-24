@@ -763,11 +763,14 @@ env
 
 - 1st Command for Subdomain Enumeration using Assetfinder, Subfinder, Findomain
 ```bash
-assetfinder DOMAIN.com | tee ./DOM-ass && subfinder -silent -all -recursive -d DOMAIN.com | tee ./DOM-sub && findomain -q --external-subdomains -t DOMAIN.com | tee ./DOM-find
+assetfinder [].com | tee ./[]-ass && subfinder -silent -all -recursive -d [].com | tee ./[]-sub && findomain -q --external-subdomains -t [].com | tee ./[]-find
 ```
 ```bash
 python3 domainCollector.py "Org+Inc"
 python3 domainCollector.py <orgList>
+```
+```bash
+ffuf -w /usr/share/wordlists/SecLists/Discovery/DNS/[].txt -H “Host:FUZZ.[].com” -u https://[].com -fs 3122
 ```
 
 
