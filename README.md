@@ -770,7 +770,7 @@ python3 domainCollector.py "Org+Inc"
 python3 domainCollector.py <orgList>
 ```
 ```bash
-ffuf -w /usr/share/wordlists/SecLists/Discovery/DNS/[].txt -H “Host:FUZZ.[].com” -u https://[].com -fs 3122
+ffuf -w /usr/share/wordlists/SecLists/Discovery/DNS/[] -u https://[].com -H “Host: FUZZ.[].com” -fs 3122
 ```
 
 
