@@ -1,3 +1,5 @@
+- [FFUF](https://github.com/tamimhasan404/FFUF-Tips-And-Tricks)
+
 ### Subdomain Enumeration
 - [venkon](https://www.venkon.us/)
 - [suip.biz](https://suip.biz/?act=finalrecon)
