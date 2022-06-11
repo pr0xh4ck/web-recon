@@ -704,7 +704,8 @@ host -t CNAME input.com
 - [Admin-Panel_Finder](https://github.com/moeinfatehi/Admin-Panel_Finder) - A burp suite extension that enumerates infrastructure and application admin interfaces (OTG-CONFIG-005) 
 - [x8-Burp](https://github.com/Impact-I/x8-Burp) - Hidden parameters discovery suite
 - [burp-extensions](https://github.com/xnl-h4ck3r/burp-extensions) - Burp Extensions 
-- [inql](https://github.com/doyensec/inql) - InQL - A Burp Extension for GraphQL Security Testing 
+- [inql](https://github.com/doyensec/inql) - InQL - A Burp Extension for GraphQL Security Testing
+- [ip-rotate](https://github.com/PortSwigger/ip-rotate) - Extension for Burp Suite which uses AWS API Gateway to rotate your IP on every request. 
 
 
 
