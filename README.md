@@ -705,7 +705,19 @@ host -t CNAME input.com
 - [x8-Burp](https://github.com/Impact-I/x8-Burp) - Hidden parameters discovery suite
 - [burp-extensions](https://github.com/xnl-h4ck3r/burp-extensions) - Burp Extensions 
 - [inql](https://github.com/doyensec/inql) - InQL - A Burp Extension for GraphQL Security Testing
-- [ip-rotate](https://github.com/PortSwigger/ip-rotate) - Extension for Burp Suite which uses AWS API Gateway to rotate your IP on every request. 
+- [ip-rotate](https://github.com/PortSwigger/ip-rotate) - Extension for Burp Suite which uses AWS API Gateway to rotate your IP on every request.
+- [saml-raider](https://github.com/portswigger/saml-raider) - SAML2 Burp Extension
+- [jwt-editor](https://github.com/portswigger/jwt-editor) - A Burp Suite extension and standalone application for creating and editing JSON Web Tokens. This tool supports signing and verification of JWS, encryption and decryption of JWE and automation of several well-known attacks against applications that consume JWT.
+-  
+
+
+
+
+
+
+
+
+
 
 
 
