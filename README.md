@@ -785,6 +785,11 @@ env
 ```bash
 assetfinder [].com | tee ./[]-ass && subfinder -silent -all -recursive -d [].com | tee ./[]-sub && findomain -q --external-subdomains -t [].com | tee ./[]-find
 ```
+- For VPS
+```bash
+cat [].txt | assetfinder | tee ./[]-ass && subfinder -silent -all -recursive -dL [].txt | tee ./[]-sub && findomain -q --external-subdomains -f [].txt | tee ./[]-find
+```
+
 ```bash
 python3 domainCollector.py "Org+Inc"
 python3 domainCollector.py <orgList>
