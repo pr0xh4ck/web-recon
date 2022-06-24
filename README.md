@@ -804,6 +804,12 @@ ffuf -w /usr/share/wordlists/SecLists/Discovery/DNS/[] -u https://[].com -H “H
 cat DOM-* | sort -u | grep "DOMAIN.com" | tee -a ./unique && rm -rf DOM-* external_subdomains && cat unique | wc -l 
 ```
 
+- For DNS resolving 
+```bash 
+massdns -r resolver.txt -t A -o J subdomains.txt
+massdns -r lists/resolvers.txt -t AAAA [domains].txt | tee -a results.txt
+```
+
 - 3rd Commands
 ```bash
 cat unique | httpx -silent | tee -a ./httpx && cat unique | httpx -silent -sc -cl -location -td -server -title | tee -a ./httpx-code && cat httpx | wc -l
