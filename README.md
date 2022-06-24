@@ -783,11 +783,11 @@ env
 
 - 1st Command for Subdomain Enumeration using Assetfinder, Subfinder, Findomain
 ```bash
-assetfinder [].com | tee ./[]-ass && subfinder -silent -all -recursive -d [].com | tee ./[]-sub && findomain -q --external-subdomains -t [].com | tee ./[]-find
+assetfinder [].com | tee -a ./[]-ass && subfinder -silent -all -recursive -d [].com | tee -a ./[]-sub && findomain -q --external-subdomains -t [].com | tee -a ./[]-find
 ```
 - For VPS
 ```bash
-cat [].txt | assetfinder | tee ./[]-ass && subfinder -silent -all -recursive -dL [].txt | tee ./[]-sub && findomain -q --external-subdomains -f [].txt | tee ./[]-find
+cat [].txt | assetfinder | tee -a ./[]-ass && subfinder -silent -all -recursive -dL [].txt | tee -a ./[]-sub && findomain -q --external-subdomains -f [].txt | tee -a ./[]-find
 ```
 
 ```bash
