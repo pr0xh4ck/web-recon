@@ -438,6 +438,7 @@ host -t CNAME input.com
 
 
 ### web-wayback
+- [waymore](https://github.com/xnl-h4ck3r/waymore) - Find way more from the Wayback Machine!  
 - [sigurlfind3r](https://github.com/signedsecurity/sigurlfind3r) - A passive reconnaissance tool for known URLs discovery - it gathers a list of URLs passively using various online sources
 - [waybackurls](https://github.com/tomnomnom/waybackurls) - Fetch all the URLs that the Wayback Machine knows about for a domain
 - [gau](https://github.com/lc/gau) - Fetch known URLs from AlienVault's Open Threat Exchange, the Wayback Machine, and Common Crawl. 
@@ -521,6 +522,7 @@ host -t CNAME input.com
 
 
 > JS
+- [linx](https://github.com/riza/linx) - Reveals invisible links within JavaScript files 
 - [diffJs](https://github.com/CaptainFreak/diffJs) - Tool for monitoring changes in javascript files on WebApps for reconnaissance.
 - [scripthunter](https://github.com/robre/scripthunter) - Tool to find JavaScript files on Websites
 
