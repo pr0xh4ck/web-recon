@@ -270,8 +270,9 @@ host -t CNAME input.com
 
 
 ### cms-enumeration
+ - [ObserverWard](https://github.com/0x727/ObserverWard) - Cross platform community web fingerprint identification tool
 > AEM
- - [aem-hacker](https://github.com/0ang3el/aem-hacker)
+    - [aem-hacker](https://github.com/0ang3el/aem-hacker)
  - [cmseek](https://github.com/Tuhinshubhra/CMSeeK) - CMS Detection and Exploitation suite - Scan WordPress, Joomla, Drupal and over 180 other CMSs
  - [webanlyze](https://github.com/rverton/webanalyze) - Port of Wappalyzer (uncovers technologies used on websites) to automate mass scanning. 
  - [whatweb](https://github.com/urbanadventurer/WhatWeb) - Next generation web scanner 
