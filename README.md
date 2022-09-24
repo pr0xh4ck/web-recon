@@ -40,9 +40,6 @@
     <li><a href="#burp-suite-extesion">Burp Suite Extension</a></li><li>  
     <li><a href="#dos">DOS</a></li> 
     <li><a href="#Websocket">Websocket</a></li> 
-    <li><a href="#rewards">Features</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
 
