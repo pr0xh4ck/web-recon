@@ -1,4 +1,4 @@
-```pr0xh4ck © 2022```
+un```pr0xh4ck © 2022```
 
 ![demo](https://github.com/pr0xh4ck/web-recon/raw/main/pr0xh4ck.PNG)
     
@@ -275,6 +275,7 @@ host -t CNAME input.com
 
 ### automation
 - [inventory](https://github.com/trickest/inventory) - Asset inventory on public bug bounty programs. 
+- [Hunt3r](https://github.com/EasyRecon/Hunt3r) - Made your bugbounty subdomains reconnaissance easier with Hunt3r the web application reconnaissance framework
 - [bugradar](https://github.com/samet-g/bugradar) - Advanced external automation on bug bounty programs by running the best set of tools to perform scanning and finding out vulnerabilities.
 - [wapiti-scanner](https://github.com/wapiti-scanner) - Scan your website 
 - [nuclei](https://github.com/projectdiscovery/nuclei) - Nuclei is a fast tool for configurable targeted scanning based on templates offering massive extensibility and ease of use.
