@@ -24,7 +24,7 @@
     <li><a href="#data-breach">Data Breach</a></li> 
     <li><a href="#web-wayback">Web Wayback</a></li>
     <li><a href="#ports-scanning">Ports Scannig</a></li> 
-    <li><a href="#waf">WAF</a></li><li>  
+    <li><a href="#waf">WAF</a></li>
     <li><a href="#directory-search">Directory Search</a></li>  
     <li><a href="#hidden-file-or-directory">Hidden File or Directory</a></li>
     <li><a href="#parameter-finder">Hidden Parameter Find</a></li> 
@@ -37,7 +37,7 @@
     <li><a href="#Code_review">Code review</a></li> 
     <li><a href="#log-file-analyze">Log File Analyze</a></li> 
     <li><a href="#programs">Public programs</a></li>
-    <li><a href="#burp-suite-extesion">Burp Suite Extension</a></li><li>  
+    <li><a href="#burp-suite-extesion">Burp Suite Extension</a></li>
     <li><a href="#dos">DOS</a></li> 
     <li><a href="#Websocket">Websocket</a></li> 
   </ol>
