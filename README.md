@@ -276,6 +276,7 @@ host -t CNAME input.com
 ### automation
 - [inventory](https://github.com/trickest/inventory) - Asset inventory on public bug bounty programs. 
 - [bugradar](https://github.com/samet-g/bugradar) - Advanced external automation on bug bounty programs by running the best set of tools to perform scanning and finding out vulnerabilities.
+- [Bagley](https://github.com/bbhunter/Bagley) - Final project for Computer Engineering Degree at UCM. Automated web vulnerability detection system for bug bounty environments.
 - [wapiti-scanner](https://github.com/wapiti-scanner) - Scan your website 
 - [nuclei](https://github.com/projectdiscovery/nuclei) - Nuclei is a fast tool for configurable targeted scanning based on templates offering massive extensibility and ease of use.
    - [Nuclei-Templates-Collection](https://github.com/emadshanab/Nuclei-Templates-Collection) - Nuclei templates collection
