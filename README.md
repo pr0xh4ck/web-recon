@@ -38,7 +38,7 @@
     <li><a href="#log-file-analyze">Log File Analyze</a></li> 
     <li><a href="#programs">Public programs</a></li>
     <li><a href="#burp-suite-extesion">Burp Suite Extension</a></li>
-    <li><a href="#dos">DOS</a></li> 
+    <li><a href="#DOS">DOS</a></li> 
     <li><a href="#Websocket">Websocket</a></li> 
   </ol>
 </details>
@@ -736,7 +736,7 @@ host -t CNAME input.com
 ^.+\.company\.com$     ^443$   ^/.*
 ```
 
-### dos
+### DOS
 - [slowhttptest](https://github.com/shekyan/slowhttptest) - Application Layer DoS attack simulator
 
 
