@@ -741,19 +741,19 @@ host -t CNAME input.com
 
 
 ------------------------
---------------------------
+
 
 ### Websocket
 
 - [STEWS](https://github.com/PalindromeLabs/STEWS) - A Security Tool for Enumerating WebSockets 
 
 
----------------
+
 --------------------
 
 
 
-------------------------------------------
+
 --------------------------------------------------
 ### Smart-Contract
 - [mythril](https://github.com/ConsenSys/mythril) - Security analysis tool for EVM bytecode. Supports smart contracts built for Ethereum, Hedera, Quorum, Vechain, Roostock, Tron and other EVM-compatible blockchains. 
