@@ -587,6 +587,9 @@ host -t CNAME input.com
 - [WordList](https://github.com/orwagodfather/WordList)
 - [Commodity-Injection-Signatures](https://github.com/xsscx/Commodity-Injection-Signatures) - Commodity Injection Signatures, Malicious Inputs, XSS, HTTP Header Injection, XXE, RCE, Javascript, XSLT 
 
+
+
+
 ### miscellaneous
   - [hack-tools](https://github.com/edoardottt/lit-bb-hack-tools)
   - [httpmethods](https://github.com/ShutdownRepo/httpmethods) - HTTP verb tampering & methods enumeration 
@@ -645,8 +648,6 @@ host -t CNAME input.com
 ------------------------------
 ### Code_review
 - [phpvuln](https://github.com/ecriminal/phpvuln) - 🕸️ Audit tool to find common vulnerabilities in PHP source code 
-
-
 
 
 
